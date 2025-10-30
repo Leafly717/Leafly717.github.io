@@ -7,13 +7,13 @@
 
 <link rel='canonical' href='https://Leafly717.github.io/'>
 
-<link rel="stylesheet" href="/scss/style.min.6a692fd055deae459f2a9767f57f3855ba80cafd5041317f24f7360f6ca47cdf.css"><meta property='og:title' content="Leafly">
+<link rel="stylesheet" href="/scss/style.min.619104d33ce2ac2d6a67d098998940fdcd0057a124c669bf68fa79465244cf8a.css"><meta property='og:title' content="Leafly">
 <meta property='og:description' content="产品…产品……">
 <meta property='og:url' content='https://Leafly717.github.io/'>
 <meta property='og:site_name' content='Leafly'>
-<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-10-30T18:31:20&#43;08:00 '/>
+<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-10-30T21:06:01&#43;08:00 '/>
 <meta name="twitter:title" content="Leafly">
-<meta name="twitter:description" content="产品…产品……"><link rel="alternate" type="application/rss&#43;xml" href="https://Leafly717.github.io/index.xml">
+<meta name="twitter:description" content="产品…产品……"><link rel="alternate" type="application/rss&#43;xml" href="https://Leafly717.github.io/index.xml"><link rel='stylesheet' href='https://chinese-fonts-cdn.deno.dev/packages/dymh/dist/DouyinSansBold/result.css' />
     </head>
     <body class="">
     <script>
@@ -164,6 +164,27 @@
         
         
         <li >
+            <a href='/photos/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-photo-album" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <!-- 相册外框 -->
+  <rect x="3" y="3" width="18" height="18" rx="2" />
+  <!-- 山峰 -->
+  <path d="M3 17l4 -4l3 3l5 -5l6 6" />
+  <!-- 太阳 -->
+  <circle cx="9" cy="9" r="1.5" />
+</svg>
+
+                
+                <span>相册</span>
+            </a>
+        </li>
+        
+        
+        <li >
             <a href='/archives/' >
                 
                 
@@ -241,7 +262,7 @@
 
 
 
-                        <span>暗色模式</span>
+                        <span>深色模式</span>
                     </li>
                 
             </ol>
@@ -1531,7 +1552,7 @@
                     <a href="/archives/#2025">
                         
                             <span class="year">2025</span>
-                            <span class="count">3</span>
+                            <span class="count">2</span>
                         
                     </a> 
                 </div>
@@ -1558,6 +1579,10 @@
 
     <div class="tagCloud-tags">
         
+            <a href="/categories/test/" class="font_size_1">
+                Test
+            </a>
+        
     </div>
 </section>
 
@@ -1572,6 +1597,143 @@
     
     
 
+<div class="container">
+  <h1 class="title">还没想好这里写什么</h1>
+</div>
+
+<style>
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2vh;
+  font-family: sans-serif;
+}
+
+ 
+.title {
+  position: relative;
+  font-size: 4rem;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+  --x-offset: 0px;
+  --y-offset: 0px;
+}
+
+ 
+.title::before,
+.title::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0;  
+  transition: transform 0.1s ease, opacity 0.2s ease;
+}
+
+.title::before {
+  color: #0000FF;  
+  transform: translate(calc(-3px + var(--x-offset)), calc(var(--y-offset)));
+}
+
+.title::after {
+  color: #FFFF00;  
+  transform: translate(calc(3px + var(--x-offset)), calc(var(--y-offset)));
+}
+
+ 
+.title:hover::before,
+.title:hover::after {
+  opacity: 1;
+}
+</style>
+
+<script>
+
+const title = document.querySelector('.title');
+title.setAttribute('data-text', title.textContent);
+
+
+title.addEventListener('mousemove', (e) => {
+  const rect = title.getBoundingClientRect();
+  const offsetX = ((e.clientX - rect.left) / rect.width - 0.5) * 6; 
+  const offsetY = ((e.clientY - rect.top) / rect.height - 0.5) * 6;   
+  title.style.setProperty('--x-offset', `${offsetX}px`);
+  title.style.setProperty('--y-offset', `${offsetY}px`);
+});
+
+
+title.addEventListener('mouseleave', () => {
+  title.style.setProperty('--x-offset', `0px`);
+  title.style.setProperty('--y-offset', `0px`);
+});
+</script>
+
+
+
+
+<div class="welcome">
+  <p class="fade-in-text">
+    <span>👋</span><span> </span><span>别</span><span>管</span><span>了</span><span> </span>
+    <span>先</span><span>捡</span><span>点</span><span> </span><span style="color:#e99312">产品</span>
+  </p>
+</div>
+
+<style>
+.welcome {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.fade-in-text span {
+  opacity: 0;
+  display: inline-block;
+}
+
+.cursor {
+  display: inline-block;
+  width: 0.8em;
+  animation: blink 1s steps(2, start) infinite;
+}
+
+@keyframes blink {
+  0%, 50%, 100% { opacity: 1; }
+  25%, 75% { opacity: 0; }
+}
+</style>
+
+<script>
+const spans = document.querySelectorAll('.fade-in-text span');
+const cursor = document.createElement('span');
+cursor.className = 'cursor';
+cursor.textContent = '|';
+
+let index = 0;
+
+function showNext() {
+  if (index < spans.length) {
+    spans[index].style.opacity = '1';
+    
+    spans[index].after(cursor);
+    index++;
+    setTimeout(showNext, 200); 
+  } else {
+    
+    spans[spans.length - 1].after(cursor);
+  }
+}
+
+
+spans[0].before(cursor);
+showNext();
+</script>
+
+
     <section class="article-list">
         
             
@@ -1583,7 +1745,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/p/251030/">251030</a>
+            <a href="/p/251030_2106/">251030_2106</a>
         </h2>
     
         
@@ -1605,7 +1767,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">2025-10-30 18:31，Thursday</time>
+                <time class="article-time--published">2025-10-30 21:06，Thursday</time>
             </div>
         
 
@@ -1624,62 +1786,18 @@
                 </time>
             </div>
         
-    </footer>
-    
-
-    
-</div>
-
-</header>
-</article>
-        
-            
-<article class="">
-    <header class="article-header">
-
-    <div class="article-details">
-    
-
-    <div class="article-title-wrapper">
-        <h2 class="article-title">
-            <a href="/p/new/">New</a>
-        </h2>
-    
-        
-    </div>
-
-    
-    
-    
-    
-    <footer class="article-time">
         
             <div>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-messages" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
-  <circle cx="18" cy="18" r="4" />
-  <path d="M15 3v4" />
-  <path d="M7 3v4" />
-  <path d="M3 11h16" />
-  <path d="M18 16.496v1.504l1 1" />
-</svg>
-                <time class="article-time--published">2025-10-30 18:29，Thursday</time>
-            </div>
-        
-
-        
-            <div>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="12" r="9" />
-  <polyline points="12 7 12 12 15 15" />
+  <path d="M21 14l-3 -3h-7a1 1 0 0 1 -1 -1v-6a1 1 0 0 1 1 -1h9a1 1 0 0 1 1 1v10" />
+  <path d="M14 15v2a1 1 0 0 1 -1 1h-7l-3 3v-10a1 1 0 0 1 1 -1h2" />
 </svg>
 
 
 
-                <time class="article-time--reading">
-                    阅读时长: 0 分钟
+                <time class="article-words">
+                    0字
                 </time>
             </div>
         
@@ -1687,6 +1805,7 @@
     
 
     
+
 </div>
 
 </header>
@@ -1698,12 +1817,24 @@
 
     <div class="article-details">
     
+    <header class="article-category">
+        
+            <a href="/categories/test/" >
+                Test
+            </a>
+        
+    </header>
+    
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/p/newnewnew/">Newnewnew</a>
+            <a href="/p/markdown%E6%8C%87%E5%8D%97/">Markdown指南</a>
         </h2>
     
+        
+        <h3 class="article-subtitle">
+            基本语法格式什么的
+        </h3>
         
     </div>
 
@@ -1723,7 +1854,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">2025-10-30 15:03，Thursday</time>
+                <time class="article-time--published">2025-10-30 16:06，Thursday</time>
             </div>
         
 
@@ -1742,10 +1873,26 @@
                 </time>
             </div>
         
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-messages" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M21 14l-3 -3h-7a1 1 0 0 1 -1 -1v-6a1 1 0 0 1 1 -1h9a1 1 0 0 1 1 1v10" />
+  <path d="M14 15v2a1 1 0 0 1 -1 1h-7l-3 3v-10a1 1 0 0 1 1 -1h2" />
+</svg>
+
+
+
+                <time class="article-words">
+                    462字
+                </time>
+            </div>
+        
     </footer>
     
 
     
+
 </div>
 
 </header>
@@ -1859,6 +2006,16 @@
     opacity: 0.7;  
   }
 </style>
+
+<script src="https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/js/nprogress.min.js" integrity="sha384-bHDlAEUFxsRI7JfULv3DTpL2IXbbgn4JHQJibgo5iiXSK6Iu8muwqHANhun74Cqg" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/css/nprogress.css" integrity="sha384-KJyhr2syt5+4M9Pz5dipCvTrtvOmLk/olWVdfhAp858UCa64Ia5GFpTN7+G4BWpE" crossorigin="anonymous" />
+<script>
+    NProgress.start();
+    document.addEventListener("readystatechange", () => {
+        if (document.readyState === "interactive") NProgress.inc(0.8);
+        if (document.readyState === "complete") NProgress.done();
+    });
+</script>
 
     </body>
 </html>
