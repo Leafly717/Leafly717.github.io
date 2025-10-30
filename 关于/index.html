@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="This is a test page for i18n support.\n">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="trytry">
 <title>关于</title>
 
 <link rel='canonical' href='https://Leafly717.github.io/%E5%85%B3%E4%BA%8E/'>
 
 <link rel="stylesheet" href="/scss/style.min.6a692fd055deae459f2a9767f57f3855ba80cafd5041317f24f7360f6ca47cdf.css"><meta property='og:title' content="关于">
-<meta property='og:description' content="This is a test page for i18n support.\n">
+<meta property='og:description' content="trytry">
 <meta property='og:url' content='https://Leafly717.github.io/%E5%85%B3%E4%BA%8E/'>
 <meta property='og:site_name' content='Leafly'>
-<meta property='og:type' content='article'><meta property='article:section' content='Page' />
+<meta property='og:type' content='article'><meta property='article:section' content='Page' /><meta property='article:published_time' content='2025-10-30T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-10-30T00:00:00&#43;00:00'/>
 <meta name="twitter:title" content="关于">
-<meta name="twitter:description" content="This is a test page for i18n support.\n">
+<meta name="twitter:description" content="trytry">
     </head>
     <body class="
     article-page
@@ -258,6 +258,10 @@
         </h2>
     
         
+        <h3 class="article-subtitle">
+            trytry
+        </h3>
+        
     </div>
 
     
@@ -265,6 +269,19 @@
     
     
     <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">2025-10-30</time>
+            </div>
         
 
         
@@ -293,7 +310,55 @@
     <section class="article-content">
     
     
-    <p>This is a test page for i18n support.</p>
+    <div style="
+  max-width: 400px; 
+  margin: 30px auto; 
+  padding: 20px; 
+  background: #1e1e1e; 
+  color: #fff; 
+  border-radius: 15px; 
+  text-align: center; 
+  font-family: sans-serif;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+">
+<p style="margin: 0; font-size: 0.9em; color: #aaa;">正在播放</p>
+<p style="margin: 10px 0 5px 0; font-size: 1.4em; font-weight: bold;">
+    《没有迷宫我怎么活》
+  </p>
+<!-- 动态进度条 -->
+<div style="
+    width: 100%; 
+    height: 8px; 
+    background: #333; 
+    border-radius: 4px; 
+    margin: 15px 0;
+    overflow: hidden;
+    position: relative;
+  ">
+    <div style="
+      height: 100%; 
+      background: #ff5e5e; 
+      border-radius: 4px 0 0 4px;
+      width: 0%;
+      animation: progress 7.24s linear infinite;
+    "></div>
+  </div>
+<!-- 播放控制按钮 -->
+<div style="font-size: 1.5em; display: flex; justify-content: center; gap: 25px; color: #fff;">
+    <span style="cursor: pointer;">⇆</span>
+    <span style="cursor: pointer;">◁</span>
+    <span style="cursor: pointer; color: #ff5e5e;">❚❚</span>
+    <span style="cursor: pointer;">▷</span>
+    <span style="cursor: pointer;">↻</span>
+  </div>
+<p style="margin-top: 10px; font-size: 1em; color: #aaa;">7:24</p>
+</div>
+<style>
+@keyframes progress {
+  0% { width: 0%; }
+  100% { width: 100%; }
+}
+</style>
 
 </section>
 
@@ -317,18 +382,60 @@
     
 
     <footer class="site-footer">
-    <section class="copyright">
-        &copy; 
-        
-        2025 Leafly
-    </section>
+  <section class="copyright">
+    &copy;
     
-    <section class="powerby">
-        
-            仍然存活中…… <br/>
-        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
-        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.31.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
-    </section>
+    2025 Leafly
+  </section>
+
+  <section class="powerby">
+    
+      正在自闭 <br/>
+    
+  </section>
+
+  
+  <section class="time-elapsed">
+    <span id="time-elapsed"></span>
+  </section>
+
+  <style>
+    .site-footer .time-elapsed {
+      color: #707070;               
+      font-size: 0.9em;
+      margin-top: 8px;
+      text-align: left;
+      font-weight: 500;
+    }
+
+     
+    @media (prefers-color-scheme: dark) {
+      .site-footer .time-elapsed {
+        color: #707070;
+      }
+    }
+  </style>
+
+  <script>
+    
+    const startTime = new Date("2024-11-25T00:00:00Z"); 
+
+    function updateElapsed() {
+      const now = new Date();
+      const diff = now - startTime;
+
+      const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+      const minutes = Math.floor((diff / (1000 * 60)) % 60);
+      const seconds = Math.floor((diff / 1000) % 60);
+
+      document.getElementById("time-elapsed").textContent =
+        `已存活 ${days} 天 ${hours} 小时 ${minutes} 分 ${seconds} 秒……`;
+    }
+
+    updateElapsed();
+    setInterval(updateElapsed, 1000);
+  </script>
 </footer>
 
 
@@ -428,6 +535,38 @@
         document.head.appendChild(customFont);
     }());
 </script>
+<style>
+  body {
+    position: relative;
+    margin: 0;
+  }
+
+   
+  body::before {
+    content: '';
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: url(https://Leafly717.github.io/background/251027.png) no-repeat center top;
+    background-size: cover;
+    background-attachment: fixed;
+    transition: opacity 0.8s ease-in-out;
+    opacity: 1;
+    z-index: -1;
+  }
+
+   
+  html[data-scheme="dark"] body::before {
+    background: url(https://Leafly717.github.io/background/251027.png) no-repeat center top;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+   
+  html[data-scheme="dark"] body::before {
+    opacity: 0.7;  
+  }
+</style>
 
     </body>
 </html>
