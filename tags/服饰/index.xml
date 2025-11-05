@@ -62,11 +62,11 @@
 [data-scheme=&#34;dark&#34;] .linkcard {
   background-color: #303030;
   color: #f0f0f0;
-  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.05);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
 
 [data-scheme=&#34;dark&#34;] .linkcard:hover {
-  box-shadow: 0 8px 18px rgba(255, 255, 255, 0.12);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
 }
 
 [data-scheme=&#34;dark&#34;] .linkcard p {
@@ -128,11 +128,11 @@
 [data-scheme=&#34;dark&#34;] .linkcard {
   background-color: #303030;
   color: #f0f0f0;
-  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.05);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
 
 [data-scheme=&#34;dark&#34;] .linkcard:hover {
-  box-shadow: 0 8px 18px rgba(255, 255, 255, 0.12);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
 }
 
 [data-scheme=&#34;dark&#34;] .linkcard p {
@@ -197,11 +197,11 @@
 [data-scheme=&#34;dark&#34;] .linkcard {
   background-color: #303030;
   color: #f0f0f0;
-  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.05);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
 
 [data-scheme=&#34;dark&#34;] .linkcard:hover {
-  box-shadow: 0 8px 18px rgba(255, 255, 255, 0.12);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
 }
 
 [data-scheme=&#34;dark&#34;] .linkcard p {
@@ -263,11 +263,11 @@
 [data-scheme=&#34;dark&#34;] .linkcard {
   background-color: #303030;
   color: #f0f0f0;
-  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.05);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
 
 [data-scheme=&#34;dark&#34;] .linkcard:hover {
-  box-shadow: 0 8px 18px rgba(255, 255, 255, 0.12);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
 }
 
 [data-scheme=&#34;dark&#34;] .linkcard p {
@@ -332,11 +332,11 @@
 [data-scheme=&#34;dark&#34;] .linkcard {
   background-color: #303030;
   color: #f0f0f0;
-  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.05);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
 
 [data-scheme=&#34;dark&#34;] .linkcard:hover {
-  box-shadow: 0 8px 18px rgba(255, 255, 255, 0.12);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
 }
 
 [data-scheme=&#34;dark&#34;] .linkcard p {
@@ -398,11 +398,11 @@
 [data-scheme=&#34;dark&#34;] .linkcard {
   background-color: #303030;
   color: #f0f0f0;
-  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.05);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
 
 [data-scheme=&#34;dark&#34;] .linkcard:hover {
-  box-shadow: 0 8px 18px rgba(255, 255, 255, 0.12);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
 }
 
 [data-scheme=&#34;dark&#34;] .linkcard p {
@@ -464,11 +464,11 @@
 [data-scheme=&#34;dark&#34;] .linkcard {
   background-color: #303030;
   color: #f0f0f0;
-  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.05);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
 
 [data-scheme=&#34;dark&#34;] .linkcard:hover {
-  box-shadow: 0 8px 18px rgba(255, 255, 255, 0.12);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
 }
 
 [data-scheme=&#34;dark&#34;] .linkcard p {
@@ -533,11 +533,11 @@
 [data-scheme=&#34;dark&#34;] .linkcard {
   background-color: #303030;
   color: #f0f0f0;
-  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.05);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
 
 [data-scheme=&#34;dark&#34;] .linkcard:hover {
-  box-shadow: 0 8px 18px rgba(255, 255, 255, 0.12);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
 }
 
 [data-scheme=&#34;dark&#34;] .linkcard p {
@@ -599,11 +599,11 @@
 [data-scheme=&#34;dark&#34;] .linkcard {
   background-color: #303030;
   color: #f0f0f0;
-  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.05);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
 
 [data-scheme=&#34;dark&#34;] .linkcard:hover {
-  box-shadow: 0 8px 18px rgba(255, 255, 255, 0.12);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
 }
 
 [data-scheme=&#34;dark&#34;] .linkcard p {

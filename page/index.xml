@@ -7,12 +7,28 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Leafly</copyright>
-        <lastBuildDate>Wed, 05 Nov 2025 22:19:04 +0800</lastBuildDate><atom:link href="https://Leafly717.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 06 Nov 2025 01:08:34 +0800</lastBuildDate><atom:link href="https://Leafly717.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>说说</title>
+        <link>https://Leafly717.github.io/talks/</link>
+        <pubDate>Thu, 06 Nov 2025 01:08:34 +0800</pubDate>
+        
+        <guid>https://Leafly717.github.io/talks/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>展示</title>
+        <link>https://Leafly717.github.io/goods/</link>
+        <pubDate>Wed, 05 Nov 2025 23:49:55 +0800</pubDate>
+        
+        <guid>https://Leafly717.github.io/goods/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>关于</title>
-        <link>https://Leafly717.github.io/%E5%85%B3%E4%BA%8E/</link>
+        <link>https://Leafly717.github.io/about/</link>
         <pubDate>Thu, 30 Oct 2025 16:31:20 +0800</pubDate>
         
-        <guid>https://Leafly717.github.io/%E5%85%B3%E4%BA%8E/</guid>
+        <guid>https://Leafly717.github.io/about/</guid>
         <description>
 
 
@@ -89,21 +105,21 @@
 </description>
         </item>
         <item>
+        <title>链接</title>
+        <link>https://Leafly717.github.io/link/</link>
+        <pubDate>Thu, 30 Oct 2025 16:31:20 +0800</pubDate>
+        
+        <guid>https://Leafly717.github.io/link/</guid>
+        <description>&lt;p&gt;可能用上的情况、吗&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>归档</title>
         <link>https://Leafly717.github.io/archives/</link>
         <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
         
         <guid>https://Leafly717.github.io/archives/</guid>
         <description></description>
-        </item>
-        <item>
-        <title>链接</title>
-        <link>https://Leafly717.github.io/link/</link>
-        <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://Leafly717.github.io/link/</guid>
-        <description>&lt;p&gt;可能用上的情况、吗&lt;/p&gt;
-</description>
         </item>
         <item>
         <title>相册</title>
