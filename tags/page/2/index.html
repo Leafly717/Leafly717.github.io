@@ -1780,37 +1780,25 @@
     }());
 </script>
 <style>
-  body {
-    position: relative;
-    margin: 0;
-  }
+body::before {
+  content: '';
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: url('https://raw.githubusercontent.com/Leafly717/Noteimage/main/25-10-27%20NFO.png') no-repeat center top;
+  background-size: cover;
+  background-attachment: fixed;
+  transition: opacity 0.8s ease-in-out;
+  opacity: 1;
+  z-index: -1;
+}
 
-   
-  body::before {
-    content: '';
-    position: fixed;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-    background: url(https://Leafly717.github.io/background/251027.png) no-repeat center top;
-    background-size: cover;
-    background-attachment: fixed;
-    transition: opacity 0.8s ease-in-out;
-    opacity: 1;
-    z-index: -1;
-  }
-
-   
-  html[data-scheme="dark"] body::before {
-    background: url(https://Leafly717.github.io/background/251027.png) no-repeat center top;
-    background-size: cover;
-    background-attachment: fixed;
-  }
-
-   
-  html[data-scheme="dark"] body::before {
-    opacity: 0.4;  
-  }
+html[data-scheme="dark"] body::before {
+  opacity: 0.4;
+}
 </style>
+
+
 
 <script src="https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/js/nprogress.min.js" integrity="sha384-bHDlAEUFxsRI7JfULv3DTpL2IXbbgn4JHQJibgo5iiXSK6Iu8muwqHANhun74Cqg" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/css/nprogress.css" integrity="sha384-KJyhr2syt5+4M9Pz5dipCvTrtvOmLk/olWVdfhAp858UCa64Ia5GFpTN7+G4BWpE" crossorigin="anonymous" />
