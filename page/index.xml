@@ -7,7 +7,7 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Leafly</copyright>
-        <lastBuildDate>Thu, 30 Oct 2025 18:31:20 +0800</lastBuildDate><atom:link href="https://Leafly717.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 05 Nov 2025 22:19:04 +0800</lastBuildDate><atom:link href="https://Leafly717.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>关于</title>
         <link>https://Leafly717.github.io/%E5%85%B3%E4%BA%8E/</link>
         <pubDate>Thu, 30 Oct 2025 16:31:20 +0800</pubDate>
@@ -85,21 +85,21 @@
         <description></description>
         </item>
         <item>
+        <title>链接</title>
+        <link>https://Leafly717.github.io/link/</link>
+        <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://Leafly717.github.io/link/</guid>
+        <description>&lt;p&gt;可能用上的情况、吗&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>相册</title>
         <link>https://Leafly717.github.io/photos/</link>
         <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
         
         <guid>https://Leafly717.github.io/photos/</guid>
         <description></description>
-        </item>
-        <item>
-        <title>链接</title>
-        <link>https://Leafly717.github.io/%E9%93%BE%E6%8E%A5/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://Leafly717.github.io/%E9%93%BE%E6%8E%A5/</guid>
-        <description>&lt;p&gt;可能用上的情况、吗&lt;/p&gt;
-</description>
         </item>
         <item>
         <title>搜索</title>

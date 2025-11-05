@@ -10,7 +10,7 @@
 <meta property='og:description' content="产品…产品……">
 <meta property='og:url' content='https://Leafly717.github.io/tags/html/'>
 <meta property='og:site_name' content='Leafly'>
-<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-11-05T15:50:15&#43;08:00 '/>
+<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-11-05T22:19:04&#43;08:00 '/>
 <meta name="twitter:title" content="Tag: Html - Leafly">
 <meta name="twitter:description" content="产品…产品……"><link rel="alternate" type="application/rss&#43;xml" href="https://Leafly717.github.io/tags/html/index.xml"><link rel="stylesheet" href="https://npm.elemecdn.com/lxgw-wenkai-screen-webfont@1.7.0/lxgwwenkaiscreen.css" /> 
 <link rel="stylesheet" href="https://s1.hdslb.com/bfs/static/jinkela/long/font/regular.css" />
@@ -73,6 +73,40 @@
             <h2 class="site-description">产品…产品……</h2>
         </div>
     </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://www.pixiv.net/'
+                        target="_blank"
+                        title="Pixiv"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="
+    M12.745 4.547
+    c2.181 0 4.058.676 5.399 1.847
+    a6.118 6.118 0 0 1 2.116 4.66
+    c.005 1.854-.88 3.476-2.257 4.563
+    c-1.375 1.092-3.225 1.697-5.258 1.697
+    c-2.314 0-4.46-.842-4.46-.842
+    v2.718
+    c.397.116 1.048.365.635.779
+    H5.79
+    c-.41-.41.19-.65.644-.779
+    V7.666
+    c-1.053.81-1.593 1.51-1.868 2.031
+    .32 1.02-.284.969-.284.969
+    l-1.09-1.73
+    s3.868-4.39 9.553-4.39
+  "/>
+</svg>
+
+                        
+                    </a>
+                </li>
             
                 <li>
                     <a 
@@ -225,7 +259,7 @@
         
         
         <li >
-            <a href='/%E9%93%BE%E6%8E%A5/' >
+            <a href='/link/' >
                 
                 
                 
@@ -351,12 +385,12 @@
                 参考
             </a>
         
-            <a href="/categories/test/" class="font_size_1">
-                Test
-            </a>
-        
             <a href="/categories/%E5%88%9B%E6%84%8F%E7%81%B5%E6%84%9F/" class="font_size_1">
                 创意灵感
+            </a>
+        
+            <a href="/categories/%E6%8C%87%E5%8D%97/" class="font_size_1">
+                指南
             </a>
         
     </div>
@@ -365,10 +399,10 @@
             
         
             
-                <div id="player">
+                <div id="player" data-scheme="light">
   <p class="status">正在播放</p>
 
-  <p class="title" id="songTitle">《没有迷宫我怎么活》</p>
+  <p class="title" id="songTitle">没有迷宫我怎么活</p>
 
   
   <div class="progress-bar">
@@ -404,7 +438,6 @@
   let startTime = Date.now();
   let duration = songs[currentSong].duration;
 
-  
   function changeSong(index) {
     currentSong = index % songs.length;
     songTitle.textContent = songs[currentSong].title;
@@ -418,12 +451,11 @@
 
   function loopProgress() {
     if (isPlaying) {
-      const speed = 100; 
+      const speed = 100;
       const elapsed = (Date.now() - startTime) * speed;
       const percent = (elapsed / duration) * 100;
       progress.style.width = Math.min(percent, 100) + '%';
 
-      
       if (percent >= 100) {
         changeSong((currentSong + 1) % songs.length);
       }
@@ -431,7 +463,6 @@
     requestAnimationFrame(loopProgress);
   }
 
-  
   playPauseBtn.addEventListener('click', () => {
     isPlaying = !isPlaying;
     if (isPlaying) {
@@ -443,25 +474,21 @@
     animateButton(playPauseBtn);
   });
 
-  
   function animateButton(button) {
     button.classList.add('active');
     setTimeout(() => button.classList.remove('active'), 150);
   }
 
-  
   const buttons = ['shuffle', 'prev', 'next', 'repeat'];
   buttons.forEach(id => {
     const btn = document.getElementById(id);
     btn.addEventListener('click', () => animateButton(btn));
   });
 
-  
   document.getElementById('prev').addEventListener('click', () => {
     changeSong((currentSong - 1 + songs.length) % songs.length);
   });
 
-  
   document.getElementById('next').addEventListener('click', () => {
     changeSong((currentSong + 1) % songs.length);
   });
@@ -471,73 +498,100 @@
 
 <style>
   #player {
-    max-width: 400px;
-    margin: 30px auto;
-    padding: 20px;
-    background: #1e1e1e;
-    color: #fff;
-    border-radius: 15px;
-    text-align: center;
-    font-family: sans-serif;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  width: 300px;       
+  height: 240px;      
+  padding: 4rem;      
+  border-radius: 1rem;
+  background-color: #fafafa;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  text-align: center;
+  font-family: sans-serif;
+  transition: all 0.25s ease;
+  margin: 30px auto;  
+}
+
+
+  #player:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.12);
   }
 
   #player .status {
     margin: 0;
-    font-size: 0.9em;
-    color: #aaa;
+    font-size: 1.5rem;
+    color: #555;
   }
 
   #player .title {
-    margin: 10px 0 5px 0;
-    font-size: 1.4em;
+    margin: 10px 0 5px;
+    font-size: 2.5rem;
     font-weight: bold;
-    color: #ffFFFF;
+    color: #222;
   }
 
-  #player .progress-bar {
+  .progress-bar {
     width: 100%;
-    height: 8px;
-    background: #333;
-    border-radius: 4px;
-    margin: 15px 0;
+    height: 12px;
+    background: #ddd;
+    border-radius: 6px;
+    margin: 12px 0;
     overflow: hidden;
-    position: relative;
   }
 
-  #player .progress {
+  .progress {
     height: 100%;
     background: #ff5e5e;
-    border-radius: 4px 0 0 4px;
     width: 0%;
+    border-radius: 6px 0 0 6px;
     transition: width 0.05s linear;
   }
 
-  #player .controls {
-    font-size: 1.5em;
+  .controls {
+    font-size: 2.2rem;
     display: flex;
     justify-content: center;
-    gap: 25px;
-    color: #fff;
+    gap: 24px;
+    color: #222;
+    margin-top: 10px;
   }
 
-  #player .controls .control {
+  .control {
     cursor: pointer;
     transition: transform 0.1s;
   }
 
-  #player .controls .control.active {
+  .control.active {
     transform: scale(1.3);
   }
 
-  #player .controls .play-pause {
+  .play-pause {
     color: #ff5e5e;
   }
 
-  #player .time {
-    margin-top: 10px;
-    font-size: 1em;
-    color: #aaa;
+  .time {
+    margin-top: 15px;
+    font-size: 1.6rem;
+    color: #555;
+  }
+
+   
+  [data-scheme="dark"] #player {
+    background-color: #424242;
+    color: #f0f0f0;
+    box-shadow: 0 2px 6px rgba(255, 255, 255, 0.05);
+  }
+
+  [data-scheme="dark"] #player:hover {
+    box-shadow: 0 8px 18px rgba(255, 255, 255, 0.12);
+  }
+
+  [data-scheme="dark"] #player .status,
+  [data-scheme="dark"] #player .time {
+    color: #b1b1b1;
+  }
+
+  [data-scheme="dark"] #player .title {
+    color: #f0f0f0;
   }
 </style>
 
