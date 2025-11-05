@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>创意灵感 on Leafly</title>
+        <link>https://Leafly717.github.io/categories/%E5%88%9B%E6%84%8F%E7%81%B5%E6%84%9F/</link>
+        <description>Recent content in 创意灵感 on Leafly</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>Leafly</copyright>
+        <lastBuildDate>Wed, 05 Nov 2025 15:20:29 +0800</lastBuildDate><atom:link href="https://Leafly717.github.io/categories/%E5%88%9B%E6%84%8F%E7%81%B5%E6%84%9F/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>创意图鉴导航</title>
+        <link>https://Leafly717.github.io/p/%E5%88%9B%E6%84%8F%E5%9B%BE%E9%89%B4%E5%AF%BC%E8%88%AA/</link>
+        <pubDate>Wed, 05 Nov 2025 13:37:16 +0800</pubDate>
+        
+        <guid>https://Leafly717.github.io/p/%E5%88%9B%E6%84%8F%E5%9B%BE%E9%89%B4%E5%AF%BC%E8%88%AA/</guid>
+        <description>&lt;img src="https://images.pexels.com/photos/34012286/pexels-photo-34012286.jpeg" alt="Featured image of post 创意图鉴导航" /&gt;&lt;h1 id=&#34;配色方案&#34;&gt;配色方案
+&lt;/h1&gt;&lt;div class=&#34;linkcard-list&#34;&gt;
+&lt;style&gt;
+.linkcard-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem 1.5rem;
+  max-width: 100%;
+  padding: 1rem 0;
+}
+
+@media (min-width: 1080px) {
+  .linkcard-list {
+    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
+  }
+}
+
+.linkcard {
+  display: block;  
+  padding: 1.25rem;
+  border-radius: 0.75rem;
+  background-color: #fafafa;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  text-decoration: none;
+  color: #222222;
+  transition: all 0.25s ease;
+}
+
+.linkcard:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+.linkcard h3 {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.linkcard p {
+  margin: 0.5rem 0 0;
+  font-size: 1.8rem;
+  color: #555555;
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .linkcard {
+  background-color: #303030;
+  color: #f0f0f0;
+  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.05);
+}
+
+[data-scheme=&#34;dark&#34;] .linkcard:hover {
+  box-shadow: 0 8px 18px rgba(255, 255, 255, 0.12);
+}
+
+[data-scheme=&#34;dark&#34;] .linkcard p {
+  color: #b1b1b1;
+}
+&lt;/style&gt;
+
+&lt;div class=&#34;linkcard-list&#34;&gt;
+  &lt;a class=&#34;linkcard&#34; href=&#34;https://artsexperiments.withgoogle.com/artpalette/colors/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
+    &lt;h3&gt;Google Arts &amp;amp; Culture&lt;/h3&gt;
+    &lt;p&gt;谷歌的根据艺术品识取配色，或者根据配色找艺术品&lt;/p&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+.linkcard-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem 1.5rem;
+  max-width: 100%;
+  padding: 1rem 0;
+}
+
+@media (min-width: 1080px) {
+  .linkcard-list {
+    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
+  }
+}
+
+.linkcard {
+  display: block;  
+  padding: 1.25rem;
+  border-radius: 0.75rem;
+  background-color: #fafafa;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  text-decoration: none;
+  color: #222222;
+  transition: all 0.25s ease;
+}
+
+.linkcard:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+.linkcard h3 {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.linkcard p {
+  margin: 0.5rem 0 0;
+  font-size: 1.8rem;
+  color: #555555;
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .linkcard {
+  background-color: #303030;
+  color: #f0f0f0;
+  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.05);
+}
+
+[data-scheme=&#34;dark&#34;] .linkcard:hover {
+  box-shadow: 0 8px 18px rgba(255, 255, 255, 0.12);
+}
+
+[data-scheme=&#34;dark&#34;] .linkcard p {
+  color: #b1b1b1;
+}
+&lt;/style&gt;
+
+&lt;div class=&#34;linkcard-list&#34;&gt;
+  &lt;a class=&#34;linkcard&#34; href=&#34;https://color.adobe.com/zh/create&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
+    &lt;h3&gt;Adobe Color&lt;/h3&gt;
+    &lt;p&gt;色轮、调色盘邻近色对比色什么的&lt;/p&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+.linkcard-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem 1.5rem;
+  max-width: 100%;
+  padding: 1rem 0;
+}
+
+@media (min-width: 1080px) {
+  .linkcard-list {
+    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
+  }
+}
+
+.linkcard {
+  display: block;  
+  padding: 1.25rem;
+  border-radius: 0.75rem;
+  background-color: #fafafa;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  text-decoration: none;
+  color: #222222;
+  transition: all 0.25s ease;
+}
+
+.linkcard:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+.linkcard h3 {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.linkcard p {
+  margin: 0.5rem 0 0;
+  font-size: 1.8rem;
+  color: #555555;
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .linkcard {
+  background-color: #303030;
+  color: #f0f0f0;
+  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.05);
+}
+
+[data-scheme=&#34;dark&#34;] .linkcard:hover {
+  box-shadow: 0 8px 18px rgba(255, 255, 255, 0.12);
+}
+
+[data-scheme=&#34;dark&#34;] .linkcard p {
+  color: #b1b1b1;
+}
+&lt;/style&gt;
+
+&lt;div class=&#34;linkcard-list&#34;&gt;
+  &lt;a class=&#34;linkcard&#34; href=&#34;https://www.webdesignrankings.com/resources/lolcolors/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
+    &lt;h3&gt;LolColors&lt;/h3&gt;
+    &lt;p&gt;一些挺好看的色卡&lt;/p&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+.linkcard-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem 1.5rem;
+  max-width: 100%;
+  padding: 1rem 0;
+}
+
+@media (min-width: 1080px) {
+  .linkcard-list {
+    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
+  }
+}
+
+.linkcard {
+  display: block;  
+  padding: 1.25rem;
+  border-radius: 0.75rem;
+  background-color: #fafafa;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  text-decoration: none;
+  color: #222222;
+  transition: all 0.25s ease;
+}
+
+.linkcard:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+.linkcard h3 {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.linkcard p {
+  margin: 0.5rem 0 0;
+  font-size: 1.8rem;
+  color: #555555;
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .linkcard {
+  background-color: #303030;
+  color: #f0f0f0;
+  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.05);
+}
+
+[data-scheme=&#34;dark&#34;] .linkcard:hover {
+  box-shadow: 0 8px 18px rgba(255, 255, 255, 0.12);
+}
+
+[data-scheme=&#34;dark&#34;] .linkcard p {
+  color: #b1b1b1;
+}
+&lt;/style&gt;
+
+&lt;div class=&#34;linkcard-list&#34;&gt;
+  &lt;a class=&#34;linkcard&#34; href=&#34;https://www.learnui.design/tools/gradient-generator.html&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
+    &lt;h3&gt;Gradient Generator&lt;/h3&gt;
+    &lt;p&gt;渐变色，能搞CSS &amp;amp; SVG&lt;/p&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;h1 id=&#34;传媒相关&#34;&gt;传媒相关
+&lt;/h1&gt;&lt;div class=&#34;linkcard-list&#34;&gt;
+&lt;style&gt;
+.linkcard-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem 1.5rem;
+  max-width: 100%;
+  padding: 1rem 0;
+}
+
+@media (min-width: 1080px) {
+  .linkcard-list {
+    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
+  }
+}
+
+.linkcard {
+  display: block;  
+  padding: 1.25rem;
+  border-radius: 0.75rem;
+  background-color: #fafafa;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  text-decoration: none;
+  color: #222222;
+  transition: all 0.25s ease;
+}
+
+.linkcard:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+.linkcard h3 {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.linkcard p {
+  margin: 0.5rem 0 0;
+  font-size: 1.8rem;
+  color: #555555;
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .linkcard {
+  background-color: #303030;
+  color: #f0f0f0;
+  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.05);
+}
+
+[data-scheme=&#34;dark&#34;] .linkcard:hover {
+  box-shadow: 0 8px 18px rgba(255, 255, 255, 0.12);
+}
+
+[data-scheme=&#34;dark&#34;] .linkcard p {
+  color: #b1b1b1;
+}
+&lt;/style&gt;
+
+&lt;div class=&#34;linkcard-list&#34;&gt;
+  &lt;a class=&#34;linkcard&#34; href=&#34;https://film-grab.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
+    &lt;h3&gt;[FILMGRAB]&lt;/h3&gt;
+    &lt;p&gt;电影镜头抓取（的图&lt;/p&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+.linkcard-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem 1.5rem;
+  max-width: 100%;
+  padding: 1rem 0;
+}
+
+@media (min-width: 1080px) {
+  .linkcard-list {
+    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
+  }
+}
+
+.linkcard {
+  display: block;  
+  padding: 1.25rem;
+  border-radius: 0.75rem;
+  background-color: #fafafa;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  text-decoration: none;
+  color: #222222;
+  transition: all 0.25s ease;
+}
+
+.linkcard:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+.linkcard h3 {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.linkcard p {
+  margin: 0.5rem 0 0;
+  font-size: 1.8rem;
+  color: #555555;
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .linkcard {
+  background-color: #303030;
+  color: #f0f0f0;
+  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.05);
+}
+
+[data-scheme=&#34;dark&#34;] .linkcard:hover {
+  box-shadow: 0 8px 18px rgba(255, 255, 255, 0.12);
+}
+
+[data-scheme=&#34;dark&#34;] .linkcard p {
+  color: #b1b1b1;
+}
+&lt;/style&gt;
+
+&lt;div class=&#34;linkcard-list&#34;&gt;
+  &lt;a class=&#34;linkcard&#34; href=&#34;https://screenmusings.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
+    &lt;h3&gt;ScreenMusings&lt;/h3&gt;
+    &lt;p&gt;电影截图和颜色库&lt;/p&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+.linkcard-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem 1.5rem;
+  max-width: 100%;
+  padding: 1rem 0;
+}
+
+@media (min-width: 1080px) {
+  .linkcard-list {
+    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
+  }
+}
+
+.linkcard {
+  display: block;  
+  padding: 1.25rem;
+  border-radius: 0.75rem;
+  background-color: #fafafa;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  text-decoration: none;
+  color: #222222;
+  transition: all 0.25s ease;
+}
+
+.linkcard:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+.linkcard h3 {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.linkcard p {
+  margin: 0.5rem 0 0;
+  font-size: 1.8rem;
+  color: #555555;
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .linkcard {
+  background-color: #303030;
+  color: #f0f0f0;
+  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.05);
+}
+
+[data-scheme=&#34;dark&#34;] .linkcard:hover {
+  box-shadow: 0 8px 18px rgba(255, 255, 255, 0.12);
+}
+
+[data-scheme=&#34;dark&#34;] .linkcard p {
+  color: #b1b1b1;
+}
+&lt;/style&gt;
+
+&lt;div class=&#34;linkcard-list&#34;&gt;
+  &lt;a class=&#34;linkcard&#34; href=&#34;http://www.impawards.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
+    &lt;h3&gt;IMP&lt;/h3&gt;
+    &lt;p&gt;电影海报&lt;/p&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+.linkcard-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem 1.5rem;
+  max-width: 100%;
+  padding: 1rem 0;
+}
+
+@media (min-width: 1080px) {
+  .linkcard-list {
+    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
+  }
+}
+
+.linkcard {
+  display: block;  
+  padding: 1.25rem;
+  border-radius: 0.75rem;
+  background-color: #fafafa;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  text-decoration: none;
+  color: #222222;
+  transition: all 0.25s ease;
+}
+
+.linkcard:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+.linkcard h3 {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.linkcard p {
+  margin: 0.5rem 0 0;
+  font-size: 1.8rem;
+  color: #555555;
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .linkcard {
+  background-color: #303030;
+  color: #f0f0f0;
+  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.05);
+}
+
+[data-scheme=&#34;dark&#34;] .linkcard:hover {
+  box-shadow: 0 8px 18px rgba(255, 255, 255, 0.12);
+}
+
+[data-scheme=&#34;dark&#34;] .linkcard p {
+  color: #b1b1b1;
+}
+&lt;/style&gt;
+
+&lt;div class=&#34;linkcard-list&#34;&gt;
+  &lt;a class=&#34;linkcard&#34; href=&#34;https://www.pulpmags.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
+    &lt;h3&gt;Pulpmags&lt;/h3&gt;
+    &lt;p&gt;纸质相关封面海报&lt;/p&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;h1 id=&#34;摄影相关&#34;&gt;摄影相关
+&lt;/h1&gt;&lt;div class=&#34;linkcard-list&#34;&gt;
+&lt;style&gt;
+.linkcard-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem 1.5rem;
+  max-width: 100%;
+  padding: 1rem 0;
+}
+
+@media (min-width: 1080px) {
+  .linkcard-list {
+    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
+  }
+}
+
+.linkcard {
+  display: block;  
+  padding: 1.25rem;
+  border-radius: 0.75rem;
+  background-color: #fafafa;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  text-decoration: none;
+  color: #222222;
+  transition: all 0.25s ease;
+}
+
+.linkcard:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+.linkcard h3 {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.linkcard p {
+  margin: 0.5rem 0 0;
+  font-size: 1.8rem;
+  color: #555555;
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .linkcard {
+  background-color: #303030;
+  color: #f0f0f0;
+  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.05);
+}
+
+[data-scheme=&#34;dark&#34;] .linkcard:hover {
+  box-shadow: 0 8px 18px rgba(255, 255, 255, 0.12);
+}
+
+[data-scheme=&#34;dark&#34;] .linkcard p {
+  color: #b1b1b1;
+}
+&lt;/style&gt;
+
+&lt;div class=&#34;linkcard-list&#34;&gt;
+  &lt;a class=&#34;linkcard&#34; href=&#34;https://www.skypixel.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
+    &lt;h3&gt;天空之城&lt;/h3&gt;
+    &lt;p&gt;全球航拍爱好者和专业摄影师的作品社区（）&lt;/p&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+.linkcard-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem 1.5rem;
+  max-width: 100%;
+  padding: 1rem 0;
+}
+
+@media (min-width: 1080px) {
+  .linkcard-list {
+    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
+  }
+}
+
+.linkcard {
+  display: block;  
+  padding: 1.25rem;
+  border-radius: 0.75rem;
+  background-color: #fafafa;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  text-decoration: none;
+  color: #222222;
+  transition: all 0.25s ease;
+}
+
+.linkcard:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+.linkcard h3 {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.linkcard p {
+  margin: 0.5rem 0 0;
+  font-size: 1.8rem;
+  color: #555555;
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .linkcard {
+  background-color: #303030;
+  color: #f0f0f0;
+  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.05);
+}
+
+[data-scheme=&#34;dark&#34;] .linkcard:hover {
+  box-shadow: 0 8px 18px rgba(255, 255, 255, 0.12);
+}
+
+[data-scheme=&#34;dark&#34;] .linkcard p {
+  color: #b1b1b1;
+}
+&lt;/style&gt;
+
+&lt;div class=&#34;linkcard-list&#34;&gt;
+  &lt;a class=&#34;linkcard&#34; href=&#34;https://www.pexels.com/zh-cn/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
+    &lt;h3&gt;Pexels&lt;/h3&gt;
+    &lt;p&gt;才华横溢的摄影作者在这里免费分享最精彩的素材图片和视频。&lt;/p&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+.linkcard-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem 1.5rem;
+  max-width: 100%;
+  padding: 1rem 0;
+}
+
+@media (min-width: 1080px) {
+  .linkcard-list {
+    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
+  }
+}
+
+.linkcard {
+  display: block;  
+  padding: 1.25rem;
+  border-radius: 0.75rem;
+  background-color: #fafafa;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  text-decoration: none;
+  color: #222222;
+  transition: all 0.25s ease;
+}
+
+.linkcard:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+.linkcard h3 {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.linkcard p {
+  margin: 0.5rem 0 0;
+  font-size: 1.8rem;
+  color: #555555;
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .linkcard {
+  background-color: #303030;
+  color: #f0f0f0;
+  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.05);
+}
+
+[data-scheme=&#34;dark&#34;] .linkcard:hover {
+  box-shadow: 0 8px 18px rgba(255, 255, 255, 0.12);
+}
+
+[data-scheme=&#34;dark&#34;] .linkcard p {
+  color: #b1b1b1;
+}
+&lt;/style&gt;
+
+&lt;div class=&#34;linkcard-list&#34;&gt;
+  &lt;a class=&#34;linkcard&#34; href=&#34;https://www.lifeofpix.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
+    &lt;h3&gt;Life of pix&lt;/h3&gt;
+    &lt;p&gt;免费高分辨率摄影&lt;/p&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+.linkcard-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem 1.5rem;
+  max-width: 100%;
+  padding: 1rem 0;
+}
+
+@media (min-width: 1080px) {
+  .linkcard-list {
+    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
+  }
+}
+
+.linkcard {
+  display: block;  
+  padding: 1.25rem;
+  border-radius: 0.75rem;
+  background-color: #fafafa;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  text-decoration: none;
+  color: #222222;
+  transition: all 0.25s ease;
+}
+
+.linkcard:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+.linkcard h3 {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.linkcard p {
+  margin: 0.5rem 0 0;
+  font-size: 1.8rem;
+  color: #555555;
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .linkcard {
+  background-color: #303030;
+  color: #f0f0f0;
+  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.05);
+}
+
+[data-scheme=&#34;dark&#34;] .linkcard:hover {
+  box-shadow: 0 8px 18px rgba(255, 255, 255, 0.12);
+}
+
+[data-scheme=&#34;dark&#34;] .linkcard p {
+  color: #b1b1b1;
+}
+&lt;/style&gt;
+
+&lt;div class=&#34;linkcard-list&#34;&gt;
+  &lt;a class=&#34;linkcard&#34; href=&#34;https://www.airpano.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
+    &lt;h3&gt;AirPaon&lt;/h3&gt;
+    &lt;p&gt;360°&lt;/p&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

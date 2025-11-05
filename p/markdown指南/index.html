@@ -6,13 +6,15 @@
 
 <link rel='canonical' href='https://Leafly717.github.io/p/markdown%E6%8C%87%E5%8D%97/'>
 
-<link rel="stylesheet" href="/scss/style.min.e6c44a631550bea5abc50408133d8025793f94e973575cad5a398f05ec278e60.css"><meta property='og:title' content="Markdown指南">
+<link rel="stylesheet" href="/scss/style.min.9dc2cce48b9a495ec93cd9aa150b2c8a63a8cc661032b14cda44684292158d04.css"><meta property='og:title' content="Markdown指南">
 <meta property='og:description' content="基本语法格式什么的">
 <meta property='og:url' content='https://Leafly717.github.io/p/markdown%E6%8C%87%E5%8D%97/'>
 <meta property='og:site_name' content='Leafly'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='markdown' /><meta property='article:tag' content='css' /><meta property='article:tag' content='html' /><meta property='article:tag' content='themes' /><meta property='article:published_time' content='2025-10-30T16:06:01&#43;08:00'/><meta property='article:modified_time' content='2025-10-30T16:06:01&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='markdown' /><meta property='article:tag' content='css' /><meta property='article:tag' content='html' /><meta property='article:tag' content='themes' /><meta property='article:published_time' content='2025-10-30T16:06:01&#43;08:00'/><meta property='article:modified_time' content='2025-10-30T18:06:01&#43;08:00'/>
 <meta name="twitter:title" content="Markdown指南">
-<meta name="twitter:description" content="基本语法格式什么的"><link rel='stylesheet' href='https://chinese-fonts-cdn.deno.dev/packages/dymh/dist/DouyinSansBold/result.css' />
+<meta name="twitter:description" content="基本语法格式什么的"><link rel="stylesheet" href="https://npm.elemecdn.com/lxgw-wenkai-screen-webfont@1.7.0/lxgwwenkaiscreen.css" /> 
+<link rel="stylesheet" href="https://s1.hdslb.com/bfs/static/jinkela/long/font/regular.css" />
+<link rel='stylesheet' href='https://chinese-fonts-cdn.deno.dev/packages/syst/dist/SourceHanSerifCN/result.css' />
     </head>
     <body class="
     article-page
@@ -334,6 +336,7 @@
     <li><a href="#图片超链接">图片超链接</a></li>
     <li><a href="#hugo用短代码">Hugo用短代码</a></li>
     <li><a href="#聊天气泡">聊天气泡</a></li>
+    <li><a href="#链接卡片">链接卡片</a></li>
   </ol>
 </nav>
         </div>
@@ -402,7 +405,7 @@
 
 
                 <time class="article-time--reading">
-                    阅读时长: 1 分钟
+                    阅读时长: 2 分钟
                 </time>
             </div>
         
@@ -417,7 +420,7 @@
 
 
                 <time class="article-words">
-                    462字
+                    527字
                 </time>
             </div>
         
@@ -452,7 +455,6 @@
 </span><span class="lnt">14
 </span><span class="lnt">15
 </span><span class="lnt">16
-</span><span class="lnt">17
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">#
@@ -469,8 +471,7 @@
 </span></span><span class="line"><span class="cl">categories = [
 </span></span><span class="line"><span class="cl">    &#34;Test&#34;,
 </span></span><span class="line"><span class="cl">]
-</span></span><span class="line"><span class="cl">series = [&#34;Themes Guide&#34;]
-</span></span><span class="line"><span class="cl">aliases = [&#34;migrate-from-jekyl&#34;]
+</span></span><span class="line"><span class="cl">lastmod = &#34;2025-10-30T18:06:01+08:00&#34;
 </span></span><span class="line"><span class="cl">image = &#34;pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg&#34;
 </span></span></code></pre></td></tr></table>
 </div>
@@ -609,7 +610,7 @@
 <p><mark>高亮显示</mark> mark</p>
 <h2 id="图片超链接">图片超链接
 </h2><p><a class="link" href="https://space.bilibili.com/1459104794"  target="_blank" rel="noopener"
-    ><img src="https://i1.hdslb.com/bfs/new_dyn/7672f0f050ecac3f25f0a9d18f5112fd3546844774796156.png"
+    ><img src="https://img.moegirl.org.cn/common/e/ea/MyGO%21%21%21%21%21_10th_anniversary_kv_banner_v2.webp"
 	
 	
 	
@@ -843,6 +844,273 @@
     }
 </style>
 
+<h2 id="链接卡片">链接卡片
+</h2><div class="linkcard-list">
+<style>
+.linkcard-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem 1.5rem;
+  max-width: 100%;
+  padding: 1rem 0;
+}
+
+@media (min-width: 1080px) {
+  .linkcard-list {
+    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
+  }
+}
+
+.linkcard {
+  display: block;  
+  padding: 1.25rem;
+  border-radius: 0.75rem;
+  background-color: #fafafa;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  text-decoration: none;
+  color: #222222;
+  transition: all 0.25s ease;
+}
+
+.linkcard:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+.linkcard h3 {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.linkcard p {
+  margin: 0.5rem 0 0;
+  font-size: 1.8rem;
+  color: #555555;
+}
+
+ 
+[data-scheme="dark"] .linkcard {
+  background-color: #303030;
+  color: #f0f0f0;
+  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.05);
+}
+
+[data-scheme="dark"] .linkcard:hover {
+  box-shadow: 0 8px 18px rgba(255, 255, 255, 0.12);
+}
+
+[data-scheme="dark"] .linkcard p {
+  color: #b1b1b1;
+}
+</style>
+
+<div class="linkcard-list">
+  <a class="linkcard" href="https://artsexperiments.withgoogle.com/artpalette/colors/6cb999-8e6cb9-79b96b-6cb999-b96c98" target="_blank" rel="noopener noreferrer">
+    <h3>Google Arts &amp; Culture</h3>
+    <p>谷歌的根据艺术品识取配色，或者根据配色找艺术品</p>
+  </a>
+</div>
+
+<style>
+.linkcard-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem 1.5rem;
+  max-width: 100%;
+  padding: 1rem 0;
+}
+
+@media (min-width: 1080px) {
+  .linkcard-list {
+    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
+  }
+}
+
+.linkcard {
+  display: block;  
+  padding: 1.25rem;
+  border-radius: 0.75rem;
+  background-color: #fafafa;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  text-decoration: none;
+  color: #222222;
+  transition: all 0.25s ease;
+}
+
+.linkcard:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+.linkcard h3 {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.linkcard p {
+  margin: 0.5rem 0 0;
+  font-size: 1.8rem;
+  color: #555555;
+}
+
+ 
+[data-scheme="dark"] .linkcard {
+  background-color: #303030;
+  color: #f0f0f0;
+  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.05);
+}
+
+[data-scheme="dark"] .linkcard:hover {
+  box-shadow: 0 8px 18px rgba(255, 255, 255, 0.12);
+}
+
+[data-scheme="dark"] .linkcard p {
+  color: #b1b1b1;
+}
+</style>
+
+<div class="linkcard-list">
+  <a class="linkcard" href="https://color.adobe.com/zh/create" target="_blank" rel="noopener noreferrer">
+    <h3>Adobe Color</h3>
+    <p>色轮、调色盘邻近色对比色什么的</p>
+  </a>
+</div>
+
+<style>
+.linkcard-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem 1.5rem;
+  max-width: 100%;
+  padding: 1rem 0;
+}
+
+@media (min-width: 1080px) {
+  .linkcard-list {
+    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
+  }
+}
+
+.linkcard {
+  display: block;  
+  padding: 1.25rem;
+  border-radius: 0.75rem;
+  background-color: #fafafa;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  text-decoration: none;
+  color: #222222;
+  transition: all 0.25s ease;
+}
+
+.linkcard:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+.linkcard h3 {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.linkcard p {
+  margin: 0.5rem 0 0;
+  font-size: 1.8rem;
+  color: #555555;
+}
+
+ 
+[data-scheme="dark"] .linkcard {
+  background-color: #303030;
+  color: #f0f0f0;
+  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.05);
+}
+
+[data-scheme="dark"] .linkcard:hover {
+  box-shadow: 0 8px 18px rgba(255, 255, 255, 0.12);
+}
+
+[data-scheme="dark"] .linkcard p {
+  color: #b1b1b1;
+}
+</style>
+
+<div class="linkcard-list">
+  <a class="linkcard" href="https://www.webdesignrankings.com/resources/lolcolors/" target="_blank" rel="noopener noreferrer">
+    <h3>LolColors</h3>
+    <p>一些挺好看的色卡</p>
+  </a>
+</div>
+
+<style>
+.linkcard-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem 1.5rem;
+  max-width: 100%;
+  padding: 1rem 0;
+}
+
+@media (min-width: 1080px) {
+  .linkcard-list {
+    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
+  }
+}
+
+.linkcard {
+  display: block;  
+  padding: 1.25rem;
+  border-radius: 0.75rem;
+  background-color: #fafafa;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  text-decoration: none;
+  color: #222222;
+  transition: all 0.25s ease;
+}
+
+.linkcard:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+.linkcard h3 {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.linkcard p {
+  margin: 0.5rem 0 0;
+  font-size: 1.8rem;
+  color: #555555;
+}
+
+ 
+[data-scheme="dark"] .linkcard {
+  background-color: #303030;
+  color: #f0f0f0;
+  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.05);
+}
+
+[data-scheme="dark"] .linkcard:hover {
+  box-shadow: 0 8px 18px rgba(255, 255, 255, 0.12);
+}
+
+[data-scheme="dark"] .linkcard p {
+  color: #b1b1b1;
+}
+</style>
+
+<div class="linkcard-list">
+  <a class="linkcard" href="https://www.learnui.design/tools/gradient-generator.html" target="_blank" rel="noopener noreferrer">
+    <h3>Gradient Generator</h3>
+    <p>渐变色，能搞CSS &amp; SVG</p>
+  </a>
+</div>
+
+</div>
 
 </section>
 
@@ -862,7 +1130,27 @@
     </section>
 
 
-    </footer>
+    <div>
+            <section class="article-lastmod">
+                <svg
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
+  <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
+</svg>
+
+                    <time class="article-lastmod">
+                        最后修改于2025-10-30 18:06，Thursday</time>
+            </section>
+        </div></footer>
 
 
     
@@ -895,44 +1183,44 @@
     <span id="time-elapsed"></span>
   </section>
 
-  <style>
-    .site-footer .time-elapsed {
-      color: #707070;               
-      font-size: 0.9em;
-      margin-top: 8px;
-      text-align: left;
-      font-weight: 500;
-    }
+  <style> 
+  .site-footer .time-elapsed {
+    color: #707070;  
+    font-size: 0.9em;
+    margin-top: 8px;
+    text-align: left;
+    font-weight: 500;
+  }
 
-     
-    @media (prefers-color-scheme: dark) {
-      .site-footer .time-elapsed {
-        color: #707070;
-      }
-    }
-  </style>
+   
+  [data-scheme="dark"] .site-footer .time-elapsed {
+    color: #edf0f1;  
+  }
+</style>
 
-  <script>
-    
-    const startTime = new Date("2024-11-25T00:00:00Z"); 
+<script>
+  
+  const startTime = new Date("2024-11-25T00:00:00Z"); 
 
-    function updateElapsed() {
-      const now = new Date();
-      const diff = now - startTime;
+  function updateElapsed() {
+    const now = new Date();
+    const diff = now - startTime;
 
-      const days = Math.floor(diff / (1000 * 60 * 60 * 24));
-      const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
-      const minutes = Math.floor((diff / (1000 * 60)) % 60);
-      const seconds = Math.floor((diff / 1000) % 60);
+    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+    const minutes = Math.floor((diff / (1000 * 60)) % 60);
+    const seconds = Math.floor((diff / 1000) % 60);
 
-      document.getElementById("time-elapsed").textContent =
-        `已存活 ${days} 天 ${hours} 小时 ${minutes} 分 ${seconds} 秒……`;
-    }
+    document.getElementById("time-elapsed").textContent =
+      `已存活 ${days} 天 ${hours} 小时 ${minutes} 分 ${seconds} 秒……`;
+  }
 
-    updateElapsed();
-    setInterval(updateElapsed, 1000);
-  </script>
+  updateElapsed();
+  setInterval(updateElapsed, 1000);
+</script>
+
 </footer>
+
 
 
     
@@ -1060,7 +1348,7 @@
 
    
   html[data-scheme="dark"] body::before {
-    opacity: 0.7;  
+    opacity: 0.4;  
   }
 </style>
 
