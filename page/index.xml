@@ -13,56 +13,68 @@
         <pubDate>Thu, 30 Oct 2025 16:31:20 +0800</pubDate>
         
         <guid>https://Leafly717.github.io/%E5%85%B3%E4%BA%8E/</guid>
-        <description>&lt;div style=&#34;
-  max-width: 400px; 
-  margin: 30px auto; 
-  padding: 20px; 
-  background: #1e1e1e; 
-  color: #fff; 
-  border-radius: 15px; 
-  text-align: center; 
-  font-family: sans-serif;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
-&#34;&gt;
-&lt;p style=&#34;margin: 0; font-size: 0.9em; color: #aaa;&#34;&gt;正在播放&lt;/p&gt;
-&lt;p style=&#34;margin: 10px 0 5px 0; font-size: 1.4em; font-weight: bold;&#34;&gt;
-    《没有迷宫我怎么活》
-  &lt;/p&gt;
-&lt;!-- 动态进度条 --&gt;
-&lt;div style=&#34;
-    width: 100%; 
-    height: 8px; 
-    background: #333; 
-    border-radius: 4px; 
-    margin: 15px 0;
-    overflow: hidden;
-    position: relative;
-  &#34;&gt;
-    &lt;div style=&#34;
-      height: 100%; 
-      background: #ff5e5e; 
-      border-radius: 4px 0 0 4px;
-      width: 0%;
-      animation: progress 7.24s linear infinite;
-    &#34;&gt;&lt;/div&gt;
-  &lt;/div&gt;
-&lt;!-- 播放控制按钮 --&gt;
-&lt;div style=&#34;font-size: 1.5em; display: flex; justify-content: center; gap: 25px; color: #fff;&#34;&gt;
-    &lt;span style=&#34;cursor: pointer;&#34;&gt;⇆&lt;/span&gt;
-    &lt;span style=&#34;cursor: pointer;&#34;&gt;◁&lt;/span&gt;
-    &lt;span style=&#34;cursor: pointer; color: #ff5e5e;&#34;&gt;❚❚&lt;/span&gt;
-    &lt;span style=&#34;cursor: pointer;&#34;&gt;▷&lt;/span&gt;
-    &lt;span style=&#34;cursor: pointer;&#34;&gt;↻&lt;/span&gt;
-  &lt;/div&gt;
-&lt;p style=&#34;margin-top: 10px; font-size: 1em; color: #aaa;&#34;&gt;7:24&lt;/p&gt;
+        <description>
+
+
+
+
+
+    
+
+
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe src=&#34;https://player.bilibili.com/player.html?as_wide=1&amp;amp;high_quality=1&amp;amp;page=1&amp;bvid=BV1pW411y7kD&#34;
+            scrolling=&#34;no&#34;
+            frameborder=&#34;no&#34;
+            framespacing=&#34;0&#34;
+            allowfullscreen=&#34;true&#34;
+    &gt;
+    &lt;/iframe&gt;
 &lt;/div&gt;
-&lt;style&gt;
-@keyframes progress {
-  0% { width: 0%; }
-  100% { width: 100%; }
-}
-&lt;/style&gt;
-&lt;figure class=&#34;wp-block-pullquote&#34; style=&#34;border-width:1px;border-radius:9px;font-size:31px&#34;&gt;&lt;blockquote&gt;&lt;p&gt;正在播放 《 没有迷宫我怎么活 》&lt;br&gt;●━━━━━━─────── 7:24&lt;br&gt;⇆ ㅤㅤㅤ◁ ㅤㅤ❚❚ ㅤㅤ▷ ㅤㅤㅤ↻ &lt;/p&gt;&lt;/blockquote&gt;&lt;/figure&gt;</description>
+
+&lt;figure class=&#34;wp-block-pullquote&#34; style=&#34;border-width:1px;border-radius:9px;font-size:31px&#34;&gt;&lt;blockquote&gt;&lt;p&gt;正在播放 《 没有迷宫我怎么活 》&lt;br&gt;7:24 ━━━━━━━━━━━●── 8:01&lt;br&gt;⇆ ㅤㅤㅤ◁ ㅤㅤ❚❚ ㅤㅤ▷ ㅤㅤㅤ↻ &lt;/p&gt;&lt;/blockquote&gt;&lt;/figure&gt;
+&lt;hr&gt;
+
+
+
+
+
+
+    
+
+
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe src=&#34;https://player.bilibili.com/player.html?as_wide=1&amp;amp;high_quality=1&amp;amp;page=1&amp;bvid=BV1YbZVYCEko&#34;
+            scrolling=&#34;no&#34;
+            frameborder=&#34;no&#34;
+            framespacing=&#34;0&#34;
+            allowfullscreen=&#34;true&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;figure class=&#34;wp-block-pullquote&#34; style=&#34;border-width:1px;border-radius:9px;font-size:31px&#34;&gt;&lt;blockquote&gt;&lt;p&gt;正在播放 《 爱素，强到靠北 》&lt;br&gt;5:27 ━━━━━━━━●───── 9:08&lt;br&gt;⇆ ㅤㅤㅤ◁ ㅤㅤ❚❚ ㅤㅤ▷ ㅤㅤㅤ↻ &lt;/p&gt;&lt;/blockquote&gt;&lt;/figure&gt;
+&lt;hr&gt;
+
+
+
+
+
+
+    
+
+
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe src=&#34;https://player.bilibili.com/player.html?as_wide=1&amp;amp;high_quality=1&amp;amp;page=1&amp;bvid=BV1wv411h7Jw&#34;
+            scrolling=&#34;no&#34;
+            frameborder=&#34;no&#34;
+            framespacing=&#34;0&#34;
+            allowfullscreen=&#34;true&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;figure class=&#34;wp-block-pullquote&#34; style=&#34;border-width:1px;border-radius:9px;font-size:31px&#34;&gt;&lt;blockquote&gt;&lt;p&gt;正在播放 《 当医生爱上同事妻子 》&lt;br&gt;5:13 ━━━━━━●─────── 11:19&lt;br&gt;⇆ ㅤㅤㅤ◁ ㅤㅤ❚❚ ㅤㅤ▷ ㅤㅤㅤ↻ &lt;/p&gt;&lt;/blockquote&gt;&lt;/figure&gt;</description>
         </item>
         <item>
         <title>归档</title>
