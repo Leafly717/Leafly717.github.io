@@ -125,24 +125,6 @@
       transform: translateX(-100%) scale(1.1) rotate(180deg);
     }
 
-    @media (max-width: 1024px) {
-      .character-container {
-        flex-direction: column;
-        transform: translateX(0);
-      }
-      .character-image img {
-        max-width: 400px;
-      }
-      .character-name-en {
-        font-size: 3rem;
-      }
-      .switch-btn {
-        width: 60px;
-        height: 60px;
-        font-size: 1.2rem;
-      }
-    }
-
      
     .character-name {
       position: absolute;
@@ -270,12 +252,73 @@
       opacity: 0.3;                
       transition: opacity 0.3s ease, transform 0.3s ease;
       z-index: 1000;
-      }
+    }
 
-.back-button:hover {
-  opacity: 1;                  
-  transform: scale(1.05);      
-}
+    .back-button:hover {
+      opacity: 1;                  
+      transform: scale(1.05);      
+    }
+     
+  @media screen and (max-width: 768px) {
+    .character-container {
+      flex-direction: column;  
+      transform: translateX(0);
+      gap: 20px;
+      padding: 20px 0;
+    }
+
+    .character-card.left, .character-card.right {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .character-image img {
+      max-width: 80%;  
+      height: auto;
+      transform: none !important;  
+    }
+
+    .character-name, .character-name-en {
+      position: relative;
+      writing-mode: horizontal-tb;  
+      transform: none !important;
+      top: 0;
+      left: 0;
+      right: 0;
+      font-size: 1.8rem !important;
+      text-align: center;
+      margin: 10px 0;
+    }
+
+    .switch-btn {
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 20px;
+      width: 60px;
+      height: 60px;
+      font-size: 1.2rem;
+    }
+
+    .back-button {
+      font-size: 1.5rem;
+      top: 10px;
+      left: 10px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .character-name, .character-name-en {
+      font-size: 1.4rem !important;
+    }
+
+    .switch-btn {
+      width: 50px;
+      height: 50px;
+      font-size: 1rem;
+    }
+  }
 
   </style>
 </head>
@@ -288,7 +331,7 @@
       <div class="character-card left">
         <div class="character-image">
           <span class="character-name-en" id="leftEn">MAYA&nbsp;TENDO</span>
-          <img id="leftImg" src="/maya.png" alt="天堂&nbsp;真矢" />
+          <img id="leftImg" src="https://raw.githubusercontent.com/Leafly717/pic/main/maya.png" alt="天堂&nbsp;真矢" />
           <span class="character-name" id="leftName">天堂&nbsp;真矢</span>
         </div>
       </div>
@@ -297,7 +340,7 @@
       <div class="character-card right">
         <div class="character-image">
           <span class="character-name-en" id="rightEn">CLAUDINE&nbsp;SAIJO</span>
-          <img id="rightImg" src="/kuro.png" alt="西條クロディーヌ" />
+          <img id="rightImg" src="https://raw.githubusercontent.com/Leafly717/pic/main/kuro.png" alt="西條クロディーヌ" />
           <span class="character-name" id="rightName">西條&nbsp;クロディーヌ</span>
         </div>
       </div>
@@ -312,20 +355,20 @@
       {
         bg: "linear-gradient(135deg, #ea9e5a 0%, #cac6cc 100%)",
         className: "set-maya",
-        left: { name: "天堂&nbsp;真矢", en: "MAYA&nbsp;TENDO", img: "/maya.png" },
-        right: { name: "西條&nbsp;クロディーヌ", en: "CLAUDINE&nbsp;SAIJO", img: "/kuro.png" }
+        left: { name: "天堂&nbsp;真矢", en: "MAYA&nbsp;TENDO", img: "https://raw.githubusercontent.com/Leafly717/pic/main/maya.png" },
+        right: { name: "西條&nbsp;クロディーヌ", en: "CLAUDINE&nbsp;SAIJO", img: "https://raw.githubusercontent.com/Leafly717/pic/main/kuro.png" }
       },
       {
         bg: "linear-gradient(135deg, #FFDD88 0%, #FF8899 100%)",
         className: "set-anon",
-        left: { name: "長崎&nbsp;そよ", en: "SOYO&nbsp;NAGASAKI", img: "/soyo.png" },
-        right: { name: "千早&nbsp;愛音", en: "ANON&nbsp;CHIHAYA", img: "/anon.png" }
+        left: { name: "長崎&nbsp;そよ", en: "SOYO&nbsp;NAGASAKI", img: "https://raw.githubusercontent.com/Leafly717/pic/main/soyo.png" },
+        right: { name: "千早&nbsp;愛音", en: "ANON&nbsp;CHIHAYA", img: "https://raw.githubusercontent.com/Leafly717/pic/main/anon.png" }
       },
       {
         bg: "linear-gradient(135deg, #FAF2AD 0%, #8B3F8F 100%)",
         className: "set-widow",
-        left: { name: "Widowmaker", en: "AMÉLIE&nbsp;LACROIX", img: "widowmaker.png" },
-        right: { name: "Mercy", en: "ANGELA&nbsp;ZIEGLER", img: "mercy.png" }
+        left: { name: "Widowmaker", en: "AMÉLIE&nbsp;LACROIX", img: "https://raw.githubusercontent.com/Leafly717/pic/main/Widowmaker.png" },
+        right: { name: "Mercy", en: "ANGELA&nbsp;ZIEGLER", img: "https://raw.githubusercontent.com/Leafly717/pic/main/Mercy.png" }
       }
     ];
 
@@ -362,18 +405,6 @@
     switchBtn.addEventListener("click", () => {
       switchCharacter((current + 1) % dataSets.length);
       resetAutoPlay();
-    });
-
-    let startX = 0, endX = 0;
-    document.addEventListener("touchstart", (e) => { startX = e.touches[0].clientX; });
-    document.addEventListener("touchend", (e) => {
-      endX = e.changedTouches[0].clientX;
-      const diff = endX - startX;
-      if (Math.abs(diff) > 50) {
-        if (diff < 0) switchCharacter((current + 1) % dataSets.length);
-        else switchCharacter((current - 1 + dataSets.length) % dataSets.length);
-        resetAutoPlay();
-      }
     });
 
     let interval = 7400;
