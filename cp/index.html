@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>キャラクター | Revue Starlight</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background: linear-gradient(135deg, #ea9e5a 0%, #cac6cc 100%);
+      color: #fff;
+      font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", sans-serif;
+      transition: background 1s ease;
+    }
+
+    section.character-section {
+      width: 100%;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding-top: 60px;
+      position: relative;
+      z-index: 2;
+    }
+
+    .character-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 40px;
+      width: 100%;
+      max-width: 1400px;
+      position: relative;
+      z-index: 2;
+      transform: translateX(-60px);
+      transition: opacity 0.8s ease;
+    }
+
+    .fade {
+      opacity: 0;
+    }
+
+    .character-card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+
+    .character-image {
+      position: relative;
+      overflow: visible;
+      width: 100%;
+      height: 100%;
+    }
+
+    .character-image img {
+      width: auto;         
+      height: auto;        
+      max-height: 3000px;  
+      max-width: 100%;     
+      object-fit: contain;  
+      display: block;
+      position: relative;
+      z-index: 2;
+     transition: none;
+    }
+
+    .character-card:hover img {
+      transform: scale(1.05);
+    }
+
+    .character-name-en {
+      position: absolute;
+      top: 50%;
+      font-size: 4rem;
+      font-weight: 700;
+      color: rgba(0, 0, 0, 0.15);
+      writing-mode: vertical-rl;
+      transform: translateY(-50%);
+      z-index: 1;
+      pointer-events: none;
+      user-select: none;
+      letter-spacing: 0.2em;
+      font-family: "Noto Serif JP", serif;
+      white-space: nowrap;
+    }
+
+    .character-card.left .character-name-en {
+      left: 120px;
+    }
+
+    .character-card.right .character-name-en {
+      right: 0;
+    }
+
+    .switch-btn {
+      position: fixed;
+      bottom: 40px;
+      left: 50%;
+      transform: translateX(-100%);
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.3);
+      backdrop-filter: blur(6px);
+      border: 2px solid rgba(255,255,255,0.7);
+      color: #fff;
+      font-size: 1.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      z-index: 10;
+      user-select: none;
+    }
+
+    .switch-btn:hover {
+      background: rgba(255,255,255,0.5);
+      transform: translateX(-100%) scale(1.1) rotate(180deg);
+    }
+
+    @media (max-width: 1024px) {
+      .character-container {
+        flex-direction: column;
+        transform: translateX(0);
+      }
+      .character-image img {
+        max-width: 400px;
+      }
+      .character-name-en {
+        font-size: 3rem;
+      }
+      .switch-btn {
+        width: 60px;
+        height: 60px;
+        font-size: 1.2rem;
+      }
+    }
+
+     
+    .character-name {
+      position: absolute;
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      font-family: "Noto Serif JP", serif;
+      color: #fff;
+      writing-mode: vertical-rl;    
+      font-size: 3rem;              
+    }
+
+     
+    body.set-maya .character-card.left .character-name {
+      left: 210px;
+      top: 43%;
+      font-size: 5rem;
+      transform: scaleX(1.1) translateY(10%);
+    }
+    body.set-maya .character-card.right .character-name {
+      right: 40px;
+      top: 2%;
+      font-size: 4.5rem;
+      transform: scaleX(1.1) translateY(10%);
+    }
+
+     
+    body.set-anon .character-card.left .character-name {
+      left: 275px;
+      top: 48%;
+      font-size: 5rem;
+      transform: scaleX(1.1) translateY(10%);
+    }
+    body.set-anon .character-card.right .character-name {
+      right: 105px;
+      top: 48%;
+      font-size: 5rem;
+      transform: scaleX(1.1) translateY(10%);
+    }
+
+     
+    body.set-widow .character-card.left .character-name {
+      left: 260px;
+      top: 34%;
+      font-size: 5rem;
+      transform: scaleX(1.2) scaleY(1.1) translateY(10%);
+      letter-spacing: 0.07em;
+    }
+    body.set-widow .character-card.right .character-name {
+      right: 260px;
+      top: 71%;
+      font-size: 5rem;
+      transform: scaleX(1.2) scaleY(1.1) translateY(10%);
+      letter-spacing: 0.07em;
+    }
+
+     
+    body.set-maya .character-card.left .character-name-en {
+      left: 170px;
+      top: 45%;
+      font-size: 4rem;
+    }
+    body.set-maya .character-card.right .character-name-en {
+      right: 90px;
+      top: 45%;
+      font-size: 4rem;
+    }
+
+    body.set-anon .character-card.left .character-name-en {
+      left: 250px;
+      top: 50%;
+      font-size: 3.8rem;
+    }
+    body.set-anon .character-card.right .character-name-en {
+      right: 150px;
+      top: 50%;
+      font-size: 3.8rem;
+    }
+
+    body.set-widow .character-card.left .character-name-en {
+      left: 245px;
+      top: 50%;
+      font-size: 3.5rem;
+    }
+    body.set-widow .character-card.right .character-name-en {
+      right: 315px;
+      top: 50%;
+      font-size: 3.5rem;
+    }
+
+     
+    body.set-maya .character-card.left .character-image img {
+      max-width: 535px;
+      transform: translateX(200px) translateY(-170px);
+    }
+    body.set-maya .character-card.right .character-image img {
+      max-width: 650px;
+      transform: translateX(-120px) translateY(-32px);
+    }
+
+    body.set-anon .character-card.left .character-image img {
+      max-width: 400px;
+      transform: translateX(300px) translateY(-60px);
+    }
+    body.set-anon .character-card.right .character-image img {
+      max-width: 500px;
+      transform: translateX(-150px) translateY(33px);
+    }
+
+    body.set-widow .character-card.left .character-image img {
+      max-width: 500px;
+      transform: translateY(100px) translateX(330px) scaleX(-1);
+    }
+    body.set-widow .character-card.right .character-image img {
+      max-width: 1000px;
+      transform: translateY(60px) translateX(45px);
+    }
+    .back-button {
+      position: fixed;
+      top: 20px;
+      left: 30px;
+      font-size: 2rem;
+      font-weight: bold;
+      color: white;
+      text-decoration: none;
+      opacity: 0.3;                
+      transition: opacity 0.3s ease, transform 0.3s ease;
+      z-index: 1000;
+      }
+
+.back-button:hover {
+  opacity: 1;                  
+  transform: scale(1.05);      
+}
+
+  </style>
+</head>
+<body>
+  <a href="https://leafly717.github.io/" class="back-button">←</a>
+  <section class="character-section">
+    <div class="character-container" id="characterContainer">
+
+      
+      <div class="character-card left">
+        <div class="character-image">
+          <span class="character-name-en" id="leftEn">MAYA&nbsp;TENDO</span>
+          <img id="leftImg" src="/maya.png" alt="天堂&nbsp;真矢" />
+          <span class="character-name" id="leftName">天堂&nbsp;真矢</span>
+        </div>
+      </div>
+
+      
+      <div class="character-card right">
+        <div class="character-image">
+          <span class="character-name-en" id="rightEn">CLAUDINE&nbsp;SAIJO</span>
+          <img id="rightImg" src="/kuro.png" alt="西條クロディーヌ" />
+          <span class="character-name" id="rightName">西條&nbsp;クロディーヌ</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="switch-btn" id="switchBtn">★</div>
+
+  <script>
+    const dataSets = [
+      {
+        bg: "linear-gradient(135deg, #ea9e5a 0%, #cac6cc 100%)",
+        className: "set-maya",
+        left: { name: "天堂&nbsp;真矢", en: "MAYA&nbsp;TENDO", img: "/maya.png" },
+        right: { name: "西條&nbsp;クロディーヌ", en: "CLAUDINE&nbsp;SAIJO", img: "/kuro.png" }
+      },
+      {
+        bg: "linear-gradient(135deg, #FFDD88 0%, #FF8899 100%)",
+        className: "set-anon",
+        left: { name: "長崎&nbsp;そよ", en: "SOYO&nbsp;NAGASAKI", img: "/soyo.png" },
+        right: { name: "千早&nbsp;愛音", en: "ANON&nbsp;CHIHAYA", img: "/anon.png" }
+      },
+      {
+        bg: "linear-gradient(135deg, #FAF2AD 0%, #8B3F8F 100%)",
+        className: "set-widow",
+        left: { name: "Widowmaker", en: "AMÉLIE&nbsp;LACROIX", img: "/widowmaker.png" },
+        right: { name: "Mercy", en: "ANGELA&nbsp;ZIEGLER", img: "/mercy.png" }
+      }
+    ];
+
+    let current = 0;
+    const container = document.getElementById("characterContainer");
+    const switchBtn = document.getElementById("switchBtn");
+    const leftName = document.getElementById("leftName");
+    const leftEn = document.getElementById("leftEn");
+    const leftImg = document.getElementById("leftImg");
+    const rightName = document.getElementById("rightName");
+    const rightEn = document.getElementById("rightEn");
+    const rightImg = document.getElementById("rightImg");
+
+    function switchCharacter(nextIndex) {
+      container.classList.add("fade");
+      setTimeout(() => {
+        current = nextIndex;
+        const data = dataSets[current];
+        document.body.style.background = data.bg;
+        document.body.className = data.className;
+
+        leftName.innerHTML = data.left.name;
+        leftEn.innerHTML = data.left.en;
+        leftImg.src = data.left.img;
+
+        rightName.innerHTML = data.right.name;
+        rightEn.innerHTML = data.right.en;
+        rightImg.src = data.right.img;
+
+        container.classList.remove("fade");
+      }, 500);
+    }
+
+    switchBtn.addEventListener("click", () => {
+      switchCharacter((current + 1) % dataSets.length);
+      resetAutoPlay();
+    });
+
+    let startX = 0, endX = 0;
+    document.addEventListener("touchstart", (e) => { startX = e.touches[0].clientX; });
+    document.addEventListener("touchend", (e) => {
+      endX = e.changedTouches[0].clientX;
+      const diff = endX - startX;
+      if (Math.abs(diff) > 50) {
+        if (diff < 0) switchCharacter((current + 1) % dataSets.length);
+        else switchCharacter((current - 1 + dataSets.length) % dataSets.length);
+        resetAutoPlay();
+      }
+    });
+
+    let interval = 7400;
+    let autoPlay = setInterval(() => { switchCharacter((current + 1) % dataSets.length); }, interval);
+    function resetAutoPlay() {
+      clearInterval(autoPlay);
+      autoPlay = setInterval(() => { switchCharacter((current + 1) % dataSets.length); }, interval);
+    }
+
+    document.body.className = dataSets[0].className;
+  </script>
+</body>
+</html>

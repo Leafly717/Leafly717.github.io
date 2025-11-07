@@ -198,6 +198,25 @@
         </li>
         
         
+        <li >
+            <a href='/cp/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>产品</span>
+            </a>
+        </li>
+        
+        
         <li  class='current' >
             <a href='/talks/' >
                 
@@ -342,15 +361,31 @@
   
   <div class="talk-card">
     <div class="talk-content">
-      <p>也算是完成了</p>
-      <span class="talk-time">2025-11-06 05:51:26</span>
+      <p>感觉能整个广告位招租。</p>
+      <span class="talk-time">2025-11-08 06:00:41</span>
     </div>
   </div>
   
   <div class="talk-card">
     <div class="talk-content">
-      <p>test</p>
-      <span class="talk-time">2025-11-06 05:49:19</span>
+      <p>打卡。搞完了产品页
+我真是天才。</p>
+      <span class="talk-time">2025-11-08 05:43:42</span>
+    </div>
+  </div>
+  
+  <div class="talk-card">
+    <div class="talk-content">
+      <p>每天都在sua。怪谁。</p>
+      <span class="talk-time">2025-11-07 23:00:31</span>
+    </div>
+  </div>
+  
+  <div class="talk-card">
+    <div class="talk-content">
+      <p>也算是完成了,另外换行
+、n</p>
+      <span class="talk-time">2025-11-06 05:51:26</span>
     </div>
   </div>
   
@@ -369,8 +404,8 @@
 }
 
 .talks-masonry {
-  position: relative;  
-  margin: 0;           
+  position: relative; 
+  margin: 0;          
 }
 
 .talk-card {
@@ -382,28 +417,25 @@
   opacity: 0;
   transform: translateY(20px);
   transition: transform 0.4s ease, opacity 0.4s ease, box-shadow 0.3s ease;
-  position: absolute;  
+  position: absolute;
 }
 
- 
 .talk-card.visible {
   opacity: 1;
   transform: translateY(0);
 }
 
- 
 .talk-card:hover {
   box-shadow: 0 6px 12px rgba(0,0,0,0.12);
 }
 
- 
 .talk-content {
   padding: var(--card-padding-vertical) var(--card-padding-horizontal);
   transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .talk-card:hover .talk-content {
-  transform: translateY(-3px);  
+  transform: translateY(-3px);
 }
 
 .talk-content p {
@@ -412,13 +444,14 @@
   margin: 0 0 10px 0;
   word-wrap: break-word;
   line-height: 2.8rem;
+  white-space: pre-wrap;  
 }
 
 .talk-time {
   font-size: 1.2rem;
   color: #888;
   display: block;
-  text-align: right;  
+  text-align: right;
 }
 
 @media screen and (max-width: 683px) {
@@ -430,7 +463,6 @@
   }
 }
 
- 
 [data-scheme="dark"] .talk-card {
   background-color: #303030;
   color: #f0f0f0;
@@ -443,6 +475,7 @@
 
 [data-scheme="dark"] .talk-content p {
   color: #b1b1b1;
+  white-space: pre-wrap;  
 }
 
 [data-scheme="dark"] .talk-time {
@@ -455,23 +488,20 @@ document.addEventListener('DOMContentLoaded', () => {
   const container = document.getElementById('talks-masonry');
   const cards = container.querySelectorAll('.talk-card');
 
-  
   function fadeInCards() {
     const isMobile = window.matchMedia("(max-width: 683px)").matches;
     cards.forEach((card, idx) => {
-      const delay = isMobile ? idx * 30 : idx * 50; 
+      const delay = isMobile ? idx * 30 : idx * 50;
       setTimeout(() => card.classList.add('visible'), delay);
     });
   }
 
-  
   function masonryLayout() {
     const style = getComputedStyle(container);
     const cardWidth = parseInt(style.getPropertyValue('--card-width'));
     const cardGap = parseInt(style.getPropertyValue('--card-gap'));
     const containerWidth = container.clientWidth;
 
-    
     const isMobile = window.matchMedia("(max-width: 683px)").matches;
     const cols = isMobile ? 1 : Math.floor(containerWidth / (cardWidth + cardGap)) || 1;
 
@@ -490,7 +520,6 @@ document.addEventListener('DOMContentLoaded', () => {
   fadeInCards();
   masonryLayout();
 
-  
   window.addEventListener('resize', () => {
     fadeInCards();
     masonryLayout();
