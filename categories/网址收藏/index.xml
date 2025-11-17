@@ -7,7 +7,215 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Leafly</copyright>
-        <lastBuildDate>Wed, 05 Nov 2025 22:15:16 +0800</lastBuildDate><atom:link href="https://Leafly717.github.io/categories/%E7%BD%91%E5%9D%80%E6%94%B6%E8%97%8F/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 17 Nov 2025 06:00:11 +0800</lastBuildDate><atom:link href="https://Leafly717.github.io/categories/%E7%BD%91%E5%9D%80%E6%94%B6%E8%97%8F/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>小游戏收集</title>
+        <link>https://Leafly717.github.io/p/%E5%B0%8F%E6%B8%B8%E6%88%8F%E6%94%B6%E9%9B%86/</link>
+        <pubDate>Mon, 17 Nov 2025 06:00:11 +0800</pubDate>
+        
+        <guid>https://Leafly717.github.io/p/%E5%B0%8F%E6%B8%B8%E6%88%8F%E6%94%B6%E9%9B%86/</guid>
+        <description>&lt;div class=&#34;linkcard-list&#34;&gt;
+&lt;style&gt;
+.linkcard-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem 1.5rem;
+  max-width: 100%;
+  padding: 1rem 0;
+}
+
+@media (min-width: 1080px) {
+  .linkcard-list {
+    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
+  }
+}
+
+.linkcard {
+  display: block;  
+  padding: 1.25rem;
+  border-radius: 0.75rem;
+  background-color: #fafafa;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  text-decoration: none;
+  color: #222222;
+  transition: all 0.25s ease;
+}
+
+.linkcard:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+.linkcard h3 {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.linkcard p {
+  margin: 0.5rem 0 0;
+  font-size: 1.8rem;
+  color: #555555;
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .linkcard {
+  background-color: #303030;
+  color: #f0f0f0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+[data-scheme=&#34;dark&#34;] .linkcard:hover {
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+[data-scheme=&#34;dark&#34;] .linkcard p {
+  color: #b1b1b1;
+}
+&lt;/style&gt;
+
+&lt;div class=&#34;linkcard-list&#34;&gt;
+  &lt;a class=&#34;linkcard&#34; href=&#34;https://bubububaoshe.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
+    &lt;h3&gt;千秋戏&lt;/h3&gt;
+    &lt;p&gt;无需多言&lt;/p&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+.linkcard-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem 1.5rem;
+  max-width: 100%;
+  padding: 1rem 0;
+}
+
+@media (min-width: 1080px) {
+  .linkcard-list {
+    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
+  }
+}
+
+.linkcard {
+  display: block;  
+  padding: 1.25rem;
+  border-radius: 0.75rem;
+  background-color: #fafafa;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  text-decoration: none;
+  color: #222222;
+  transition: all 0.25s ease;
+}
+
+.linkcard:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+.linkcard h3 {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.linkcard p {
+  margin: 0.5rem 0 0;
+  font-size: 1.8rem;
+  color: #555555;
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .linkcard {
+  background-color: #303030;
+  color: #f0f0f0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+[data-scheme=&#34;dark&#34;] .linkcard:hover {
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+[data-scheme=&#34;dark&#34;] .linkcard p {
+  color: #b1b1b1;
+}
+&lt;/style&gt;
+
+&lt;div class=&#34;linkcard-list&#34;&gt;
+  &lt;a class=&#34;linkcard&#34; href=&#34;https://www.minesweeper.cn/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
+    &lt;h3&gt;扫雷&lt;/h3&gt;
+    &lt;p&gt;更是无需多言&lt;/p&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+.linkcard-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem 1.5rem;
+  max-width: 100%;
+  padding: 1rem 0;
+}
+
+@media (min-width: 1080px) {
+  .linkcard-list {
+    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
+  }
+}
+
+.linkcard {
+  display: block;  
+  padding: 1.25rem;
+  border-radius: 0.75rem;
+  background-color: #fafafa;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  text-decoration: none;
+  color: #222222;
+  transition: all 0.25s ease;
+}
+
+.linkcard:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+.linkcard h3 {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.linkcard p {
+  margin: 0.5rem 0 0;
+  font-size: 1.8rem;
+  color: #555555;
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .linkcard {
+  background-color: #303030;
+  color: #f0f0f0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+[data-scheme=&#34;dark&#34;] .linkcard:hover {
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+[data-scheme=&#34;dark&#34;] .linkcard p {
+  color: #b1b1b1;
+}
+&lt;/style&gt;
+
+&lt;div class=&#34;linkcard-list&#34;&gt;
+  &lt;a class=&#34;linkcard&#34; href=&#34;https://hamzaabamboo.github.io/pazuru-pico/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
+    &lt;h3&gt;パズル⭐︎ピコ | Puzzle * Pico&lt;/h3&gt;
+    &lt;p&gt;kirakiradokidoki&lt;/p&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+</description>
+        </item>
+        <item>
         <title>服饰参考导航</title>
         <link>https://Leafly717.github.io/p/%E6%9C%8D%E9%A5%B0%E5%8F%82%E8%80%83%E5%AF%BC%E8%88%AA/</link>
         <pubDate>Wed, 05 Nov 2025 15:50:06 +0800</pubDate>

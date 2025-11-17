@@ -418,6 +418,7 @@
     <li><a href="#hugo用短代码">Hugo用短代码</a></li>
     <li><a href="#聊天气泡">聊天气泡</a></li>
     <li><a href="#链接卡片">链接卡片</a></li>
+    <li><a href="#todo">TODO</a></li>
   </ol>
 </nav>
         </div>
@@ -501,7 +502,7 @@
 
 
                 <time class="article-words">
-                    527字
+                    544字
                 </time>
             </div>
         
@@ -1192,6 +1193,12 @@
 </div>
 
 </div>
+<h2 id="todo">TODO
+</h2><ul>
+<li><input disabled="" type="checkbox"> 待办事项 1</li>
+<li><input checked="" disabled="" type="checkbox"> 已完成事项 2</li>
+<li><input disabled="" type="checkbox"> 待办事项 3</li>
+</ul>
 
 </section>
 
@@ -1269,46 +1276,60 @@
     
   </section>
 
-  
-  <section class="time-elapsed">
-    <span id="time-elapsed"></span>
-  </section>
+<div class="site-footer">
+  <span class="time-elapsed" id="timeDate">载入天数...</span>
+  <span class="time-elapsed" id="times">载入时分秒...</span>
+</div>
 
-  <style> 
-  .site-footer .time-elapsed {
-    color: #707070;  
-    font-size: 0.9em;
-    margin-top: 8px;
-    text-align: left;
-    font-weight: 500;
-  }
+<style>
+ 
+.site-footer .time-elapsed {
+  font-weight: 500;
+  font-size: 0.9em;
+  margin-top: 8px;
+  text-align: left;
+  margin-right: 5px;
+  transition: color 0.3s;
+  display: inline-block;
+}
 
-   
-  [data-scheme="dark"] .site-footer .time-elapsed {
-    color: #edf0f1;  
-  }
+ 
+[data-scheme="light"] .site-footer .time-elapsed {
+  color: #707070;   
+}
+
+ 
+[data-scheme="dark"] .site-footer .time-elapsed {
+  color: #b7b8b9;   
+}
 </style>
 
 <script>
-  
-  const startTime = new Date("2024-11-25T00:00:00Z"); 
+var now = new Date();
+function createtime() {
+    now.setTime(now.getTime() + 250); 
+    var grt = new Date("2024-11-25T00:00:00Z"); 
 
-  function updateElapsed() {
-    const now = new Date();
-    const diff = now - startTime;
+    var diff = now - grt;
+    var days = Math.floor(diff / 1000 / 60 / 60 / 24);
 
-    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
-    const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
-    const minutes = Math.floor((diff / (1000 * 60)) % 60);
-    const seconds = Math.floor((diff / 1000) % 60);
+    var hours = Math.floor(diff / 1000 / 60 / 60 % 24);
+    hours = hours < 10 ? "0" + hours : hours;
 
-    document.getElementById("time-elapsed").textContent =
-      `已存活 ${days} 天 ${hours} 小时 ${minutes} 分 ${seconds} 秒……`;
-  }
+    var minutes = Math.floor(diff / 1000 / 60 % 60);
+    minutes = minutes < 10 ? "0" + minutes : minutes;
 
-  updateElapsed();
-  setInterval(updateElapsed, 1000);
+    var seconds = Math.floor(diff / 1000 % 60);
+    seconds = seconds < 10 ? "0" + seconds : seconds;
+
+    document.getElementById("timeDate").innerHTML = "已存活 " + days + " 天";
+    document.getElementById("times").innerHTML = hours + " 小时 " + minutes + " 分 " + seconds + " 秒……";
+}
+
+setInterval(createtime, 250);
 </script>
+
+
 
 </footer>
 
