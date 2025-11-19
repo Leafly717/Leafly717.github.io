@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Overwatch on Leafly</title>
+        <link>https://Leafly717.github.io/tags/overwatch/</link>
+        <description>Recent content in Overwatch on Leafly</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>Leafly</copyright>
+        <lastBuildDate>Thu, 20 Nov 2025 04:43:57 +0800</lastBuildDate><atom:link href="https://Leafly717.github.io/tags/overwatch/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Overwatch DataTool</title>
+        <link>https://Leafly717.github.io/p/overwatch-datatool/</link>
+        <pubDate>Thu, 20 Nov 2025 03:49:46 +0800</pubDate>
+        
+        <guid>https://Leafly717.github.io/p/overwatch-datatool/</guid>
+        <description>&lt;p&gt;懒得每次开txt了，写一个网页的&lt;/p&gt;
+&lt;p&gt;DataTool链接&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/overtools/OWLib&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Github-overtools/OWLib&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://discord.com/channels/346445737367699456/588240088513642526&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Discord-#tool-releases | DataWatch&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Wiki链接&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://overwatch.fandom.com/wiki/Overwatch_Wiki&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Fandom-Overwatch Wiki&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;可解锁物品&#34;&gt;可解锁物品
+&lt;/h1&gt;&lt;p&gt;英雄皮肤&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;DataTool.exe &amp;#34;E:\Battlenet\Overwatch&amp;#34; extract-unlocks &amp;#34;D:\ZWindosXT\Pictures\Blender\Overwatch\Models&amp;#34; &amp;#34;Mercy|skin=&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;DataTool.exe &amp;#34;E:\Battlenet\Overwatch&amp;#34; extract-unlocks &amp;#34;D:\ZWindosXT\Pictures\Blender\Overwatch\Models&amp;#34; &amp;#34;Widowmaker|skin=&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;全部特写&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;DataTool.exe &amp;#34;E:\Battlenet\Overwatch&amp;#34; extract-unlocks &amp;#34;D:\ZWindosXT\Pictures\Blender\Overwatch\Models&amp;#34; &amp;#34;Mercy|highlightintro=*&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;全部姿势&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;DataTool.exe &amp;#34;E:\Battlenet\Overwatch&amp;#34; extract-unlocks &amp;#34;D:\ZWindosXT\Pictures\Blender\Overwatch\Models&amp;#34; &amp;#34;Widowmaker|victorypose=*&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;武器（非普通）&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;DataTool.exe &amp;#34;E:\Battlenet\Overwatch&amp;#34; extract-unlocks &amp;#34;D:\ZWindosXT\Pictures\Blender\Overwatch\Models&amp;#34; &amp;#34;Reaper|weaponskin=Hard Light&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h1 id=&#34;其他&#34;&gt;其他
+&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;语音 &lt;code&gt;extract-hero-voice&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;武器吊坠 &lt;code&gt;extract-charms&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;名片 &lt;code&gt;extract-name-cards&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;玩家图标 &lt;code&gt;extract-player-icons&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;纪念品 &lt;code&gt;extract-souvenirs&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;喷漆 &lt;code&gt;extract-sprays&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;地图 &lt;code&gt;extract-maps&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;全部语音&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;DataTool.exe &amp;#34;E:\Battlenet\Overwatch&amp;#34; extract-hero-voice &amp;#34;D:\ZWindosXT\Pictures\Blender\Overwatch\Models&amp;#34; &amp;#34;Mercy&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;地图&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;DataTool.exe &amp;#34;E:\Battlenet\Overwatch&amp;#34; extract-maps &amp;#34;D:\ZWindosXT\Pictures\Blender\Overwatch\Models&amp;#34; &amp;#34;Château Guillard&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;特定喷漆&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;DataTool.exe &amp;#34;E:\Battlenet\Overwatch&amp;#34; extract-sprays &amp;#34;D:\ZWindosXT\Pictures\Blender\Overwatch\Models&amp;#34; &amp;#34;Beyond the Moon&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;hr&gt;
+&lt;p&gt;后续应该没什么要补充的了。&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
