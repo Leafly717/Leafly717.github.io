@@ -592,8 +592,143 @@
 &lt;/div&gt;
 
 &lt;/div&gt;
-&lt;h1 id=&#34;欧式&#34;&gt;欧式
+&lt;h1 id=&#34;科技&#34;&gt;科技
 &lt;/h1&gt;&lt;div class=&#34;linkcard-list&#34;&gt;
+&lt;style&gt;
+.linkcard-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem 1.5rem;
+  max-width: 100%;
+  padding: 1rem 0;
+}
+
+@media (min-width: 1080px) {
+  .linkcard-list {
+    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
+  }
+}
+
+.linkcard {
+  display: block;  
+  padding: 1.25rem;
+  border-radius: 0.75rem;
+  background-color: #fafafa;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  text-decoration: none;
+  color: #222222;
+  transition: all 0.25s ease;
+}
+
+.linkcard:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+.linkcard h3 {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.linkcard p {
+  margin: 0.5rem 0 0;
+  font-size: 1.8rem;
+  color: #555555;
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .linkcard {
+  background-color: #303030;
+  color: #f0f0f0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+[data-scheme=&#34;dark&#34;] .linkcard:hover {
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+[data-scheme=&#34;dark&#34;] .linkcard p {
+  color: #b1b1b1;
+}
+&lt;/style&gt;
+
+&lt;div class=&#34;linkcard-list&#34;&gt;
+  &lt;a class=&#34;linkcard&#34; href=&#34;https://www.demobaza.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
+    &lt;h3&gt;DEMOBAZA&lt;/h3&gt;
+    &lt;p&gt;科技之类的，沙丘&lt;/p&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+.linkcard-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem 1.5rem;
+  max-width: 100%;
+  padding: 1rem 0;
+}
+
+@media (min-width: 1080px) {
+  .linkcard-list {
+    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
+  }
+}
+
+.linkcard {
+  display: block;  
+  padding: 1.25rem;
+  border-radius: 0.75rem;
+  background-color: #fafafa;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  text-decoration: none;
+  color: #222222;
+  transition: all 0.25s ease;
+}
+
+.linkcard:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+.linkcard h3 {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.linkcard p {
+  margin: 0.5rem 0 0;
+  font-size: 1.8rem;
+  color: #555555;
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .linkcard {
+  background-color: #303030;
+  color: #f0f0f0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+[data-scheme=&#34;dark&#34;] .linkcard:hover {
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+[data-scheme=&#34;dark&#34;] .linkcard p {
+  color: #b1b1b1;
+}
+&lt;/style&gt;
+
+&lt;div class=&#34;linkcard-list&#34;&gt;
+  &lt;a class=&#34;linkcard&#34; href=&#34;https://markcordory.com/salvaged-masks&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
+    &lt;h3&gt;Mark Cordory&lt;/h3&gt;
+    &lt;p&gt;废土之类的&lt;/p&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+# 欧式
+&lt;div class=&#34;linkcard-list&#34;&gt;
 &lt;style&gt;
 .linkcard-list {
   display: grid;
