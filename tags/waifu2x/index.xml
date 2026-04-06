@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Waifu2x on Leafly</title>
+        <link>https://Leafly717.github.io/tags/waifu2x/</link>
+        <description>Recent content in Waifu2x on Leafly</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <copyright>Leafly</copyright>
+        <lastBuildDate>Tue, 31 Mar 2026 10:25:31 +0800</lastBuildDate><atom:link href="https://Leafly717.github.io/tags/waifu2x/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Waifu2x记录</title>
+        <link>https://Leafly717.github.io/p/waifu2x%E8%AE%B0%E5%BD%95/</link>
+        <pubDate>Tue, 31 Mar 2026 10:25:31 +0800</pubDate>
+        
+        <guid>https://Leafly717.github.io/p/waifu2x%E8%AE%B0%E5%BD%95/</guid>
+        <description>&lt;h1 id=&#34;realesrgan-ncnn-vulkan-模型&#34;&gt;RealESRGAN-NCNN-Vulkan 模型
+&lt;/h1&gt;&lt;p&gt;主要是看官方档案太费脑子
+目前用着舒服的&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;anime-hq-w4xex&#34;&gt;Anime-HQ-W4xEX
+&lt;/h3&gt;&lt;p&gt;[速度:☆ 画质:★★★★★] [2D 动漫]&lt;/p&gt;
+&lt;p&gt;适用于动漫图片放大, 可以较好的保留细节.
+原生放大倍率为4x, 意味着使用此模型时, 所有图像都需要至少被放大4倍, 速度缓慢.
+因此仅推荐用于放大静态图片.
+尽管该模型可以较好的重构细节, 但是在处理高压缩的图片时可能遇到问题, 如遇到问题请更换其他模型.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;realesrgan-x4plus-anime&#34;&gt;RealESRGAN-x4plus-anime
+&lt;/h3&gt;&lt;p&gt;[速度:☆ 画质:★★★★] [2D 动漫]&lt;/p&gt;
+&lt;p&gt;官方模型, 适用于对动漫图像进行放大.
+该模型原生放大倍率为4x, 意味着使用此模型时, 所有图像都需要至少被放大4倍, 速度缓慢. 一般仅推荐用于放大静态图片.
+与Anime-HQ-W4xEX对比, 在细节保留方面较差, 如果原图像没有很严重的压缩噪声, 建议使用Anime-HQ-W4xEX以更好的保留细节.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;realesr-general-wdn-x4v3&#34;&gt;RealESR-General(-WDN)-x4v3
+&lt;/h3&gt;&lt;p&gt;[速度:★☆ 画质:★★★☆] [2D 动漫]&amp;amp;[3D 写实]&lt;/p&gt;
+&lt;p&gt;官方模型, 可以用于任何风格的图像.
+原生放大倍率为4x, 意味着使用此模型时, 所有图像都需要至少被放大4倍.
+但是该模型采用更新的架构, 速度与-x4plus模型相比依旧速度更快, 并保持了良好的效果.
+-WDN版本在处理高压缩图片时效果更好一些, 更推荐使用WDN版本.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;photo-hq-w4xex&#34;&gt;Photo-HQ-W4xEX
+&lt;/h3&gt;&lt;p&gt;[速度:☆ 画质:★★★★★] [3D 写实]&lt;/p&gt;
+&lt;p&gt;适用于对写实风格图像进行放大.
+与官方的x4plus模型相比在降噪与细节重构方面表现更好.
+该模型原生放大倍率为4x, 意味着使用此模型时, 所有图像都需要至少被放大4倍, 速度缓慢.
+一般仅推荐用于放大静态图片.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
