@@ -1,757 +1,623 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Posts on Leafly</title>
-        <link>https://Leafly717.github.io/post/</link>
-        <description>Recent content in Posts on Leafly</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
-        <copyright>Leafly</copyright>
-        <lastBuildDate>Tue, 31 Mar 2026 10:25:31 +0800</lastBuildDate><atom:link href="https://Leafly717.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Waifu2x记录</title>
-        <link>https://Leafly717.github.io/p/waifu2x%E8%AE%B0%E5%BD%95/</link>
-        <pubDate>Tue, 31 Mar 2026 10:25:31 +0800</pubDate>
-        
-        <guid>https://Leafly717.github.io/p/waifu2x%E8%AE%B0%E5%BD%95/</guid>
-        <description>&lt;h1 id=&#34;realesrgan-ncnn-vulkan-模型&#34;&gt;RealESRGAN-NCNN-Vulkan 模型
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Leafly</title><link>https://Leafly717.github.io/post/</link><description>Recent content in Posts on Leafly</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Leafly</copyright><lastBuildDate>Tue, 31 Mar 2026 10:25:31 +0800</lastBuildDate><atom:link href="https://Leafly717.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Waifu2x记录</title><link>https://Leafly717.github.io/p/2026-03-31-1025/</link><pubDate>Tue, 31 Mar 2026 10:25:31 +0800</pubDate><guid>https://Leafly717.github.io/p/2026-03-31-1025/</guid><description>&lt;h1 id="realesrgan-ncnn-vulkan-模型"&gt;RealESRGAN-NCNN-Vulkan 模型
 &lt;/h1&gt;&lt;p&gt;主要是看官方档案太费脑子
 目前用着舒服的&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;anime-hq-w4xex&#34;&gt;Anime-HQ-W4xEX
+&lt;h3 id="anime-hq-w4xex"&gt;Anime-HQ-W4xEX
 &lt;/h3&gt;&lt;p&gt;[速度:☆ 画质:★★★★★] [2D 动漫]&lt;/p&gt;
 &lt;p&gt;适用于动漫图片放大, 可以较好的保留细节.
 原生放大倍率为4x, 意味着使用此模型时, 所有图像都需要至少被放大4倍, 速度缓慢.
 因此仅推荐用于放大静态图片.
 尽管该模型可以较好的重构细节, 但是在处理高压缩的图片时可能遇到问题, 如遇到问题请更换其他模型.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;realesrgan-x4plus-anime&#34;&gt;RealESRGAN-x4plus-anime
+&lt;h3 id="realesrgan-x4plus-anime"&gt;RealESRGAN-x4plus-anime
 &lt;/h3&gt;&lt;p&gt;[速度:☆ 画质:★★★★] [2D 动漫]&lt;/p&gt;
 &lt;p&gt;官方模型, 适用于对动漫图像进行放大.
 该模型原生放大倍率为4x, 意味着使用此模型时, 所有图像都需要至少被放大4倍, 速度缓慢. 一般仅推荐用于放大静态图片.
 与Anime-HQ-W4xEX对比, 在细节保留方面较差, 如果原图像没有很严重的压缩噪声, 建议使用Anime-HQ-W4xEX以更好的保留细节.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;realesr-general-wdn-x4v3&#34;&gt;RealESR-General(-WDN)-x4v3
+&lt;h3 id="realesr-general-wdn-x4v3"&gt;RealESR-General(-WDN)-x4v3
 &lt;/h3&gt;&lt;p&gt;[速度:★☆ 画质:★★★☆] [2D 动漫]&amp;amp;[3D 写实]&lt;/p&gt;
 &lt;p&gt;官方模型, 可以用于任何风格的图像.
 原生放大倍率为4x, 意味着使用此模型时, 所有图像都需要至少被放大4倍.
 但是该模型采用更新的架构, 速度与-x4plus模型相比依旧速度更快, 并保持了良好的效果.
 -WDN版本在处理高压缩图片时效果更好一些, 更推荐使用WDN版本.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;photo-hq-w4xex&#34;&gt;Photo-HQ-W4xEX
+&lt;h3 id="photo-hq-w4xex"&gt;Photo-HQ-W4xEX
 &lt;/h3&gt;&lt;p&gt;[速度:☆ 画质:★★★★★] [3D 写实]&lt;/p&gt;
 &lt;p&gt;适用于对写实风格图像进行放大.
 与官方的x4plus模型相比在降噪与细节重构方面表现更好.
 该模型原生放大倍率为4x, 意味着使用此模型时, 所有图像都需要至少被放大4倍, 速度缓慢.
-一般仅推荐用于放大静态图片.&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>少女☆歌剧 Revue Starlight</title>
-        <link>https://Leafly717.github.io/p/%E5%B0%91%E5%A5%B3%E6%AD%8C%E5%89%A7-revue-starlight/</link>
-        <pubDate>Thu, 05 Feb 2026 04:13:26 +0800</pubDate>
-        
-        <guid>https://Leafly717.github.io/p/%E5%B0%91%E5%A5%B3%E6%AD%8C%E5%89%A7-revue-starlight/</guid>
-        <description>&lt;img src="https://revuestarlight.com/wordpress/wp-content/uploads/2021/05/PC_top_64re.jpg" alt="Featured image of post 少女☆歌剧 Revue Starlight" /&gt;&lt;h2 id=&#34;音乐剧&#34;&gt;音乐剧
-&lt;/h2&gt;&lt;li class=&#34;timeline-item&#34;&gt;
-  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
-
-  &lt;a
-    class=&#34;timeline-content&#34;
-    href=&#34;&#34;
-    
-    rel=&#34;noopener&#34;
-  &gt;
-    &lt;div class=&#34;timeline-date&#34;&gt;
-      2017-9-24
-    &lt;/div&gt;
-
-    &lt;div class=&#34;timeline-text&#34;&gt;
-      少女☆歌剧 Revue Starlight -The LIVE-#1（无映像）
-    &lt;/div&gt;
-  &lt;/a&gt;
+一般仅推荐用于放大静态图片.&lt;/p&gt;</description></item><item><title>少女☆歌剧 Revue Starlight</title><link>https://Leafly717.github.io/p/2026-02-05-0413/</link><pubDate>Thu, 05 Feb 2026 04:13:26 +0800</pubDate><guid>https://Leafly717.github.io/p/2026-02-05-0413/</guid><description>&lt;img src="https://Leafly717.github.io/p/2026-02-05-0413/cover.jpg" alt="Featured image of post 少女☆歌剧 Revue Starlight" /&gt;&lt;h2 id="音乐剧"&gt;音乐剧
+&lt;/h2&gt;&lt;li class="timeline-item"&gt;
+&lt;span class="timeline-marker"&gt;&lt;/span&gt;
+&lt;a
+class="timeline-content"
+href=""
+rel="noopener"
+&gt;
+&lt;div class="timeline-date"&gt;
+2017-9-24
+&lt;/div&gt;
+&lt;div class="timeline-text"&gt;
+少女☆歌剧 Revue Starlight -The LIVE-#1（无映像）
+&lt;/div&gt;
+&lt;/a&gt;
 &lt;/li&gt;
-
-&lt;li class=&#34;timeline-item&#34;&gt;
-  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
-
-  &lt;a
-    class=&#34;timeline-content&#34;
-    href=&#34;https://www.bilibili.com/bangumi/play/ep269528&#34;
-    target=&#34;_blank&#34;
-    rel=&#34;noopener&#34;
-  &gt;
-    &lt;div class=&#34;timeline-date&#34;&gt;
-      2018-1-6
-    &lt;/div&gt;
-
-    &lt;div class=&#34;timeline-text&#34;&gt;
-      少女☆歌剧 Revue Starlight -The LIVE-#1 revival
-    &lt;/div&gt;
-  &lt;/a&gt;
+&lt;li class="timeline-item"&gt;
+&lt;span class="timeline-marker"&gt;&lt;/span&gt;
+&lt;a
+class="timeline-content"
+href="https://www.bilibili.com/bangumi/play/ep269528"
+target="_blank"
+rel="noopener"
+&gt;
+&lt;div class="timeline-date"&gt;
+2018-1-6
+&lt;/div&gt;
+&lt;div class="timeline-text"&gt;
+少女☆歌剧 Revue Starlight -The LIVE-#1 revival
+&lt;/div&gt;
+&lt;/a&gt;
 &lt;/li&gt;
-
-&lt;li class=&#34;timeline-item&#34;&gt;
-  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
-
-  &lt;a
-    class=&#34;timeline-content&#34;
-    href=&#34;https://www.bilibili.com/video/BV1oteRzHEqZ/?p=1&#34;
-    target=&#34;_blank&#34;
-    rel=&#34;noopener&#34;
-  &gt;
-    &lt;div class=&#34;timeline-date&#34;&gt;
-      2018-1-8
-    &lt;/div&gt;
-
-    &lt;div class=&#34;timeline-text&#34;&gt;
-      少女☆歌剧 Revue Starlight -The LIVE-#1 revival BD特典
-    &lt;/div&gt;
-  &lt;/a&gt;
+&lt;li class="timeline-item"&gt;
+&lt;span class="timeline-marker"&gt;&lt;/span&gt;
+&lt;a
+class="timeline-content"
+href="https://www.bilibili.com/video/BV1oteRzHEqZ/?p=1"
+target="_blank"
+rel="noopener"
+&gt;
+&lt;div class="timeline-date"&gt;
+2018-1-8
+&lt;/div&gt;
+&lt;div class="timeline-text"&gt;
+少女☆歌剧 Revue Starlight -The LIVE-#1 revival BD特典
+&lt;/div&gt;
+&lt;/a&gt;
 &lt;/li&gt;
-
-&lt;li class=&#34;timeline-item&#34;&gt;
-  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
-
-  &lt;a
-    class=&#34;timeline-content&#34;
-    href=&#34;https://www.bilibili.com/bangumi/play/ep278571&#34;
-    target=&#34;_blank&#34;
-    rel=&#34;noopener&#34;
-  &gt;
-    &lt;div class=&#34;timeline-date&#34;&gt;
-      2018-10-13
-    &lt;/div&gt;
-
-    &lt;div class=&#34;timeline-text&#34;&gt;
-      少女☆歌剧 Revue Starlight -The LIVE-#2 Transition
-    &lt;/div&gt;
-  &lt;/a&gt;
+&lt;li class="timeline-item"&gt;
+&lt;span class="timeline-marker"&gt;&lt;/span&gt;
+&lt;a
+class="timeline-content"
+href="https://www.bilibili.com/bangumi/play/ep278571"
+target="_blank"
+rel="noopener"
+&gt;
+&lt;div class="timeline-date"&gt;
+2018-10-13
+&lt;/div&gt;
+&lt;div class="timeline-text"&gt;
+少女☆歌剧 Revue Starlight -The LIVE-#2 Transition
+&lt;/div&gt;
+&lt;/a&gt;
 &lt;/li&gt;
-
-&lt;li class=&#34;timeline-item&#34;&gt;
-  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
-
-  &lt;a
-    class=&#34;timeline-content&#34;
-    href=&#34;https://www.bilibili.com/video/BV13qvPzTEgE/?p=1&#34;
-    target=&#34;_blank&#34;
-    rel=&#34;noopener&#34;
-  &gt;
-    &lt;div class=&#34;timeline-date&#34;&gt;
-      2018-10-18
-    &lt;/div&gt;
-
-    &lt;div class=&#34;timeline-text&#34;&gt;
-      少女☆歌剧 Revue Starlight -The LIVE-#2 Transition BD特典
-    &lt;/div&gt;
-  &lt;/a&gt;
+&lt;li class="timeline-item"&gt;
+&lt;span class="timeline-marker"&gt;&lt;/span&gt;
+&lt;a
+class="timeline-content"
+href="https://www.bilibili.com/video/BV13qvPzTEgE/?p=1"
+target="_blank"
+rel="noopener"
+&gt;
+&lt;div class="timeline-date"&gt;
+2018-10-18
+&lt;/div&gt;
+&lt;div class="timeline-text"&gt;
+少女☆歌剧 Revue Starlight -The LIVE-#2 Transition BD特典
+&lt;/div&gt;
+&lt;/a&gt;
 &lt;/li&gt;
-
-&lt;li class=&#34;timeline-item&#34;&gt;
-  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
-
-  &lt;a
-    class=&#34;timeline-content&#34;
-    href=&#34;https://www.bilibili.com/video/BV1QRehz1EyB/?p=1&#34;
-    target=&#34;_blank&#34;
-    rel=&#34;noopener&#34;
-  &gt;
-    &lt;div class=&#34;timeline-date&#34;&gt;
-      2019-7-15
-    &lt;/div&gt;
-
-    &lt;div class=&#34;timeline-text&#34;&gt;
-      少女☆歌剧 Revue Starlight -The LIVE-#2 revival
-    &lt;/div&gt;
-  &lt;/a&gt;
+&lt;li class="timeline-item"&gt;
+&lt;span class="timeline-marker"&gt;&lt;/span&gt;
+&lt;a
+class="timeline-content"
+href="https://www.bilibili.com/video/BV1QRehz1EyB/?p=1"
+target="_blank"
+rel="noopener"
+&gt;
+&lt;div class="timeline-date"&gt;
+2019-7-15
+&lt;/div&gt;
+&lt;div class="timeline-text"&gt;
+少女☆歌剧 Revue Starlight -The LIVE-#2 revival
+&lt;/div&gt;
+&lt;/a&gt;
 &lt;/li&gt;
-
-&lt;li class=&#34;timeline-item&#34;&gt;
-  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
-
-  &lt;a
-    class=&#34;timeline-content&#34;
-    href=&#34;https://www.bilibili.com/video/BV15X4y1q71P/?p=1&#34;
-    target=&#34;_blank&#34;
-    rel=&#34;noopener&#34;
-  &gt;
-    &lt;div class=&#34;timeline-date&#34;&gt;
-      2020-7-12
-    &lt;/div&gt;
-
-    &lt;div class=&#34;timeline-text&#34;&gt;
-      少女☆歌剧 Revue Starlight -The LIVE ONLINE-
-    &lt;/div&gt;
-  &lt;/a&gt;
+&lt;li class="timeline-item"&gt;
+&lt;span class="timeline-marker"&gt;&lt;/span&gt;
+&lt;a
+class="timeline-content"
+href="https://www.bilibili.com/video/BV15X4y1q71P/?p=1"
+target="_blank"
+rel="noopener"
+&gt;
+&lt;div class="timeline-date"&gt;
+2020-7-12
+&lt;/div&gt;
+&lt;div class="timeline-text"&gt;
+少女☆歌剧 Revue Starlight -The LIVE ONLINE-
+&lt;/div&gt;
+&lt;/a&gt;
 &lt;/li&gt;
-
-&lt;li class=&#34;timeline-item&#34;&gt;
-  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
-
-  &lt;a
-    class=&#34;timeline-content&#34;
-    href=&#34;https://www.bilibili.com/video/av273432354/?p=1&#34;
-    target=&#34;_blank&#34;
-    rel=&#34;noopener&#34;
-  &gt;
-    &lt;div class=&#34;timeline-date&#34;&gt;
-      2021-8-1
-    &lt;/div&gt;
-
-    &lt;div class=&#34;timeline-text&#34;&gt;
-      少女☆歌剧 Revue Starlight -The LIVE-#3 Growth
-    &lt;/div&gt;
-  &lt;/a&gt;
+&lt;li class="timeline-item"&gt;
+&lt;span class="timeline-marker"&gt;&lt;/span&gt;
+&lt;a
+class="timeline-content"
+href="https://www.bilibili.com/video/av273432354/?p=1"
+target="_blank"
+rel="noopener"
+&gt;
+&lt;div class="timeline-date"&gt;
+2021-8-1
+&lt;/div&gt;
+&lt;div class="timeline-text"&gt;
+少女☆歌剧 Revue Starlight -The LIVE-#3 Growth
+&lt;/div&gt;
+&lt;/a&gt;
 &lt;/li&gt;
-
-&lt;li class=&#34;timeline-item&#34;&gt;
-  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
-
-  &lt;a
-    class=&#34;timeline-content&#34;
-    href=&#34;https://www.bilibili.com/video/av580134929&#34;
-    target=&#34;_blank&#34;
-    rel=&#34;noopener&#34;
-  &gt;
-    &lt;div class=&#34;timeline-date&#34;&gt;
-      2023-2-28
-    &lt;/div&gt;
-
-    &lt;div class=&#34;timeline-text&#34;&gt;
-      少女☆歌剧 Revue Starlight -The LIVE-#4 Climax
-    &lt;/div&gt;
-  &lt;/a&gt;
+&lt;li class="timeline-item"&gt;
+&lt;span class="timeline-marker"&gt;&lt;/span&gt;
+&lt;a
+class="timeline-content"
+href="https://www.bilibili.com/video/av580134929"
+target="_blank"
+rel="noopener"
+&gt;
+&lt;div class="timeline-date"&gt;
+2023-2-28
+&lt;/div&gt;
+&lt;div class="timeline-text"&gt;
+少女☆歌剧 Revue Starlight -The LIVE-#4 Climax
+&lt;/div&gt;
+&lt;/a&gt;
 &lt;/li&gt;
-
-&lt;li class=&#34;timeline-item&#34;&gt;
-  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
-
-  &lt;a
-    class=&#34;timeline-content&#34;
-    href=&#34;https://www.bilibili.com/video/BV11ynpzVEHQ&#34;
-    target=&#34;_blank&#34;
-    rel=&#34;noopener&#34;
-  &gt;
-    &lt;div class=&#34;timeline-date&#34;&gt;
-      2024-11-15
-    &lt;/div&gt;
-
-    &lt;div class=&#34;timeline-text&#34;&gt;
-      少女☆歌剧 Revue Starlight -The MUSICAL- 离别战记
-    &lt;/div&gt;
-  &lt;/a&gt;
+&lt;li class="timeline-item"&gt;
+&lt;span class="timeline-marker"&gt;&lt;/span&gt;
+&lt;a
+class="timeline-content"
+href="https://www.bilibili.com/video/BV11ynpzVEHQ"
+target="_blank"
+rel="noopener"
+&gt;
+&lt;div class="timeline-date"&gt;
+2024-11-15
+&lt;/div&gt;
+&lt;div class="timeline-text"&gt;
+少女☆歌剧 Revue Starlight -The MUSICAL- 离别战记
+&lt;/div&gt;
+&lt;/a&gt;
 &lt;/li&gt;
-
-&lt;li class=&#34;timeline-item&#34;&gt;
-  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
-
-  &lt;a
-    class=&#34;timeline-content&#34;
-    href=&#34;&#34;
-    
-    rel=&#34;noopener&#34;
-  &gt;
-    &lt;div class=&#34;timeline-date&#34;&gt;
-      2026-5-17
-    &lt;/div&gt;
-
-    &lt;div class=&#34;timeline-text&#34;&gt;
-      少女☆歌剧 Revue Starlight -The MUSICAL- 遥远的El Dorado （即将到来的…）
-    &lt;/div&gt;
-  &lt;/a&gt;
+&lt;li class="timeline-item"&gt;
+&lt;span class="timeline-marker"&gt;&lt;/span&gt;
+&lt;a
+class="timeline-content"
+href=""
+rel="noopener"
+&gt;
+&lt;div class="timeline-date"&gt;
+2026-5-17
+&lt;/div&gt;
+&lt;div class="timeline-text"&gt;
+少女☆歌剧 Revue Starlight -The MUSICAL- 遥远的El Dorado （即将到来的…）
+&lt;/div&gt;
+&lt;/a&gt;
 &lt;/li&gt;
-
 &lt;hr&gt;
-&lt;h2 id=&#34;演唱会&#34;&gt;演唱会
-&lt;/h2&gt;&lt;li class=&#34;timeline-item&#34;&gt;
-  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
-
-  &lt;a
-    class=&#34;timeline-content&#34;
-    href=&#34;https://www.bilibili.com/video/BV1oN411S7wd/?p=1&#34;
-    target=&#34;_blank&#34;
-    rel=&#34;noopener&#34;
-  &gt;
-    &lt;div class=&#34;timeline-date&#34;&gt;
-      2018-6-23
-    &lt;/div&gt;
-
-    &lt;div class=&#34;timeline-text&#34;&gt;
-      少女☆歌剧 Revue Starlight 1st STARLIVE &amp;ldquo;Starry Sky&amp;rdquo;
-    &lt;/div&gt;
-  &lt;/a&gt;
+&lt;h2 id="演唱会"&gt;演唱会
+&lt;/h2&gt;&lt;li class="timeline-item"&gt;
+&lt;span class="timeline-marker"&gt;&lt;/span&gt;
+&lt;a
+class="timeline-content"
+href="https://www.bilibili.com/video/BV1oN411S7wd/?p=1"
+target="_blank"
+rel="noopener"
+&gt;
+&lt;div class="timeline-date"&gt;
+2018-6-23
+&lt;/div&gt;
+&lt;div class="timeline-text"&gt;
+少女☆歌剧 Revue Starlight 1st STARLIVE &amp;ldquo;Starry Sky&amp;rdquo;
+&lt;/div&gt;
+&lt;/a&gt;
 &lt;/li&gt;
-
-&lt;li class=&#34;timeline-item&#34;&gt;
-  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
-
-  &lt;a
-    class=&#34;timeline-content&#34;
-    href=&#34;https://www.bilibili.com/video/BV16P411q7Cs/?p=1&#34;
-    target=&#34;_blank&#34;
-    rel=&#34;noopener&#34;
-  &gt;
-    &lt;div class=&#34;timeline-date&#34;&gt;
-      2018-12-22
-    &lt;/div&gt;
-
-    &lt;div class=&#34;timeline-text&#34;&gt;
-      少女☆歌剧 Revue Starlight 2nd STARLIVE &amp;ldquo;Starry Desert&amp;rdquo;
-    &lt;/div&gt;
-  &lt;/a&gt;
+&lt;li class="timeline-item"&gt;
+&lt;span class="timeline-marker"&gt;&lt;/span&gt;
+&lt;a
+class="timeline-content"
+href="https://www.bilibili.com/video/BV16P411q7Cs/?p=1"
+target="_blank"
+rel="noopener"
+&gt;
+&lt;div class="timeline-date"&gt;
+2018-12-22
+&lt;/div&gt;
+&lt;div class="timeline-text"&gt;
+少女☆歌剧 Revue Starlight 2nd STARLIVE &amp;ldquo;Starry Desert&amp;rdquo;
+&lt;/div&gt;
+&lt;/a&gt;
 &lt;/li&gt;
-
-&lt;li class=&#34;timeline-item&#34;&gt;
-  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
-
-  &lt;a
-    class=&#34;timeline-content&#34;
-    href=&#34;https://www.bilibili.com/video/BV1vo4y1P7ds/?p=1&#34;
-    target=&#34;_blank&#34;
-    rel=&#34;noopener&#34;
-  &gt;
-    &lt;div class=&#34;timeline-date&#34;&gt;
-      2019-3-31
-    &lt;/div&gt;
-
-    &lt;div class=&#34;timeline-text&#34;&gt;
-      少女☆歌剧 Revue Starlight ORCHESTRA LIVE &amp;ldquo;Starry Konzert&amp;rdquo;🎺
-    &lt;/div&gt;
-  &lt;/a&gt;
+&lt;li class="timeline-item"&gt;
+&lt;span class="timeline-marker"&gt;&lt;/span&gt;
+&lt;a
+class="timeline-content"
+href="https://www.bilibili.com/video/BV1vo4y1P7ds/?p=1"
+target="_blank"
+rel="noopener"
+&gt;
+&lt;div class="timeline-date"&gt;
+2019-3-31
+&lt;/div&gt;
+&lt;div class="timeline-text"&gt;
+少女☆歌剧 Revue Starlight ORCHESTRA LIVE &amp;ldquo;Starry Konzert&amp;rdquo;🎺
+&lt;/div&gt;
+&lt;/a&gt;
 &lt;/li&gt;
-
-&lt;li class=&#34;timeline-item&#34;&gt;
-  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
-
-  &lt;a
-    class=&#34;timeline-content&#34;
-    href=&#34;https://www.bilibili.com/video/BV1v14y1274F&#34;
-    target=&#34;_blank&#34;
-    rel=&#34;noopener&#34;
-  &gt;
-    &lt;div class=&#34;timeline-date&#34;&gt;
-      2019-11-3
-    &lt;/div&gt;
-
-    &lt;div class=&#34;timeline-text&#34;&gt;
-      少女☆歌剧 Revue Starlight 3rd STARLIVE &amp;ldquo;Starry Diamond&amp;rdquo;
-    &lt;/div&gt;
-  &lt;/a&gt;
+&lt;li class="timeline-item"&gt;
+&lt;span class="timeline-marker"&gt;&lt;/span&gt;
+&lt;a
+class="timeline-content"
+href="https://www.bilibili.com/video/BV1v14y1274F"
+target="_blank"
+rel="noopener"
+&gt;
+&lt;div class="timeline-date"&gt;
+2019-11-3
+&lt;/div&gt;
+&lt;div class="timeline-text"&gt;
+少女☆歌剧 Revue Starlight 3rd STARLIVE &amp;ldquo;Starry Diamond&amp;rdquo;
+&lt;/div&gt;
+&lt;/a&gt;
 &lt;/li&gt;
-
-&lt;li class=&#34;timeline-item&#34;&gt;
-  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
-
-  &lt;a
-    class=&#34;timeline-content&#34;
-    href=&#34;https://www.bilibili.com/video/BV1hM411B7tL&#34;
-    target=&#34;_blank&#34;
-    rel=&#34;noopener&#34;
-  &gt;
-    &lt;div class=&#34;timeline-date&#34;&gt;
-      2022-2-6
-    &lt;/div&gt;
-
-    &lt;div class=&#34;timeline-text&#34;&gt;
-      剧场版 少女☆歌剧 Revue Starlight ORCHESTRA CONCERT🎺
-    &lt;/div&gt;
-  &lt;/a&gt;
+&lt;li class="timeline-item"&gt;
+&lt;span class="timeline-marker"&gt;&lt;/span&gt;
+&lt;a
+class="timeline-content"
+href="https://www.bilibili.com/video/BV1hM411B7tL"
+target="_blank"
+rel="noopener"
+&gt;
+&lt;div class="timeline-date"&gt;
+2022-2-6
+&lt;/div&gt;
+&lt;div class="timeline-text"&gt;
+剧场版 少女☆歌剧 Revue Starlight ORCHESTRA CONCERT🎺
+&lt;/div&gt;
+&lt;/a&gt;
 &lt;/li&gt;
-
-&lt;li class=&#34;timeline-item&#34;&gt;
-  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
-
-  &lt;a
-    class=&#34;timeline-content&#34;
-    href=&#34;https://www.bilibili.com/video/BV1AN411Y79B&#34;
-    target=&#34;_blank&#34;
-    rel=&#34;noopener&#34;
-  &gt;
-    &lt;div class=&#34;timeline-date&#34;&gt;
-      2023-1-7
-    &lt;/div&gt;
-
-    &lt;div class=&#34;timeline-text&#34;&gt;
-      剧场版 少女☆歌剧 Revue Starlight ORCHESTRA CONCERT revival🎺
-    &lt;/div&gt;
-  &lt;/a&gt;
+&lt;li class="timeline-item"&gt;
+&lt;span class="timeline-marker"&gt;&lt;/span&gt;
+&lt;a
+class="timeline-content"
+href="https://www.bilibili.com/video/BV1AN411Y79B"
+target="_blank"
+rel="noopener"
+&gt;
+&lt;div class="timeline-date"&gt;
+2023-1-7
+&lt;/div&gt;
+&lt;div class="timeline-text"&gt;
+剧场版 少女☆歌剧 Revue Starlight ORCHESTRA CONCERT revival🎺
+&lt;/div&gt;
+&lt;/a&gt;
 &lt;/li&gt;
-
-&lt;li class=&#34;timeline-item&#34;&gt;
-  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
-
-  &lt;a
-    class=&#34;timeline-content&#34;
-    href=&#34;https://www.bilibili.com/video/BV1BN4y1S7Am/?p=1&#34;
-    target=&#34;_blank&#34;
-    rel=&#34;noopener&#34;
-  &gt;
-    &lt;div class=&#34;timeline-date&#34;&gt;
-      2023-11-4
-    &lt;/div&gt;
-
-    &lt;div class=&#34;timeline-text&#34;&gt;
-      少女☆歌剧 Revue Starlight BAND LIVE &amp;ldquo;Starry Session&amp;rdquo; revival 🎸D1
-    &lt;/div&gt;
-  &lt;/a&gt;
+&lt;li class="timeline-item"&gt;
+&lt;span class="timeline-marker"&gt;&lt;/span&gt;
+&lt;a
+class="timeline-content"
+href="https://www.bilibili.com/video/BV1BN4y1S7Am/?p=1"
+target="_blank"
+rel="noopener"
+&gt;
+&lt;div class="timeline-date"&gt;
+2023-11-4
+&lt;/div&gt;
+&lt;div class="timeline-text"&gt;
+少女☆歌剧 Revue Starlight BAND LIVE &amp;ldquo;Starry Session&amp;rdquo; revival 🎸D1
+&lt;/div&gt;
+&lt;/a&gt;
 &lt;/li&gt;
-
-&lt;li class=&#34;timeline-item&#34;&gt;
-  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
-
-  &lt;a
-    class=&#34;timeline-content&#34;
-    href=&#34;https://www.bilibili.com/video/BV1HM411f7Sr/?p=1&#34;
-    target=&#34;_blank&#34;
-    rel=&#34;noopener&#34;
-  &gt;
-    &lt;div class=&#34;timeline-date&#34;&gt;
-      2023-11-5
-    &lt;/div&gt;
-
-    &lt;div class=&#34;timeline-text&#34;&gt;
-      少女☆歌剧 Revue Starlight BAND LIVE &amp;ldquo;Starry Session&amp;rdquo; revival 🎸D2
-    &lt;/div&gt;
-  &lt;/a&gt;
+&lt;li class="timeline-item"&gt;
+&lt;span class="timeline-marker"&gt;&lt;/span&gt;
+&lt;a
+class="timeline-content"
+href="https://www.bilibili.com/video/BV1HM411f7Sr/?p=1"
+target="_blank"
+rel="noopener"
+&gt;
+&lt;div class="timeline-date"&gt;
+2023-11-5
+&lt;/div&gt;
+&lt;div class="timeline-text"&gt;
+少女☆歌剧 Revue Starlight BAND LIVE &amp;ldquo;Starry Session&amp;rdquo; revival 🎸D2
+&lt;/div&gt;
+&lt;/a&gt;
 &lt;/li&gt;
-
-&lt;li class=&#34;timeline-item&#34;&gt;
-  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
-
-  &lt;a
-    class=&#34;timeline-content&#34;
-    href=&#34;https://www.bilibili.com/video/BV1SuAXetE3R&#34;
-    target=&#34;_blank&#34;
-    rel=&#34;noopener&#34;
-  &gt;
-    &lt;div class=&#34;timeline-date&#34;&gt;
-      2025-1-3
-    &lt;/div&gt;
-
-    &lt;div class=&#34;timeline-text&#34;&gt;
-      少女☆歌剧 Revue Starlight 4th STARLIVE &amp;ldquo;Starry Ocean&amp;rdquo;
-    &lt;/div&gt;
-  &lt;/a&gt;
+&lt;li class="timeline-item"&gt;
+&lt;span class="timeline-marker"&gt;&lt;/span&gt;
+&lt;a
+class="timeline-content"
+href="https://www.bilibili.com/video/BV1SuAXetE3R"
+target="_blank"
+rel="noopener"
+&gt;
+&lt;div class="timeline-date"&gt;
+2025-1-3
+&lt;/div&gt;
+&lt;div class="timeline-text"&gt;
+少女☆歌剧 Revue Starlight 4th STARLIVE &amp;ldquo;Starry Ocean&amp;rdquo;
+&lt;/div&gt;
+&lt;/a&gt;
 &lt;/li&gt;
-
-&lt;li class=&#34;timeline-item&#34;&gt;
-  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
-
-  &lt;a
-    class=&#34;timeline-content&#34;
-    href=&#34;https://www.bilibili.com/video/BV1djhDzaECK&#34;
-    target=&#34;_blank&#34;
-    rel=&#34;noopener&#34;
-  &gt;
-    &lt;div class=&#34;timeline-date&#34;&gt;
-      2025-1-3
-    &lt;/div&gt;
-
-    &lt;div class=&#34;timeline-text&#34;&gt;
-      少女☆歌剧 Revue Starlight 4th STARLIVE &amp;ldquo;Starry Ocean&amp;rdquo; BD
-    &lt;/div&gt;
-  &lt;/a&gt;
+&lt;li class="timeline-item"&gt;
+&lt;span class="timeline-marker"&gt;&lt;/span&gt;
+&lt;a
+class="timeline-content"
+href="https://www.bilibili.com/video/BV1djhDzaECK"
+target="_blank"
+rel="noopener"
+&gt;
+&lt;div class="timeline-date"&gt;
+2025-1-3
+&lt;/div&gt;
+&lt;div class="timeline-text"&gt;
+少女☆歌剧 Revue Starlight 4th STARLIVE &amp;ldquo;Starry Ocean&amp;rdquo; BD
+&lt;/div&gt;
+&lt;/a&gt;
 &lt;/li&gt;
-
-&lt;li class=&#34;timeline-item&#34;&gt;
-  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
-
-  &lt;a
-    class=&#34;timeline-content&#34;
-    href=&#34;https://www.bilibili.com/video/BV1fCifB9E4A&#34;
-    target=&#34;_blank&#34;
-    rel=&#34;noopener&#34;
-  &gt;
-    &lt;div class=&#34;timeline-date&#34;&gt;
-      2025-12-13
-    &lt;/div&gt;
-
-    &lt;div class=&#34;timeline-text&#34;&gt;
-      少女☆歌剧 Revue Starlight SPECIAL LIVE &amp;ldquo;Starry Horizon&amp;rdquo; D1
-    &lt;/div&gt;
-  &lt;/a&gt;
+&lt;li class="timeline-item"&gt;
+&lt;span class="timeline-marker"&gt;&lt;/span&gt;
+&lt;a
+class="timeline-content"
+href="https://www.bilibili.com/video/BV1fCifB9E4A"
+target="_blank"
+rel="noopener"
+&gt;
+&lt;div class="timeline-date"&gt;
+2025-12-13
+&lt;/div&gt;
+&lt;div class="timeline-text"&gt;
+少女☆歌剧 Revue Starlight SPECIAL LIVE &amp;ldquo;Starry Horizon&amp;rdquo; D1
+&lt;/div&gt;
+&lt;/a&gt;
 &lt;/li&gt;
-
-&lt;li class=&#34;timeline-item&#34;&gt;
-  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
-
-  &lt;a
-    class=&#34;timeline-content&#34;
-    href=&#34;https://www.bilibili.com/video/BV1wNksBLEb2&#34;
-    target=&#34;_blank&#34;
-    rel=&#34;noopener&#34;
-  &gt;
-    &lt;div class=&#34;timeline-date&#34;&gt;
-      2025-12-14
-    &lt;/div&gt;
-
-    &lt;div class=&#34;timeline-text&#34;&gt;
-      少女☆歌剧 Revue Starlight SPECIAL LIVE &amp;ldquo;Starry Horizon&amp;rdquo; D2
-    &lt;/div&gt;
-  &lt;/a&gt;
+&lt;li class="timeline-item"&gt;
+&lt;span class="timeline-marker"&gt;&lt;/span&gt;
+&lt;a
+class="timeline-content"
+href="https://www.bilibili.com/video/BV1wNksBLEb2"
+target="_blank"
+rel="noopener"
+&gt;
+&lt;div class="timeline-date"&gt;
+2025-12-14
+&lt;/div&gt;
+&lt;div class="timeline-text"&gt;
+少女☆歌剧 Revue Starlight SPECIAL LIVE &amp;ldquo;Starry Horizon&amp;rdquo; D2
+&lt;/div&gt;
+&lt;/a&gt;
 &lt;/li&gt;
-
 &lt;hr&gt;
-&lt;h2 id=&#34;朗读剧&#34;&gt;朗读剧
-&lt;/h2&gt;&lt;li class=&#34;timeline-item&#34;&gt;
-  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
-
-  &lt;a
-    class=&#34;timeline-content&#34;
-    href=&#34;https://www.bilibili.com/video/BV1Sq4y1q7Zw/?p=1&#34;
-    target=&#34;_blank&#34;
-    rel=&#34;noopener&#34;
-  &gt;
-    &lt;div class=&#34;timeline-date&#34;&gt;
-      2021-12-4
-    &lt;/div&gt;
-
-    &lt;div class=&#34;timeline-text&#34;&gt;
-      StarReLIVE配信中 出差版 朗读剧「新编 罗密欧与朱丽叶」
-    &lt;/div&gt;
-  &lt;/a&gt;
+&lt;h2 id="朗读剧"&gt;朗读剧
+&lt;/h2&gt;&lt;li class="timeline-item"&gt;
+&lt;span class="timeline-marker"&gt;&lt;/span&gt;
+&lt;a
+class="timeline-content"
+href="https://www.bilibili.com/video/BV1Sq4y1q7Zw/?p=1"
+target="_blank"
+rel="noopener"
+&gt;
+&lt;div class="timeline-date"&gt;
+2021-12-4
+&lt;/div&gt;
+&lt;div class="timeline-text"&gt;
+StarReLIVE配信中 出差版 朗读剧「新编 罗密欧与朱丽叶」
+&lt;/div&gt;
+&lt;/a&gt;
 &lt;/li&gt;
-
-&lt;li class=&#34;timeline-item&#34;&gt;
-  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
-
-  &lt;a
-    class=&#34;timeline-content&#34;
-    href=&#34;https://www.bilibili.com/video/BV1cU4y1R7jv/?p=1&#34;
-    target=&#34;_blank&#34;
-    rel=&#34;noopener&#34;
-  &gt;
-    &lt;div class=&#34;timeline-date&#34;&gt;
-      2022-6-5
-    &lt;/div&gt;
-
-    &lt;div class=&#34;timeline-text&#34;&gt;
-      -Re LIVE- Reading Theatre 第1弹「田中由由子的古典落语剧场」
-    &lt;/div&gt;
-  &lt;/a&gt;
+&lt;li class="timeline-item"&gt;
+&lt;span class="timeline-marker"&gt;&lt;/span&gt;
+&lt;a
+class="timeline-content"
+href="https://www.bilibili.com/video/BV1cU4y1R7jv/?p=1"
+target="_blank"
+rel="noopener"
+&gt;
+&lt;div class="timeline-date"&gt;
+2022-6-5
+&lt;/div&gt;
+&lt;div class="timeline-text"&gt;
+-Re LIVE- Reading Theatre 第1弹「田中由由子的古典落语剧场」
+&lt;/div&gt;
+&lt;/a&gt;
 &lt;/li&gt;
-
-&lt;li class=&#34;timeline-item&#34;&gt;
-  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
-
-  &lt;a
-    class=&#34;timeline-content&#34;
-    href=&#34;https://www.bilibili.com/video/BV1aV4y1P79d/?p=1&#34;
-    target=&#34;_blank&#34;
-    rel=&#34;noopener&#34;
-  &gt;
-    &lt;div class=&#34;timeline-date&#34;&gt;
-      2022-12-3
-    &lt;/div&gt;
-
-    &lt;div class=&#34;timeline-text&#34;&gt;
-      -Re LIVE- Reading Theatre 第二弹「追奏～Session of Reminiscence～」
-    &lt;/div&gt;
-  &lt;/a&gt;
+&lt;li class="timeline-item"&gt;
+&lt;span class="timeline-marker"&gt;&lt;/span&gt;
+&lt;a
+class="timeline-content"
+href="https://www.bilibili.com/video/BV1aV4y1P79d/?p=1"
+target="_blank"
+rel="noopener"
+&gt;
+&lt;div class="timeline-date"&gt;
+2022-12-3
+&lt;/div&gt;
+&lt;div class="timeline-text"&gt;
+-Re LIVE- Reading Theatre 第二弹「追奏～Session of Reminiscence～」
+&lt;/div&gt;
+&lt;/a&gt;
 &lt;/li&gt;
-
-&lt;li class=&#34;timeline-item&#34;&gt;
-  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
-
-  &lt;a
-    class=&#34;timeline-content&#34;
-    href=&#34;https://www.bilibili.com/video/BV1qkpszgEVJ/?p=1&#34;
-    target=&#34;_blank&#34;
-    rel=&#34;noopener&#34;
-  &gt;
-    &lt;div class=&#34;timeline-date&#34;&gt;
-      2023-12-16
-    &lt;/div&gt;
-
-    &lt;div class=&#34;timeline-text&#34;&gt;
-      -Re LIVE- Reading Theatre 第四弹「遥远的El Dorado」
-    &lt;/div&gt;
-  &lt;/a&gt;
+&lt;li class="timeline-item"&gt;
+&lt;span class="timeline-marker"&gt;&lt;/span&gt;
+&lt;a
+class="timeline-content"
+href="https://www.bilibili.com/video/BV1qkpszgEVJ/?p=1"
+target="_blank"
+rel="noopener"
+&gt;
+&lt;div class="timeline-date"&gt;
+2023-12-16
+&lt;/div&gt;
+&lt;div class="timeline-text"&gt;
+-Re LIVE- Reading Theatre 第四弹「遥远的El Dorado」
+&lt;/div&gt;
+&lt;/a&gt;
 &lt;/li&gt;
-
-&lt;li class=&#34;timeline-item&#34;&gt;
-  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
-
-  &lt;a
-    class=&#34;timeline-content&#34;
-    href=&#34;https://www.bilibili.com/video/BV16FE1zREXr/&#34;
-    target=&#34;_blank&#34;
-    rel=&#34;noopener&#34;
-  &gt;
-    &lt;div class=&#34;timeline-date&#34;&gt;
-      2024-12-21
-    &lt;/div&gt;
-
-    &lt;div class=&#34;timeline-text&#34;&gt;
-      STARLIGHT SPECIAL3DAYS!!! 舞台朗读剧「遥远的El Dorado·序章」
-    &lt;/div&gt;
-  &lt;/a&gt;
+&lt;li class="timeline-item"&gt;
+&lt;span class="timeline-marker"&gt;&lt;/span&gt;
+&lt;a
+class="timeline-content"
+href="https://www.bilibili.com/video/BV16FE1zREXr/"
+target="_blank"
+rel="noopener"
+&gt;
+&lt;div class="timeline-date"&gt;
+2024-12-21
+&lt;/div&gt;
+&lt;div class="timeline-text"&gt;
+STARLIGHT SPECIAL3DAYS!!! 舞台朗读剧「遥远的El Dorado·序章」
+&lt;/div&gt;
+&lt;/a&gt;
 &lt;/li&gt;
-
-&lt;li class=&#34;timeline-item&#34;&gt;
-  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
-
-  &lt;a
-    class=&#34;timeline-content&#34;
-    href=&#34;https://www.bilibili.com/video/BV1VQC5Y2EWu&#34;
-    target=&#34;_blank&#34;
-    rel=&#34;noopener&#34;
-  &gt;
-    &lt;div class=&#34;timeline-date&#34;&gt;
-      2024-12-21
-    &lt;/div&gt;
-
-    &lt;div class=&#34;timeline-text&#34;&gt;
-      舞台朗读剧「遥远的El Dorado·序章」外传《黒き刃、白き夢》
-    &lt;/div&gt;
-  &lt;/a&gt;
+&lt;li class="timeline-item"&gt;
+&lt;span class="timeline-marker"&gt;&lt;/span&gt;
+&lt;a
+class="timeline-content"
+href="https://www.bilibili.com/video/BV1VQC5Y2EWu"
+target="_blank"
+rel="noopener"
+&gt;
+&lt;div class="timeline-date"&gt;
+2024-12-21
+&lt;/div&gt;
+&lt;div class="timeline-text"&gt;
+舞台朗读剧「遥远的El Dorado·序章」外传《黒き刃、白き夢》
+&lt;/div&gt;
+&lt;/a&gt;
 &lt;/li&gt;
-
-&lt;h2 id=&#34;其他活动&#34;&gt;其他活动
+&lt;h2 id="其他活动"&gt;其他活动
 &lt;/h2&gt;&lt;p&gt;不急。&lt;/p&gt;
-&lt;h2 id=&#34;参与演出&#34;&gt;参与演出
+&lt;h2 id="参与演出"&gt;参与演出
 &lt;/h2&gt;&lt;p&gt;ASL之类的，也不急。（不过为了凡尔赛玫瑰我会第一个写这部分的&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;动画&#34;&gt;动画
-&lt;/h2&gt;&lt;li class=&#34;timeline-item&#34;&gt;
-  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
-
-  &lt;a
-    class=&#34;timeline-content&#34;
-    href=&#34;https://www.bilibili.com/bangumi/play/ss24622&#34;
-    target=&#34;_blank&#34;
-    rel=&#34;noopener&#34;
-  &gt;
-    &lt;div class=&#34;timeline-date&#34;&gt;
-      2018-7-12~9-27
-    &lt;/div&gt;
-
-    &lt;div class=&#34;timeline-text&#34;&gt;
-      少女☆歌剧 Revue Starlight
-    &lt;/div&gt;
-  &lt;/a&gt;
+&lt;h2 id="动画"&gt;动画
+&lt;/h2&gt;&lt;li class="timeline-item"&gt;
+&lt;span class="timeline-marker"&gt;&lt;/span&gt;
+&lt;a
+class="timeline-content"
+href="https://www.bilibili.com/bangumi/play/ss24622"
+target="_blank"
+rel="noopener"
+&gt;
+&lt;div class="timeline-date"&gt;
+2018-7-12~9-27
+&lt;/div&gt;
+&lt;div class="timeline-text"&gt;
+少女☆歌剧 Revue Starlight
+&lt;/div&gt;
+&lt;/a&gt;
 &lt;/li&gt;
-
-&lt;li class=&#34;timeline-item&#34;&gt;
-  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
-
-  &lt;a
-    class=&#34;timeline-content&#34;
-    href=&#34;https://www.bilibili.com/video/BV1uE41127gS&#34;
-    target=&#34;_blank&#34;
-    rel=&#34;noopener&#34;
-  &gt;
-    &lt;div class=&#34;timeline-date&#34;&gt;
-      2019-7-5~12-27
-    &lt;/div&gt;
-
-    &lt;div class=&#34;timeline-text&#34;&gt;
-      少女☆寸剧 All Starlight
-    &lt;/div&gt;
-  &lt;/a&gt;
+&lt;li class="timeline-item"&gt;
+&lt;span class="timeline-marker"&gt;&lt;/span&gt;
+&lt;a
+class="timeline-content"
+href="https://www.bilibili.com/video/BV1uE41127gS"
+target="_blank"
+rel="noopener"
+&gt;
+&lt;div class="timeline-date"&gt;
+2019-7-5~12-27
+&lt;/div&gt;
+&lt;div class="timeline-text"&gt;
+少女☆寸剧 All Starlight
+&lt;/div&gt;
+&lt;/a&gt;
 &lt;/li&gt;
-
-&lt;li class=&#34;timeline-item&#34;&gt;
-  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
-
-  &lt;a
-    class=&#34;timeline-content&#34;
-    href=&#34;https://www.bilibili.com/video/BV1db4y1X7Wm&#34;
-    target=&#34;_blank&#34;
-    rel=&#34;noopener&#34;
-  &gt;
-    &lt;div class=&#34;timeline-date&#34;&gt;
-      2020-8-7
-    &lt;/div&gt;
-
-    &lt;div class=&#34;timeline-text&#34;&gt;
-      少女☆歌剧 Revue Starlight RONDO·RONDO·RONDO
-    &lt;/div&gt;
-  &lt;/a&gt;
+&lt;li class="timeline-item"&gt;
+&lt;span class="timeline-marker"&gt;&lt;/span&gt;
+&lt;a
+class="timeline-content"
+href="https://www.bilibili.com/video/BV1db4y1X7Wm"
+target="_blank"
+rel="noopener"
+&gt;
+&lt;div class="timeline-date"&gt;
+2020-8-7
+&lt;/div&gt;
+&lt;div class="timeline-text"&gt;
+少女☆歌剧 Revue Starlight RONDO·RONDO·RONDO
+&lt;/div&gt;
+&lt;/a&gt;
 &lt;/li&gt;
-
-&lt;li class=&#34;timeline-item&#34;&gt;
-  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
-
-  &lt;a
-    class=&#34;timeline-content&#34;
-    href=&#34;https://www.bilibili.com/video/BV1MjEEzFEzk/&#34;
-    target=&#34;_blank&#34;
-    rel=&#34;noopener&#34;
-  &gt;
-    &lt;div class=&#34;timeline-date&#34;&gt;
-      2021-6-4
-    &lt;/div&gt;
-
-    &lt;div class=&#34;timeline-text&#34;&gt;
-      剧场版 少女☆歌剧 Revue Starlight
-    &lt;/div&gt;
-  &lt;/a&gt;
-&lt;/li&gt;
-
-</description>
-        </item>
-        <item>
-        <title>Overwatch DataTool</title>
-        <link>https://Leafly717.github.io/p/overwatch-datatool/</link>
-        <pubDate>Thu, 20 Nov 2025 03:49:46 +0800</pubDate>
-        
-        <guid>https://Leafly717.github.io/p/overwatch-datatool/</guid>
-        <description>&lt;p&gt;懒得每次开txt了，写一个网页的&lt;/p&gt;
+&lt;li class="timeline-item"&gt;
+&lt;span class="timeline-marker"&gt;&lt;/span&gt;
+&lt;a
+class="timeline-content"
+href="https://www.bilibili.com/video/BV1MjEEzFEzk/"
+target="_blank"
+rel="noopener"
+&gt;
+&lt;div class="timeline-date"&gt;
+2021-6-4
+&lt;/div&gt;
+&lt;div class="timeline-text"&gt;
+剧场版 少女☆歌剧 Revue Starlight
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;/li&gt;</description></item><item><title>Overwatch DataTool</title><link>https://Leafly717.github.io/p/2025-11-20-0349/</link><pubDate>Thu, 20 Nov 2025 03:49:46 +0800</pubDate><guid>https://Leafly717.github.io/p/2025-11-20-0349/</guid><description>&lt;p&gt;懒得每次开txt了，写一个网页的&lt;/p&gt;
 &lt;p&gt;DataTool链接&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/overtools/OWLib&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Github-overtools/OWLib&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://discord.com/channels/346445737367699456/588240088513642526&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Discord-#tool-releases | DataWatch&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://github.com/overtools/OWLib" target="_blank" rel="noopener"
+&gt;Github-overtools/OWLib&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://discord.com/channels/346445737367699456/588240088513642526" target="_blank" rel="noopener"
+&gt;Discord-#tool-releases | DataWatch&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Wiki链接&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://overwatch.fandom.com/wiki/Overwatch_Wiki&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Fandom-Overwatch Wiki&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&#34;可解锁物品&#34;&gt;可解锁物品
+&lt;p&gt;&lt;a class="link" href="https://overwatch.fandom.com/wiki/Overwatch_Wiki" target="_blank" rel="noopener"
+&gt;Fandom-Overwatch Wiki&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id="可解锁物品"&gt;可解锁物品
 &lt;/h1&gt;&lt;p&gt;英雄皮肤&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;DataTool.exe &amp;#34;E:\Battlenet\Overwatch&amp;#34; extract-unlocks &amp;#34;D:\ZWindosXT\Pictures\Blender\Overwatch\Models&amp;#34; &amp;#34;Mercy|skin=&amp;#34;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;DataTool.exe &amp;#34;E:\Battlenet\Overwatch&amp;#34; extract-unlocks &amp;#34;D:\ZWindosXT\Pictures\Blender\Overwatch\Models&amp;#34; &amp;#34;Mercy|skin=&amp;#34;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/div&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;DataTool.exe &amp;#34;E:\Battlenet\Overwatch&amp;#34; extract-unlocks &amp;#34;D:\ZWindosXT\Pictures\Blender\Overwatch\Models&amp;#34; &amp;#34;Widowmaker|skin=&amp;#34;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;DataTool.exe &amp;#34;E:\Battlenet\Overwatch&amp;#34; extract-unlocks &amp;#34;D:\ZWindosXT\Pictures\Blender\Overwatch\Models&amp;#34; &amp;#34;Widowmaker|skin=&amp;#34;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;全部特写&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;DataTool.exe &amp;#34;E:\Battlenet\Overwatch&amp;#34; extract-unlocks &amp;#34;D:\ZWindosXT\Pictures\Blender\Overwatch\Models&amp;#34; &amp;#34;Mercy|highlightintro=*&amp;#34;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;DataTool.exe &amp;#34;E:\Battlenet\Overwatch&amp;#34; extract-unlocks &amp;#34;D:\ZWindosXT\Pictures\Blender\Overwatch\Models&amp;#34; &amp;#34;Mercy|highlightintro=*&amp;#34;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;全部姿势&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;DataTool.exe &amp;#34;E:\Battlenet\Overwatch&amp;#34; extract-unlocks &amp;#34;D:\ZWindosXT\Pictures\Blender\Overwatch\Models&amp;#34; &amp;#34;Widowmaker|victorypose=*&amp;#34;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;DataTool.exe &amp;#34;E:\Battlenet\Overwatch&amp;#34; extract-unlocks &amp;#34;D:\ZWindosXT\Pictures\Blender\Overwatch\Models&amp;#34; &amp;#34;Widowmaker|victorypose=*&amp;#34;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;武器（非普通）&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;DataTool.exe &amp;#34;E:\Battlenet\Overwatch&amp;#34; extract-unlocks &amp;#34;D:\ZWindosXT\Pictures\Blender\Overwatch\Models&amp;#34; &amp;#34;Reaper|weaponskin=Hard Light&amp;#34;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;DataTool.exe &amp;#34;E:\Battlenet\Overwatch&amp;#34; extract-unlocks &amp;#34;D:\ZWindosXT\Pictures\Blender\Overwatch\Models&amp;#34; &amp;#34;Reaper|weaponskin=Hard Light&amp;#34;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h1 id=&#34;其他&#34;&gt;其他
+&lt;/div&gt;&lt;h1 id="其他"&gt;其他
 &lt;/h1&gt;&lt;ul&gt;
 &lt;li&gt;语音 &lt;code&gt;extract-hero-voice&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;武器吊坠 &lt;code&gt;extract-charms&lt;/code&gt;&lt;/li&gt;
@@ -762,2434 +628,410 @@
 &lt;li&gt;地图 &lt;code&gt;extract-maps&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;全部语音&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;DataTool.exe &amp;#34;E:\Battlenet\Overwatch&amp;#34; extract-hero-voice &amp;#34;D:\ZWindosXT\Pictures\Blender\Overwatch\Models&amp;#34; &amp;#34;Mercy&amp;#34;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;DataTool.exe &amp;#34;E:\Battlenet\Overwatch&amp;#34; extract-hero-voice &amp;#34;D:\ZWindosXT\Pictures\Blender\Overwatch\Models&amp;#34; &amp;#34;Mercy&amp;#34;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;地图&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;DataTool.exe &amp;#34;E:\Battlenet\Overwatch&amp;#34; extract-maps &amp;#34;D:\ZWindosXT\Pictures\Blender\Overwatch\Models&amp;#34; &amp;#34;Château Guillard&amp;#34;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;DataTool.exe &amp;#34;E:\Battlenet\Overwatch&amp;#34; extract-maps &amp;#34;D:\ZWindosXT\Pictures\Blender\Overwatch\Models&amp;#34; &amp;#34;Château Guillard&amp;#34;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;特定喷漆&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;DataTool.exe &amp;#34;E:\Battlenet\Overwatch&amp;#34; extract-sprays &amp;#34;D:\ZWindosXT\Pictures\Blender\Overwatch\Models&amp;#34; &amp;#34;Beyond the Moon&amp;#34;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;DataTool.exe &amp;#34;E:\Battlenet\Overwatch&amp;#34; extract-sprays &amp;#34;D:\ZWindosXT\Pictures\Blender\Overwatch\Models&amp;#34; &amp;#34;Beyond the Moon&amp;#34;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;hr&gt;
-&lt;p&gt;后续应该没什么要补充的了。&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>小游戏收集</title>
-        <link>https://Leafly717.github.io/p/%E5%B0%8F%E6%B8%B8%E6%88%8F%E6%94%B6%E9%9B%86/</link>
-        <pubDate>Mon, 17 Nov 2025 06:00:11 +0800</pubDate>
-        
-        <guid>https://Leafly717.github.io/p/%E5%B0%8F%E6%B8%B8%E6%88%8F%E6%94%B6%E9%9B%86/</guid>
-        <description>&lt;div class=&#34;linkcard-list&#34;&gt;
-&lt;style&gt;
-.linkcard-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 2rem 1.5rem;
-  max-width: 100%;
-  padding: 1rem 0;
-}
-
-@media (min-width: 1080px) {
-  .linkcard-list {
-    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
-  }
-}
-
-.linkcard {
-  display: block;  
-  padding: 1.25rem;
-  border-radius: 0.75rem;
-  background-color: #fafafa;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  text-decoration: none;
-  color: #222222;
-  transition: all 0.25s ease;
-}
-
-.linkcard:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-.linkcard h3 {
-  margin: 0;
-  font-size: 3rem;
-  font-weight: 600;
-}
-
-.linkcard p {
-  margin: 0.5rem 0 0;
-  font-size: 1.8rem;
-  color: #555555;
-}
-
- 
-[data-scheme=&#34;dark&#34;] .linkcard {
-  background-color: #303030;
-  color: #f0f0f0;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard:hover {
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard p {
-  color: #b1b1b1;
-}
-&lt;/style&gt;
-
-&lt;div class=&#34;linkcard-list&#34;&gt;
-  &lt;a class=&#34;linkcard&#34; href=&#34;https://bubububaoshe.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
-    &lt;h3&gt;千秋戏&lt;/h3&gt;
-    &lt;p&gt;无需多言&lt;/p&gt;
-  &lt;/a&gt;
+&lt;p&gt;后续应该没什么要补充的了。&lt;/p&gt;</description></item><item><title>小游戏收集</title><link>https://Leafly717.github.io/p/2025-11-17-0600/</link><pubDate>Mon, 17 Nov 2025 06:00:11 +0800</pubDate><guid>https://Leafly717.github.io/p/2025-11-17-0600/</guid><description>&lt;div class="linkcard-list"&gt;
+&lt;div class="linkcard-list"&gt;
+&lt;a class="linkcard" href="https://bubububaoshe.github.io/" target="_blank" rel="noopener noreferrer"&gt;
+&lt;h3&gt;千秋戏&lt;/h3&gt;
+&lt;p&gt;无需多言&lt;/p&gt;
+&lt;/a&gt;
 &lt;/div&gt;
-
-&lt;style&gt;
-.linkcard-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 2rem 1.5rem;
-  max-width: 100%;
-  padding: 1rem 0;
-}
-
-@media (min-width: 1080px) {
-  .linkcard-list {
-    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
-  }
-}
-
-.linkcard {
-  display: block;  
-  padding: 1.25rem;
-  border-radius: 0.75rem;
-  background-color: #fafafa;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  text-decoration: none;
-  color: #222222;
-  transition: all 0.25s ease;
-}
-
-.linkcard:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-.linkcard h3 {
-  margin: 0;
-  font-size: 3rem;
-  font-weight: 600;
-}
-
-.linkcard p {
-  margin: 0.5rem 0 0;
-  font-size: 1.8rem;
-  color: #555555;
-}
-
- 
-[data-scheme=&#34;dark&#34;] .linkcard {
-  background-color: #303030;
-  color: #f0f0f0;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard:hover {
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard p {
-  color: #b1b1b1;
-}
-&lt;/style&gt;
-
-&lt;div class=&#34;linkcard-list&#34;&gt;
-  &lt;a class=&#34;linkcard&#34; href=&#34;https://www.minesweeper.cn/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
-    &lt;h3&gt;扫雷&lt;/h3&gt;
-    &lt;p&gt;更是无需多言&lt;/p&gt;
-  &lt;/a&gt;
+&lt;div class="linkcard-list"&gt;
+&lt;a class="linkcard" href="https://www.minesweeper.cn/" target="_blank" rel="noopener noreferrer"&gt;
+&lt;h3&gt;扫雷&lt;/h3&gt;
+&lt;p&gt;更是无需多言&lt;/p&gt;
+&lt;/a&gt;
 &lt;/div&gt;
-
-&lt;style&gt;
-.linkcard-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 2rem 1.5rem;
-  max-width: 100%;
-  padding: 1rem 0;
-}
-
-@media (min-width: 1080px) {
-  .linkcard-list {
-    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
-  }
-}
-
-.linkcard {
-  display: block;  
-  padding: 1.25rem;
-  border-radius: 0.75rem;
-  background-color: #fafafa;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  text-decoration: none;
-  color: #222222;
-  transition: all 0.25s ease;
-}
-
-.linkcard:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-.linkcard h3 {
-  margin: 0;
-  font-size: 3rem;
-  font-weight: 600;
-}
-
-.linkcard p {
-  margin: 0.5rem 0 0;
-  font-size: 1.8rem;
-  color: #555555;
-}
-
- 
-[data-scheme=&#34;dark&#34;] .linkcard {
-  background-color: #303030;
-  color: #f0f0f0;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard:hover {
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard p {
-  color: #b1b1b1;
-}
-&lt;/style&gt;
-
-&lt;div class=&#34;linkcard-list&#34;&gt;
-  &lt;a class=&#34;linkcard&#34; href=&#34;https://hamzaabamboo.github.io/pazuru-pico/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
-    &lt;h3&gt;パズル⭐︎ピコ | Puzzle * Pico&lt;/h3&gt;
-    &lt;p&gt;kirakiradokidoki&lt;/p&gt;
-  &lt;/a&gt;
+&lt;div class="linkcard-list"&gt;
+&lt;a class="linkcard" href="https://hamzaabamboo.github.io/pazuru-pico/" target="_blank" rel="noopener noreferrer"&gt;
+&lt;h3&gt;パズル⭐︎ピコ | Puzzle * Pico&lt;/h3&gt;
+&lt;p&gt;kirakiradokidoki&lt;/p&gt;
+&lt;/a&gt;
 &lt;/div&gt;
-
+&lt;/div&gt;</description></item><item><title>服饰参考导航</title><link>https://Leafly717.github.io/p/2025-11-05-1550/</link><pubDate>Wed, 05 Nov 2025 15:50:06 +0800</pubDate><guid>https://Leafly717.github.io/p/2025-11-05-1550/</guid><description>&lt;h1 id="现代"&gt;现代
+&lt;/h1&gt;&lt;div class="linkcard-list"&gt;
+&lt;div class="linkcard-list"&gt;
+&lt;a class="linkcard" href="https://long-coat.uenoya.jp/" target="_blank" rel="noopener noreferrer"&gt;
+&lt;h3&gt;「上野屋」&lt;/h3&gt;
+&lt;p&gt;大衣之类的&lt;/p&gt;
+&lt;/a&gt;
 &lt;/div&gt;
-</description>
-        </item>
-        <item>
-        <title>服饰参考导航</title>
-        <link>https://Leafly717.github.io/p/%E6%9C%8D%E9%A5%B0%E5%8F%82%E8%80%83%E5%AF%BC%E8%88%AA/</link>
-        <pubDate>Wed, 05 Nov 2025 15:50:06 +0800</pubDate>
-        
-        <guid>https://Leafly717.github.io/p/%E6%9C%8D%E9%A5%B0%E5%8F%82%E8%80%83%E5%AF%BC%E8%88%AA/</guid>
-        <description>&lt;h1 id=&#34;现代&#34;&gt;现代
-&lt;/h1&gt;&lt;div class=&#34;linkcard-list&#34;&gt;
-&lt;style&gt;
-.linkcard-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 2rem 1.5rem;
-  max-width: 100%;
-  padding: 1rem 0;
-}
-
-@media (min-width: 1080px) {
-  .linkcard-list {
-    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
-  }
-}
-
-.linkcard {
-  display: block;  
-  padding: 1.25rem;
-  border-radius: 0.75rem;
-  background-color: #fafafa;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  text-decoration: none;
-  color: #222222;
-  transition: all 0.25s ease;
-}
-
-.linkcard:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-.linkcard h3 {
-  margin: 0;
-  font-size: 3rem;
-  font-weight: 600;
-}
-
-.linkcard p {
-  margin: 0.5rem 0 0;
-  font-size: 1.8rem;
-  color: #555555;
-}
-
- 
-[data-scheme=&#34;dark&#34;] .linkcard {
-  background-color: #303030;
-  color: #f0f0f0;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard:hover {
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard p {
-  color: #b1b1b1;
-}
-&lt;/style&gt;
-
-&lt;div class=&#34;linkcard-list&#34;&gt;
-  &lt;a class=&#34;linkcard&#34; href=&#34;https://long-coat.uenoya.jp/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
-    &lt;h3&gt;「上野屋」&lt;/h3&gt;
-    &lt;p&gt;大衣之类的&lt;/p&gt;
-  &lt;/a&gt;
+&lt;div class="linkcard-list"&gt;
+&lt;a class="linkcard" href="https://m.store.musinsa.com/app/styles/lists" target="_blank" rel="noopener noreferrer"&gt;
+&lt;h3&gt;무신사 스토어&lt;/h3&gt;
+&lt;p&gt;OOTD&lt;/p&gt;
+&lt;/a&gt;
 &lt;/div&gt;
-
-&lt;style&gt;
-.linkcard-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 2rem 1.5rem;
-  max-width: 100%;
-  padding: 1rem 0;
-}
-
-@media (min-width: 1080px) {
-  .linkcard-list {
-    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
-  }
-}
-
-.linkcard {
-  display: block;  
-  padding: 1.25rem;
-  border-radius: 0.75rem;
-  background-color: #fafafa;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  text-decoration: none;
-  color: #222222;
-  transition: all 0.25s ease;
-}
-
-.linkcard:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-.linkcard h3 {
-  margin: 0;
-  font-size: 3rem;
-  font-weight: 600;
-}
-
-.linkcard p {
-  margin: 0.5rem 0 0;
-  font-size: 1.8rem;
-  color: #555555;
-}
-
- 
-[data-scheme=&#34;dark&#34;] .linkcard {
-  background-color: #303030;
-  color: #f0f0f0;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard:hover {
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard p {
-  color: #b1b1b1;
-}
-&lt;/style&gt;
-
-&lt;div class=&#34;linkcard-list&#34;&gt;
-  &lt;a class=&#34;linkcard&#34; href=&#34;https://m.store.musinsa.com/app/styles/lists&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
-    &lt;h3&gt;무신사 스토어&lt;/h3&gt;
-    &lt;p&gt;OOTD&lt;/p&gt;
-  &lt;/a&gt;
 &lt;/div&gt;
-
+&lt;h1 id="影视"&gt;影视
+&lt;/h1&gt;&lt;div class="linkcard-list"&gt;
+&lt;div class="linkcard-list"&gt;
+&lt;a class="linkcard" href="http://www.costumersguide.com/" target="_blank" rel="noopener noreferrer"&gt;
+&lt;h3&gt;The Costumer&amp;#39;s Guide to Movie Costumes&lt;/h3&gt;
+&lt;p&gt;电影服饰考据&lt;/p&gt;
+&lt;/a&gt;
 &lt;/div&gt;
-&lt;h1 id=&#34;影视&#34;&gt;影视
-&lt;/h1&gt;&lt;div class=&#34;linkcard-list&#34;&gt;
-&lt;style&gt;
-.linkcard-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 2rem 1.5rem;
-  max-width: 100%;
-  padding: 1rem 0;
-}
-
-@media (min-width: 1080px) {
-  .linkcard-list {
-    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
-  }
-}
-
-.linkcard {
-  display: block;  
-  padding: 1.25rem;
-  border-radius: 0.75rem;
-  background-color: #fafafa;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  text-decoration: none;
-  color: #222222;
-  transition: all 0.25s ease;
-}
-
-.linkcard:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-.linkcard h3 {
-  margin: 0;
-  font-size: 3rem;
-  font-weight: 600;
-}
-
-.linkcard p {
-  margin: 0.5rem 0 0;
-  font-size: 1.8rem;
-  color: #555555;
-}
-
- 
-[data-scheme=&#34;dark&#34;] .linkcard {
-  background-color: #303030;
-  color: #f0f0f0;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard:hover {
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard p {
-  color: #b1b1b1;
-}
-&lt;/style&gt;
-
-&lt;div class=&#34;linkcard-list&#34;&gt;
-  &lt;a class=&#34;linkcard&#34; href=&#34;http://www.costumersguide.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
-    &lt;h3&gt;The Costumer&amp;#39;s Guide to Movie Costumes&lt;/h3&gt;
-    &lt;p&gt;电影服饰考据&lt;/p&gt;
-  &lt;/a&gt;
+&lt;div class="linkcard-list"&gt;
+&lt;a class="linkcard" href="http://www.padawansguide.com/" target="_blank" rel="noopener noreferrer"&gt;
+&lt;h3&gt;The Padawan&amp;#39;s Guide&lt;/h3&gt;
+&lt;p&gt;星战服饰考据&lt;/p&gt;
+&lt;/a&gt;
 &lt;/div&gt;
-
-&lt;style&gt;
-.linkcard-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 2rem 1.5rem;
-  max-width: 100%;
-  padding: 1rem 0;
-}
-
-@media (min-width: 1080px) {
-  .linkcard-list {
-    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
-  }
-}
-
-.linkcard {
-  display: block;  
-  padding: 1.25rem;
-  border-radius: 0.75rem;
-  background-color: #fafafa;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  text-decoration: none;
-  color: #222222;
-  transition: all 0.25s ease;
-}
-
-.linkcard:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-.linkcard h3 {
-  margin: 0;
-  font-size: 3rem;
-  font-weight: 600;
-}
-
-.linkcard p {
-  margin: 0.5rem 0 0;
-  font-size: 1.8rem;
-  color: #555555;
-}
-
- 
-[data-scheme=&#34;dark&#34;] .linkcard {
-  background-color: #303030;
-  color: #f0f0f0;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard:hover {
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard p {
-  color: #b1b1b1;
-}
-&lt;/style&gt;
-
-&lt;div class=&#34;linkcard-list&#34;&gt;
-  &lt;a class=&#34;linkcard&#34; href=&#34;http://www.padawansguide.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
-    &lt;h3&gt;The Padawan&amp;#39;s Guide&lt;/h3&gt;
-    &lt;p&gt;星战服饰考据&lt;/p&gt;
-  &lt;/a&gt;
 &lt;/div&gt;
-
+&lt;h1 id="科技"&gt;科技
+&lt;/h1&gt;&lt;div class="linkcard-list"&gt;
+&lt;div class="linkcard-list"&gt;
+&lt;a class="linkcard" href="https://www.demobaza.com/" target="_blank" rel="noopener noreferrer"&gt;
+&lt;h3&gt;DEMOBAZA&lt;/h3&gt;
+&lt;p&gt;科技之类的，沙丘&lt;/p&gt;
+&lt;/a&gt;
 &lt;/div&gt;
-&lt;h1 id=&#34;科技&#34;&gt;科技
-&lt;/h1&gt;&lt;div class=&#34;linkcard-list&#34;&gt;
-&lt;style&gt;
-.linkcard-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 2rem 1.5rem;
-  max-width: 100%;
-  padding: 1rem 0;
-}
-
-@media (min-width: 1080px) {
-  .linkcard-list {
-    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
-  }
-}
-
-.linkcard {
-  display: block;  
-  padding: 1.25rem;
-  border-radius: 0.75rem;
-  background-color: #fafafa;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  text-decoration: none;
-  color: #222222;
-  transition: all 0.25s ease;
-}
-
-.linkcard:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-.linkcard h3 {
-  margin: 0;
-  font-size: 3rem;
-  font-weight: 600;
-}
-
-.linkcard p {
-  margin: 0.5rem 0 0;
-  font-size: 1.8rem;
-  color: #555555;
-}
-
- 
-[data-scheme=&#34;dark&#34;] .linkcard {
-  background-color: #303030;
-  color: #f0f0f0;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard:hover {
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard p {
-  color: #b1b1b1;
-}
-&lt;/style&gt;
-
-&lt;div class=&#34;linkcard-list&#34;&gt;
-  &lt;a class=&#34;linkcard&#34; href=&#34;https://www.demobaza.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
-    &lt;h3&gt;DEMOBAZA&lt;/h3&gt;
-    &lt;p&gt;科技之类的，沙丘&lt;/p&gt;
-  &lt;/a&gt;
+&lt;div class="linkcard-list"&gt;
+&lt;a class="linkcard" href="https://markcordory.com/salvaged-masks" target="_blank" rel="noopener noreferrer"&gt;
+&lt;h3&gt;Mark Cordory&lt;/h3&gt;
+&lt;p&gt;废土之类的&lt;/p&gt;
+&lt;/a&gt;
 &lt;/div&gt;
-
-&lt;style&gt;
-.linkcard-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 2rem 1.5rem;
-  max-width: 100%;
-  padding: 1rem 0;
-}
-
-@media (min-width: 1080px) {
-  .linkcard-list {
-    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
-  }
-}
-
-.linkcard {
-  display: block;  
-  padding: 1.25rem;
-  border-radius: 0.75rem;
-  background-color: #fafafa;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  text-decoration: none;
-  color: #222222;
-  transition: all 0.25s ease;
-}
-
-.linkcard:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-.linkcard h3 {
-  margin: 0;
-  font-size: 3rem;
-  font-weight: 600;
-}
-
-.linkcard p {
-  margin: 0.5rem 0 0;
-  font-size: 1.8rem;
-  color: #555555;
-}
-
- 
-[data-scheme=&#34;dark&#34;] .linkcard {
-  background-color: #303030;
-  color: #f0f0f0;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard:hover {
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard p {
-  color: #b1b1b1;
-}
-&lt;/style&gt;
-
-&lt;div class=&#34;linkcard-list&#34;&gt;
-  &lt;a class=&#34;linkcard&#34; href=&#34;https://markcordory.com/salvaged-masks&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
-    &lt;h3&gt;Mark Cordory&lt;/h3&gt;
-    &lt;p&gt;废土之类的&lt;/p&gt;
-  &lt;/a&gt;
 &lt;/div&gt;
-
+&lt;h1 id="欧式"&gt;欧式
+&lt;/h1&gt;&lt;div class="linkcard-list"&gt;
+&lt;div class="linkcard-list"&gt;
+&lt;a class="linkcard" href="https://www.lolitawardrobe.com/" target="_blank" rel="noopener noreferrer"&gt;
+&lt;h3&gt;LolitaWardrobe&lt;/h3&gt;
+&lt;p&gt;很蒸汽，也有一些机能风吧&lt;/p&gt;
+&lt;/a&gt;
 &lt;/div&gt;
-&lt;h1 id=&#34;欧式&#34;&gt;欧式
-&lt;/h1&gt;&lt;div class=&#34;linkcard-list&#34;&gt;
-&lt;style&gt;
-.linkcard-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 2rem 1.5rem;
-  max-width: 100%;
-  padding: 1rem 0;
-}
-
-@media (min-width: 1080px) {
-  .linkcard-list {
-    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
-  }
-}
-
-.linkcard {
-  display: block;  
-  padding: 1.25rem;
-  border-radius: 0.75rem;
-  background-color: #fafafa;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  text-decoration: none;
-  color: #222222;
-  transition: all 0.25s ease;
-}
-
-.linkcard:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-.linkcard h3 {
-  margin: 0;
-  font-size: 3rem;
-  font-weight: 600;
-}
-
-.linkcard p {
-  margin: 0.5rem 0 0;
-  font-size: 1.8rem;
-  color: #555555;
-}
-
- 
-[data-scheme=&#34;dark&#34;] .linkcard {
-  background-color: #303030;
-  color: #f0f0f0;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard:hover {
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard p {
-  color: #b1b1b1;
-}
-&lt;/style&gt;
-
-&lt;div class=&#34;linkcard-list&#34;&gt;
-  &lt;a class=&#34;linkcard&#34; href=&#34;https://www.lolitawardrobe.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
-    &lt;h3&gt;LolitaWardrobe&lt;/h3&gt;
-    &lt;p&gt;很蒸汽，也有一些机能风吧&lt;/p&gt;
-  &lt;/a&gt;
+&lt;div class="linkcard-list"&gt;
+&lt;a class="linkcard" href="https://belchic.shop/en-world" target="_blank" rel="noopener noreferrer"&gt;
+&lt;h3&gt;Belchic&lt;/h3&gt;
+&lt;p&gt;差不多同上吧&lt;/p&gt;
+&lt;/a&gt;
 &lt;/div&gt;
-
-&lt;style&gt;
-.linkcard-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 2rem 1.5rem;
-  max-width: 100%;
-  padding: 1rem 0;
-}
-
-@media (min-width: 1080px) {
-  .linkcard-list {
-    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
-  }
-}
-
-.linkcard {
-  display: block;  
-  padding: 1.25rem;
-  border-radius: 0.75rem;
-  background-color: #fafafa;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  text-decoration: none;
-  color: #222222;
-  transition: all 0.25s ease;
-}
-
-.linkcard:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-.linkcard h3 {
-  margin: 0;
-  font-size: 3rem;
-  font-weight: 600;
-}
-
-.linkcard p {
-  margin: 0.5rem 0 0;
-  font-size: 1.8rem;
-  color: #555555;
-}
-
- 
-[data-scheme=&#34;dark&#34;] .linkcard {
-  background-color: #303030;
-  color: #f0f0f0;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard:hover {
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard p {
-  color: #b1b1b1;
-}
-&lt;/style&gt;
-
-&lt;div class=&#34;linkcard-list&#34;&gt;
-  &lt;a class=&#34;linkcard&#34; href=&#34;https://belchic.shop/en-world&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
-    &lt;h3&gt;Belchic&lt;/h3&gt;
-    &lt;p&gt;差不多同上吧&lt;/p&gt;
-  &lt;/a&gt;
+&lt;div class="linkcard-list"&gt;
+&lt;a class="linkcard" href="https://www.vertugadins.com/" target="_blank" rel="noopener noreferrer"&gt;
+&lt;h3&gt;Les Vertugadins&lt;/h3&gt;
+&lt;p&gt;挺中世纪贵族的&lt;/p&gt;
+&lt;/a&gt;
 &lt;/div&gt;
-
-&lt;style&gt;
-.linkcard-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 2rem 1.5rem;
-  max-width: 100%;
-  padding: 1rem 0;
-}
-
-@media (min-width: 1080px) {
-  .linkcard-list {
-    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
-  }
-}
-
-.linkcard {
-  display: block;  
-  padding: 1.25rem;
-  border-radius: 0.75rem;
-  background-color: #fafafa;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  text-decoration: none;
-  color: #222222;
-  transition: all 0.25s ease;
-}
-
-.linkcard:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-.linkcard h3 {
-  margin: 0;
-  font-size: 3rem;
-  font-weight: 600;
-}
-
-.linkcard p {
-  margin: 0.5rem 0 0;
-  font-size: 1.8rem;
-  color: #555555;
-}
-
- 
-[data-scheme=&#34;dark&#34;] .linkcard {
-  background-color: #303030;
-  color: #f0f0f0;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard:hover {
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard p {
-  color: #b1b1b1;
-}
-&lt;/style&gt;
-
-&lt;div class=&#34;linkcard-list&#34;&gt;
-  &lt;a class=&#34;linkcard&#34; href=&#34;https://www.vertugadins.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
-    &lt;h3&gt;Les Vertugadins&lt;/h3&gt;
-    &lt;p&gt;挺中世纪贵族的&lt;/p&gt;
-  &lt;/a&gt;
+&lt;div class="linkcard-list"&gt;
+&lt;a class="linkcard" href="https://aSrmstreet.com/" target="_blank" rel="noopener noreferrer"&gt;
+&lt;h3&gt;ArmStreet&lt;/h3&gt;
+&lt;p&gt;中世纪&lt;/p&gt;
+&lt;/a&gt;
 &lt;/div&gt;
-
-&lt;style&gt;
-.linkcard-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 2rem 1.5rem;
-  max-width: 100%;
-  padding: 1rem 0;
-}
-
-@media (min-width: 1080px) {
-  .linkcard-list {
-    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
-  }
-}
-
-.linkcard {
-  display: block;  
-  padding: 1.25rem;
-  border-radius: 0.75rem;
-  background-color: #fafafa;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  text-decoration: none;
-  color: #222222;
-  transition: all 0.25s ease;
-}
-
-.linkcard:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-.linkcard h3 {
-  margin: 0;
-  font-size: 3rem;
-  font-weight: 600;
-}
-
-.linkcard p {
-  margin: 0.5rem 0 0;
-  font-size: 1.8rem;
-  color: #555555;
-}
-
- 
-[data-scheme=&#34;dark&#34;] .linkcard {
-  background-color: #303030;
-  color: #f0f0f0;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard:hover {
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard p {
-  color: #b1b1b1;
-}
-&lt;/style&gt;
-
-&lt;div class=&#34;linkcard-list&#34;&gt;
-  &lt;a class=&#34;linkcard&#34; href=&#34;https://aSrmstreet.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
-    &lt;h3&gt;ArmStreet&lt;/h3&gt;
-    &lt;p&gt;中世纪&lt;/p&gt;
-  &lt;/a&gt;
 &lt;/div&gt;
-
+&lt;h1 id="日式"&gt;日式
+&lt;/h1&gt;&lt;div class="linkcard-list"&gt;
+&lt;div class="linkcard-list"&gt;
+&lt;a class="linkcard" href="https://www.yumeyakata.com/" target="_blank" rel="noopener noreferrer"&gt;
+&lt;h3&gt;京都着物レンタル夢館&lt;/h3&gt;
+&lt;p&gt;和服&lt;/p&gt;
+&lt;/a&gt;
 &lt;/div&gt;
-&lt;h1 id=&#34;日式&#34;&gt;日式
-&lt;/h1&gt;&lt;div class=&#34;linkcard-list&#34;&gt;
-&lt;style&gt;
-.linkcard-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 2rem 1.5rem;
-  max-width: 100%;
-  padding: 1rem 0;
-}
-
-@media (min-width: 1080px) {
-  .linkcard-list {
-    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
-  }
-}
-
-.linkcard {
-  display: block;  
-  padding: 1.25rem;
-  border-radius: 0.75rem;
-  background-color: #fafafa;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  text-decoration: none;
-  color: #222222;
-  transition: all 0.25s ease;
-}
-
-.linkcard:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-.linkcard h3 {
-  margin: 0;
-  font-size: 3rem;
-  font-weight: 600;
-}
-
-.linkcard p {
-  margin: 0.5rem 0 0;
-  font-size: 1.8rem;
-  color: #555555;
-}
-
- 
-[data-scheme=&#34;dark&#34;] .linkcard {
-  background-color: #303030;
-  color: #f0f0f0;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard:hover {
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard p {
-  color: #b1b1b1;
-}
-&lt;/style&gt;
-
-&lt;div class=&#34;linkcard-list&#34;&gt;
-  &lt;a class=&#34;linkcard&#34; href=&#34;https://www.yumeyakata.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
-    &lt;h3&gt;京都着物レンタル夢館&lt;/h3&gt;
-    &lt;p&gt;和服&lt;/p&gt;
-  &lt;/a&gt;
+&lt;div class="linkcard-list"&gt;
+&lt;a class="linkcard" href="https://www.kimonomachi.co.jp/" target="_blank" rel="noopener noreferrer"&gt;
+&lt;h3&gt;京都きもの町&lt;/h3&gt;
+&lt;p&gt;和服&lt;/p&gt;
+&lt;/a&gt;
 &lt;/div&gt;
-
-&lt;style&gt;
-.linkcard-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 2rem 1.5rem;
-  max-width: 100%;
-  padding: 1rem 0;
-}
-
-@media (min-width: 1080px) {
-  .linkcard-list {
-    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
-  }
-}
-
-.linkcard {
-  display: block;  
-  padding: 1.25rem;
-  border-radius: 0.75rem;
-  background-color: #fafafa;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  text-decoration: none;
-  color: #222222;
-  transition: all 0.25s ease;
-}
-
-.linkcard:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-.linkcard h3 {
-  margin: 0;
-  font-size: 3rem;
-  font-weight: 600;
-}
-
-.linkcard p {
-  margin: 0.5rem 0 0;
-  font-size: 1.8rem;
-  color: #555555;
-}
-
- 
-[data-scheme=&#34;dark&#34;] .linkcard {
-  background-color: #303030;
-  color: #f0f0f0;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard:hover {
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard p {
-  color: #b1b1b1;
-}
-&lt;/style&gt;
-
-&lt;div class=&#34;linkcard-list&#34;&gt;
-  &lt;a class=&#34;linkcard&#34; href=&#34;https://www.kimonomachi.co.jp/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
-    &lt;h3&gt;京都きもの町&lt;/h3&gt;
-    &lt;p&gt;和服&lt;/p&gt;
-  &lt;/a&gt;
+&lt;/div&gt;</description></item><item><title>动态什么的参考导航</title><link>https://Leafly717.github.io/p/2025-11-05-1529/</link><pubDate>Wed, 05 Nov 2025 15:29:59 +0800</pubDate><guid>https://Leafly717.github.io/p/2025-11-05-1529/</guid><description>&lt;img src="https://Leafly717.github.io/p/2025-11-05-1529/cover.jpg" alt="Featured image of post 动态什么的参考导航" /&gt;&lt;h1 id="速写or动作"&gt;速写or动作
+&lt;/h1&gt;&lt;div class="linkcard-list"&gt;
+&lt;div class="linkcard-list"&gt;
+&lt;a class="linkcard" href="https://www.bodiesinmotion.photo/" target="_blank" rel="noopener noreferrer"&gt;
+&lt;h3&gt;Bodies In Motion&lt;/h3&gt;
+&lt;p&gt;连贯、运动动作参考&lt;/p&gt;
+&lt;/a&gt;
 &lt;/div&gt;
-
+&lt;div class="linkcard-list"&gt;
+&lt;a class="linkcard" href="https://line-of-action.com/zh" target="_blank" rel="noopener noreferrer"&gt;
+&lt;h3&gt;Line of Action&lt;/h3&gt;
+&lt;p&gt;多项速写练习&lt;/p&gt;
+&lt;/a&gt;
 &lt;/div&gt;
-</description>
-        </item>
-        <item>
-        <title>动态什么的参考导航</title>
-        <link>https://Leafly717.github.io/p/%E5%8A%A8%E6%80%81%E4%BB%80%E4%B9%88%E7%9A%84%E5%8F%82%E8%80%83%E5%AF%BC%E8%88%AA/</link>
-        <pubDate>Wed, 05 Nov 2025 15:29:59 +0800</pubDate>
-        
-        <guid>https://Leafly717.github.io/p/%E5%8A%A8%E6%80%81%E4%BB%80%E4%B9%88%E7%9A%84%E5%8F%82%E8%80%83%E5%AF%BC%E8%88%AA/</guid>
-        <description>&lt;img src="https://d2gk6qz8djobw9.cloudfront.net/slider/17530887315126183.jpg" alt="Featured image of post 动态什么的参考导航" /&gt;&lt;h1 id=&#34;速写or动作&#34;&gt;速写or动作
-&lt;/h1&gt;&lt;div class=&#34;linkcard-list&#34;&gt;
-&lt;style&gt;
-.linkcard-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 2rem 1.5rem;
-  max-width: 100%;
-  padding: 1rem 0;
-}
-
-@media (min-width: 1080px) {
-  .linkcard-list {
-    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
-  }
-}
-
-.linkcard {
-  display: block;  
-  padding: 1.25rem;
-  border-radius: 0.75rem;
-  background-color: #fafafa;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  text-decoration: none;
-  color: #222222;
-  transition: all 0.25s ease;
-}
-
-.linkcard:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-.linkcard h3 {
-  margin: 0;
-  font-size: 3rem;
-  font-weight: 600;
-}
-
-.linkcard p {
-  margin: 0.5rem 0 0;
-  font-size: 1.8rem;
-  color: #555555;
-}
-
- 
-[data-scheme=&#34;dark&#34;] .linkcard {
-  background-color: #303030;
-  color: #f0f0f0;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard:hover {
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard p {
-  color: #b1b1b1;
-}
-&lt;/style&gt;
-
-&lt;div class=&#34;linkcard-list&#34;&gt;
-  &lt;a class=&#34;linkcard&#34; href=&#34;https://www.bodiesinmotion.photo/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
-    &lt;h3&gt;Bodies In Motion&lt;/h3&gt;
-    &lt;p&gt;连贯、运动动作参考&lt;/p&gt;
-  &lt;/a&gt;
+&lt;div class="linkcard-list"&gt;
+&lt;a class="linkcard" href="https://quickposes.com/en" target="_blank" rel="noopener noreferrer"&gt;
+&lt;h3&gt;Quickposes&lt;/h3&gt;
+&lt;p&gt;快速速写练习，提高你绘制任何姿势的能力&lt;/p&gt;
+&lt;/a&gt;
 &lt;/div&gt;
-
-&lt;style&gt;
-.linkcard-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 2rem 1.5rem;
-  max-width: 100%;
-  padding: 1rem 0;
-}
-
-@media (min-width: 1080px) {
-  .linkcard-list {
-    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
-  }
-}
-
-.linkcard {
-  display: block;  
-  padding: 1.25rem;
-  border-radius: 0.75rem;
-  background-color: #fafafa;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  text-decoration: none;
-  color: #222222;
-  transition: all 0.25s ease;
-}
-
-.linkcard:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-.linkcard h3 {
-  margin: 0;
-  font-size: 3rem;
-  font-weight: 600;
-}
-
-.linkcard p {
-  margin: 0.5rem 0 0;
-  font-size: 1.8rem;
-  color: #555555;
-}
-
- 
-[data-scheme=&#34;dark&#34;] .linkcard {
-  background-color: #303030;
-  color: #f0f0f0;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard:hover {
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard p {
-  color: #b1b1b1;
-}
-&lt;/style&gt;
-
-&lt;div class=&#34;linkcard-list&#34;&gt;
-  &lt;a class=&#34;linkcard&#34; href=&#34;https://line-of-action.com/zh&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
-    &lt;h3&gt;Line of Action&lt;/h3&gt;
-    &lt;p&gt;多项速写练习&lt;/p&gt;
-  &lt;/a&gt;
+&lt;div class="linkcard-list"&gt;
+&lt;a class="linkcard" href="https://www.sketchdaily.net/zh" target="_blank" rel="noopener noreferrer"&gt;
+&lt;h3&gt;SketchDaily References&lt;/h3&gt;
+&lt;p&gt;欢迎来到每日素描参照装置。&lt;/p&gt;
+&lt;/a&gt;
 &lt;/div&gt;
-
-&lt;style&gt;
-.linkcard-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 2rem 1.5rem;
-  max-width: 100%;
-  padding: 1rem 0;
-}
-
-@media (min-width: 1080px) {
-  .linkcard-list {
-    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
-  }
-}
-
-.linkcard {
-  display: block;  
-  padding: 1.25rem;
-  border-radius: 0.75rem;
-  background-color: #fafafa;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  text-decoration: none;
-  color: #222222;
-  transition: all 0.25s ease;
-}
-
-.linkcard:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-.linkcard h3 {
-  margin: 0;
-  font-size: 3rem;
-  font-weight: 600;
-}
-
-.linkcard p {
-  margin: 0.5rem 0 0;
-  font-size: 1.8rem;
-  color: #555555;
-}
-
- 
-[data-scheme=&#34;dark&#34;] .linkcard {
-  background-color: #303030;
-  color: #f0f0f0;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard:hover {
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard p {
-  color: #b1b1b1;
-}
-&lt;/style&gt;
-
-&lt;div class=&#34;linkcard-list&#34;&gt;
-  &lt;a class=&#34;linkcard&#34; href=&#34;https://quickposes.com/en&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
-    &lt;h3&gt;Quickposes&lt;/h3&gt;
-    &lt;p&gt;快速速写练习，提高你绘制任何姿势的能力&lt;/p&gt;
-  &lt;/a&gt;
 &lt;/div&gt;
-
-&lt;style&gt;
-.linkcard-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 2rem 1.5rem;
-  max-width: 100%;
-  padding: 1rem 0;
-}
-
-@media (min-width: 1080px) {
-  .linkcard-list {
-    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
-  }
-}
-
-.linkcard {
-  display: block;  
-  padding: 1.25rem;
-  border-radius: 0.75rem;
-  background-color: #fafafa;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  text-decoration: none;
-  color: #222222;
-  transition: all 0.25s ease;
-}
-
-.linkcard:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-.linkcard h3 {
-  margin: 0;
-  font-size: 3rem;
-  font-weight: 600;
-}
-
-.linkcard p {
-  margin: 0.5rem 0 0;
-  font-size: 1.8rem;
-  color: #555555;
-}
-
- 
-[data-scheme=&#34;dark&#34;] .linkcard {
-  background-color: #303030;
-  color: #f0f0f0;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard:hover {
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard p {
-  color: #b1b1b1;
-}
-&lt;/style&gt;
-
-&lt;div class=&#34;linkcard-list&#34;&gt;
-  &lt;a class=&#34;linkcard&#34; href=&#34;https://www.sketchdaily.net/zh&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
-    &lt;h3&gt;SketchDaily References&lt;/h3&gt;
-    &lt;p&gt;欢迎来到每日素描参照装置。&lt;/p&gt;
-  &lt;/a&gt;
+&lt;h1 id="姿势搜索"&gt;姿势搜索
+&lt;/h1&gt;&lt;div class="linkcard-list"&gt;
+&lt;div class="linkcard-list"&gt;
+&lt;a class="linkcard" href="https://x6ud.github.io/pose-search/#/" target="_blank" rel="noopener noreferrer"&gt;
+&lt;h3&gt;Pose Search&lt;/h3&gt;
+&lt;p&gt;人体动作&lt;/p&gt;
+&lt;/a&gt;
 &lt;/div&gt;
-
+&lt;div class="linkcard-list"&gt;
+&lt;a class="linkcard" href="https://x6ud.github.io/#/" target="_blank" rel="noopener noreferrer"&gt;
+&lt;h3&gt;Animal Art&lt;/h3&gt;
+&lt;p&gt;动物头骨&lt;/p&gt;
+&lt;/a&gt;
 &lt;/div&gt;
-&lt;h1 id=&#34;姿势搜索&#34;&gt;姿势搜索
-&lt;/h1&gt;&lt;div class=&#34;linkcard-list&#34;&gt;
-&lt;style&gt;
-.linkcard-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 2rem 1.5rem;
-  max-width: 100%;
-  padding: 1rem 0;
-}
-
-@media (min-width: 1080px) {
-  .linkcard-list {
-    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
-  }
-}
-
-.linkcard {
-  display: block;  
-  padding: 1.25rem;
-  border-radius: 0.75rem;
-  background-color: #fafafa;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  text-decoration: none;
-  color: #222222;
-  transition: all 0.25s ease;
-}
-
-.linkcard:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-.linkcard h3 {
-  margin: 0;
-  font-size: 3rem;
-  font-weight: 600;
-}
-
-.linkcard p {
-  margin: 0.5rem 0 0;
-  font-size: 1.8rem;
-  color: #555555;
-}
-
- 
-[data-scheme=&#34;dark&#34;] .linkcard {
-  background-color: #303030;
-  color: #f0f0f0;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard:hover {
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard p {
-  color: #b1b1b1;
-}
-&lt;/style&gt;
-
-&lt;div class=&#34;linkcard-list&#34;&gt;
-  &lt;a class=&#34;linkcard&#34; href=&#34;https://x6ud.github.io/pose-search/#/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
-    &lt;h3&gt;Pose Search&lt;/h3&gt;
-    &lt;p&gt;人体动作&lt;/p&gt;
-  &lt;/a&gt;
+&lt;/div&gt;</description></item><item><title>创意图鉴导航</title><link>https://Leafly717.github.io/p/2025-11-05-1337/</link><pubDate>Wed, 05 Nov 2025 13:37:16 +0800</pubDate><guid>https://Leafly717.github.io/p/2025-11-05-1337/</guid><description>&lt;img src="https://Leafly717.github.io/p/2025-11-05-1337/cover.jpg" alt="Featured image of post 创意图鉴导航" /&gt;&lt;h1 id="配色方案"&gt;配色方案
+&lt;/h1&gt;&lt;div class="linkcard-list"&gt;
+&lt;div class="linkcard-list"&gt;
+&lt;a class="linkcard" href="https://artsexperiments.withgoogle.com/artpalette/colors/" target="_blank" rel="noopener noreferrer"&gt;
+&lt;h3&gt;Google Arts &amp;amp; Culture&lt;/h3&gt;
+&lt;p&gt;谷歌的根据艺术品识取配色，或者根据配色找艺术品&lt;/p&gt;
+&lt;/a&gt;
 &lt;/div&gt;
-
-&lt;style&gt;
-.linkcard-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 2rem 1.5rem;
-  max-width: 100%;
-  padding: 1rem 0;
-}
-
-@media (min-width: 1080px) {
-  .linkcard-list {
-    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
-  }
-}
-
-.linkcard {
-  display: block;  
-  padding: 1.25rem;
-  border-radius: 0.75rem;
-  background-color: #fafafa;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  text-decoration: none;
-  color: #222222;
-  transition: all 0.25s ease;
-}
-
-.linkcard:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-.linkcard h3 {
-  margin: 0;
-  font-size: 3rem;
-  font-weight: 600;
-}
-
-.linkcard p {
-  margin: 0.5rem 0 0;
-  font-size: 1.8rem;
-  color: #555555;
-}
-
- 
-[data-scheme=&#34;dark&#34;] .linkcard {
-  background-color: #303030;
-  color: #f0f0f0;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard:hover {
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard p {
-  color: #b1b1b1;
-}
-&lt;/style&gt;
-
-&lt;div class=&#34;linkcard-list&#34;&gt;
-  &lt;a class=&#34;linkcard&#34; href=&#34;https://x6ud.github.io/#/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
-    &lt;h3&gt;Animal Art&lt;/h3&gt;
-    &lt;p&gt;动物头骨&lt;/p&gt;
-  &lt;/a&gt;
+&lt;div class="linkcard-list"&gt;
+&lt;a class="linkcard" href="https://color.adobe.com/zh/create" target="_blank" rel="noopener noreferrer"&gt;
+&lt;h3&gt;Adobe Color&lt;/h3&gt;
+&lt;p&gt;色轮、调色盘邻近色对比色什么的&lt;/p&gt;
+&lt;/a&gt;
 &lt;/div&gt;
-
-&lt;/div&gt;</description>
-        </item>
-        <item>
-        <title>创意图鉴导航</title>
-        <link>https://Leafly717.github.io/p/%E5%88%9B%E6%84%8F%E5%9B%BE%E9%89%B4%E5%AF%BC%E8%88%AA/</link>
-        <pubDate>Wed, 05 Nov 2025 13:37:16 +0800</pubDate>
-        
-        <guid>https://Leafly717.github.io/p/%E5%88%9B%E6%84%8F%E5%9B%BE%E9%89%B4%E5%AF%BC%E8%88%AA/</guid>
-        <description>&lt;img src="https://images.pexels.com/photos/34012286/pexels-photo-34012286.jpeg" alt="Featured image of post 创意图鉴导航" /&gt;&lt;h1 id=&#34;配色方案&#34;&gt;配色方案
-&lt;/h1&gt;&lt;div class=&#34;linkcard-list&#34;&gt;
-&lt;style&gt;
-.linkcard-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 2rem 1.5rem;
-  max-width: 100%;
-  padding: 1rem 0;
-}
-
-@media (min-width: 1080px) {
-  .linkcard-list {
-    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
-  }
-}
-
-.linkcard {
-  display: block;  
-  padding: 1.25rem;
-  border-radius: 0.75rem;
-  background-color: #fafafa;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  text-decoration: none;
-  color: #222222;
-  transition: all 0.25s ease;
-}
-
-.linkcard:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-.linkcard h3 {
-  margin: 0;
-  font-size: 3rem;
-  font-weight: 600;
-}
-
-.linkcard p {
-  margin: 0.5rem 0 0;
-  font-size: 1.8rem;
-  color: #555555;
-}
-
- 
-[data-scheme=&#34;dark&#34;] .linkcard {
-  background-color: #303030;
-  color: #f0f0f0;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard:hover {
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard p {
-  color: #b1b1b1;
-}
-&lt;/style&gt;
-
-&lt;div class=&#34;linkcard-list&#34;&gt;
-  &lt;a class=&#34;linkcard&#34; href=&#34;https://artsexperiments.withgoogle.com/artpalette/colors/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
-    &lt;h3&gt;Google Arts &amp;amp; Culture&lt;/h3&gt;
-    &lt;p&gt;谷歌的根据艺术品识取配色，或者根据配色找艺术品&lt;/p&gt;
-  &lt;/a&gt;
+&lt;div class="linkcard-list"&gt;
+&lt;a class="linkcard" href="https://www.webdesignrankings.com/resources/lolcolors/" target="_blank" rel="noopener noreferrer"&gt;
+&lt;h3&gt;LolColors&lt;/h3&gt;
+&lt;p&gt;一些挺好看的色卡&lt;/p&gt;
+&lt;/a&gt;
 &lt;/div&gt;
-
-&lt;style&gt;
-.linkcard-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 2rem 1.5rem;
-  max-width: 100%;
-  padding: 1rem 0;
-}
-
-@media (min-width: 1080px) {
-  .linkcard-list {
-    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
-  }
-}
-
-.linkcard {
-  display: block;  
-  padding: 1.25rem;
-  border-radius: 0.75rem;
-  background-color: #fafafa;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  text-decoration: none;
-  color: #222222;
-  transition: all 0.25s ease;
-}
-
-.linkcard:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-.linkcard h3 {
-  margin: 0;
-  font-size: 3rem;
-  font-weight: 600;
-}
-
-.linkcard p {
-  margin: 0.5rem 0 0;
-  font-size: 1.8rem;
-  color: #555555;
-}
-
- 
-[data-scheme=&#34;dark&#34;] .linkcard {
-  background-color: #303030;
-  color: #f0f0f0;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard:hover {
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard p {
-  color: #b1b1b1;
-}
-&lt;/style&gt;
-
-&lt;div class=&#34;linkcard-list&#34;&gt;
-  &lt;a class=&#34;linkcard&#34; href=&#34;https://color.adobe.com/zh/create&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
-    &lt;h3&gt;Adobe Color&lt;/h3&gt;
-    &lt;p&gt;色轮、调色盘邻近色对比色什么的&lt;/p&gt;
-  &lt;/a&gt;
+&lt;div class="linkcard-list"&gt;
+&lt;a class="linkcard" href="https://www.learnui.design/tools/gradient-generator.html" target="_blank" rel="noopener noreferrer"&gt;
+&lt;h3&gt;Gradient Generator&lt;/h3&gt;
+&lt;p&gt;渐变色，能搞CSS &amp;amp; SVG&lt;/p&gt;
+&lt;/a&gt;
 &lt;/div&gt;
-
-&lt;style&gt;
-.linkcard-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 2rem 1.5rem;
-  max-width: 100%;
-  padding: 1rem 0;
-}
-
-@media (min-width: 1080px) {
-  .linkcard-list {
-    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
-  }
-}
-
-.linkcard {
-  display: block;  
-  padding: 1.25rem;
-  border-radius: 0.75rem;
-  background-color: #fafafa;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  text-decoration: none;
-  color: #222222;
-  transition: all 0.25s ease;
-}
-
-.linkcard:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-.linkcard h3 {
-  margin: 0;
-  font-size: 3rem;
-  font-weight: 600;
-}
-
-.linkcard p {
-  margin: 0.5rem 0 0;
-  font-size: 1.8rem;
-  color: #555555;
-}
-
- 
-[data-scheme=&#34;dark&#34;] .linkcard {
-  background-color: #303030;
-  color: #f0f0f0;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard:hover {
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard p {
-  color: #b1b1b1;
-}
-&lt;/style&gt;
-
-&lt;div class=&#34;linkcard-list&#34;&gt;
-  &lt;a class=&#34;linkcard&#34; href=&#34;https://www.webdesignrankings.com/resources/lolcolors/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
-    &lt;h3&gt;LolColors&lt;/h3&gt;
-    &lt;p&gt;一些挺好看的色卡&lt;/p&gt;
-  &lt;/a&gt;
 &lt;/div&gt;
-
-&lt;style&gt;
-.linkcard-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 2rem 1.5rem;
-  max-width: 100%;
-  padding: 1rem 0;
-}
-
-@media (min-width: 1080px) {
-  .linkcard-list {
-    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
-  }
-}
-
-.linkcard {
-  display: block;  
-  padding: 1.25rem;
-  border-radius: 0.75rem;
-  background-color: #fafafa;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  text-decoration: none;
-  color: #222222;
-  transition: all 0.25s ease;
-}
-
-.linkcard:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-.linkcard h3 {
-  margin: 0;
-  font-size: 3rem;
-  font-weight: 600;
-}
-
-.linkcard p {
-  margin: 0.5rem 0 0;
-  font-size: 1.8rem;
-  color: #555555;
-}
-
- 
-[data-scheme=&#34;dark&#34;] .linkcard {
-  background-color: #303030;
-  color: #f0f0f0;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard:hover {
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard p {
-  color: #b1b1b1;
-}
-&lt;/style&gt;
-
-&lt;div class=&#34;linkcard-list&#34;&gt;
-  &lt;a class=&#34;linkcard&#34; href=&#34;https://www.learnui.design/tools/gradient-generator.html&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
-    &lt;h3&gt;Gradient Generator&lt;/h3&gt;
-    &lt;p&gt;渐变色，能搞CSS &amp;amp; SVG&lt;/p&gt;
-  &lt;/a&gt;
+&lt;h1 id="传媒相关"&gt;传媒相关
+&lt;/h1&gt;&lt;div class="linkcard-list"&gt;
+&lt;div class="linkcard-list"&gt;
+&lt;a class="linkcard" href="https://film-grab.com/" target="_blank" rel="noopener noreferrer"&gt;
+&lt;h3&gt;[FILMGRAB]&lt;/h3&gt;
+&lt;p&gt;电影镜头抓取（的图&lt;/p&gt;
+&lt;/a&gt;
 &lt;/div&gt;
-
+&lt;div class="linkcard-list"&gt;
+&lt;a class="linkcard" href="https://screenmusings.org/" target="_blank" rel="noopener noreferrer"&gt;
+&lt;h3&gt;ScreenMusings&lt;/h3&gt;
+&lt;p&gt;电影截图和颜色库&lt;/p&gt;
+&lt;/a&gt;
 &lt;/div&gt;
-&lt;h1 id=&#34;传媒相关&#34;&gt;传媒相关
-&lt;/h1&gt;&lt;div class=&#34;linkcard-list&#34;&gt;
-&lt;style&gt;
-.linkcard-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 2rem 1.5rem;
-  max-width: 100%;
-  padding: 1rem 0;
-}
-
-@media (min-width: 1080px) {
-  .linkcard-list {
-    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
-  }
-}
-
-.linkcard {
-  display: block;  
-  padding: 1.25rem;
-  border-radius: 0.75rem;
-  background-color: #fafafa;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  text-decoration: none;
-  color: #222222;
-  transition: all 0.25s ease;
-}
-
-.linkcard:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-.linkcard h3 {
-  margin: 0;
-  font-size: 3rem;
-  font-weight: 600;
-}
-
-.linkcard p {
-  margin: 0.5rem 0 0;
-  font-size: 1.8rem;
-  color: #555555;
-}
-
- 
-[data-scheme=&#34;dark&#34;] .linkcard {
-  background-color: #303030;
-  color: #f0f0f0;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard:hover {
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard p {
-  color: #b1b1b1;
-}
-&lt;/style&gt;
-
-&lt;div class=&#34;linkcard-list&#34;&gt;
-  &lt;a class=&#34;linkcard&#34; href=&#34;https://film-grab.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
-    &lt;h3&gt;[FILMGRAB]&lt;/h3&gt;
-    &lt;p&gt;电影镜头抓取（的图&lt;/p&gt;
-  &lt;/a&gt;
+&lt;div class="linkcard-list"&gt;
+&lt;a class="linkcard" href="http://www.impawards.com/" target="_blank" rel="noopener noreferrer"&gt;
+&lt;h3&gt;IMP&lt;/h3&gt;
+&lt;p&gt;电影海报&lt;/p&gt;
+&lt;/a&gt;
 &lt;/div&gt;
-
-&lt;style&gt;
-.linkcard-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 2rem 1.5rem;
-  max-width: 100%;
-  padding: 1rem 0;
-}
-
-@media (min-width: 1080px) {
-  .linkcard-list {
-    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
-  }
-}
-
-.linkcard {
-  display: block;  
-  padding: 1.25rem;
-  border-radius: 0.75rem;
-  background-color: #fafafa;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  text-decoration: none;
-  color: #222222;
-  transition: all 0.25s ease;
-}
-
-.linkcard:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-.linkcard h3 {
-  margin: 0;
-  font-size: 3rem;
-  font-weight: 600;
-}
-
-.linkcard p {
-  margin: 0.5rem 0 0;
-  font-size: 1.8rem;
-  color: #555555;
-}
-
- 
-[data-scheme=&#34;dark&#34;] .linkcard {
-  background-color: #303030;
-  color: #f0f0f0;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard:hover {
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard p {
-  color: #b1b1b1;
-}
-&lt;/style&gt;
-
-&lt;div class=&#34;linkcard-list&#34;&gt;
-  &lt;a class=&#34;linkcard&#34; href=&#34;https://screenmusings.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
-    &lt;h3&gt;ScreenMusings&lt;/h3&gt;
-    &lt;p&gt;电影截图和颜色库&lt;/p&gt;
-  &lt;/a&gt;
+&lt;div class="linkcard-list"&gt;
+&lt;a class="linkcard" href="https://www.pulpmags.org/" target="_blank" rel="noopener noreferrer"&gt;
+&lt;h3&gt;Pulpmags&lt;/h3&gt;
+&lt;p&gt;纸质相关封面海报&lt;/p&gt;
+&lt;/a&gt;
 &lt;/div&gt;
-
-&lt;style&gt;
-.linkcard-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 2rem 1.5rem;
-  max-width: 100%;
-  padding: 1rem 0;
-}
-
-@media (min-width: 1080px) {
-  .linkcard-list {
-    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
-  }
-}
-
-.linkcard {
-  display: block;  
-  padding: 1.25rem;
-  border-radius: 0.75rem;
-  background-color: #fafafa;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  text-decoration: none;
-  color: #222222;
-  transition: all 0.25s ease;
-}
-
-.linkcard:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-.linkcard h3 {
-  margin: 0;
-  font-size: 3rem;
-  font-weight: 600;
-}
-
-.linkcard p {
-  margin: 0.5rem 0 0;
-  font-size: 1.8rem;
-  color: #555555;
-}
-
- 
-[data-scheme=&#34;dark&#34;] .linkcard {
-  background-color: #303030;
-  color: #f0f0f0;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard:hover {
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard p {
-  color: #b1b1b1;
-}
-&lt;/style&gt;
-
-&lt;div class=&#34;linkcard-list&#34;&gt;
-  &lt;a class=&#34;linkcard&#34; href=&#34;http://www.impawards.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
-    &lt;h3&gt;IMP&lt;/h3&gt;
-    &lt;p&gt;电影海报&lt;/p&gt;
-  &lt;/a&gt;
 &lt;/div&gt;
-
-&lt;style&gt;
-.linkcard-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 2rem 1.5rem;
-  max-width: 100%;
-  padding: 1rem 0;
-}
-
-@media (min-width: 1080px) {
-  .linkcard-list {
-    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
-  }
-}
-
-.linkcard {
-  display: block;  
-  padding: 1.25rem;
-  border-radius: 0.75rem;
-  background-color: #fafafa;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  text-decoration: none;
-  color: #222222;
-  transition: all 0.25s ease;
-}
-
-.linkcard:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-.linkcard h3 {
-  margin: 0;
-  font-size: 3rem;
-  font-weight: 600;
-}
-
-.linkcard p {
-  margin: 0.5rem 0 0;
-  font-size: 1.8rem;
-  color: #555555;
-}
-
- 
-[data-scheme=&#34;dark&#34;] .linkcard {
-  background-color: #303030;
-  color: #f0f0f0;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard:hover {
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard p {
-  color: #b1b1b1;
-}
-&lt;/style&gt;
-
-&lt;div class=&#34;linkcard-list&#34;&gt;
-  &lt;a class=&#34;linkcard&#34; href=&#34;https://www.pulpmags.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
-    &lt;h3&gt;Pulpmags&lt;/h3&gt;
-    &lt;p&gt;纸质相关封面海报&lt;/p&gt;
-  &lt;/a&gt;
+&lt;h1 id="摄影相关"&gt;摄影相关
+&lt;/h1&gt;&lt;div class="linkcard-list"&gt;
+&lt;div class="linkcard-list"&gt;
+&lt;a class="linkcard" href="https://www.skypixel.com/" target="_blank" rel="noopener noreferrer"&gt;
+&lt;h3&gt;天空之城&lt;/h3&gt;
+&lt;p&gt;全球航拍爱好者和专业摄影师的作品社区（）&lt;/p&gt;
+&lt;/a&gt;
 &lt;/div&gt;
-
+&lt;div class="linkcard-list"&gt;
+&lt;a class="linkcard" href="https://www.pexels.com/zh-cn/" target="_blank" rel="noopener noreferrer"&gt;
+&lt;h3&gt;Pexels&lt;/h3&gt;
+&lt;p&gt;才华横溢的摄影作者在这里免费分享最精彩的素材图片和视频。&lt;/p&gt;
+&lt;/a&gt;
 &lt;/div&gt;
-&lt;h1 id=&#34;摄影相关&#34;&gt;摄影相关
-&lt;/h1&gt;&lt;div class=&#34;linkcard-list&#34;&gt;
-&lt;style&gt;
-.linkcard-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 2rem 1.5rem;
-  max-width: 100%;
-  padding: 1rem 0;
-}
-
-@media (min-width: 1080px) {
-  .linkcard-list {
-    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
-  }
-}
-
-.linkcard {
-  display: block;  
-  padding: 1.25rem;
-  border-radius: 0.75rem;
-  background-color: #fafafa;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  text-decoration: none;
-  color: #222222;
-  transition: all 0.25s ease;
-}
-
-.linkcard:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-.linkcard h3 {
-  margin: 0;
-  font-size: 3rem;
-  font-weight: 600;
-}
-
-.linkcard p {
-  margin: 0.5rem 0 0;
-  font-size: 1.8rem;
-  color: #555555;
-}
-
- 
-[data-scheme=&#34;dark&#34;] .linkcard {
-  background-color: #303030;
-  color: #f0f0f0;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard:hover {
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard p {
-  color: #b1b1b1;
-}
-&lt;/style&gt;
-
-&lt;div class=&#34;linkcard-list&#34;&gt;
-  &lt;a class=&#34;linkcard&#34; href=&#34;https://www.skypixel.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
-    &lt;h3&gt;天空之城&lt;/h3&gt;
-    &lt;p&gt;全球航拍爱好者和专业摄影师的作品社区（）&lt;/p&gt;
-  &lt;/a&gt;
+&lt;div class="linkcard-list"&gt;
+&lt;a class="linkcard" href="https://www.lifeofpix.com/" target="_blank" rel="noopener noreferrer"&gt;
+&lt;h3&gt;Life of pix&lt;/h3&gt;
+&lt;p&gt;免费高分辨率摄影&lt;/p&gt;
+&lt;/a&gt;
 &lt;/div&gt;
-
-&lt;style&gt;
-.linkcard-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 2rem 1.5rem;
-  max-width: 100%;
-  padding: 1rem 0;
-}
-
-@media (min-width: 1080px) {
-  .linkcard-list {
-    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
-  }
-}
-
-.linkcard {
-  display: block;  
-  padding: 1.25rem;
-  border-radius: 0.75rem;
-  background-color: #fafafa;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  text-decoration: none;
-  color: #222222;
-  transition: all 0.25s ease;
-}
-
-.linkcard:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-.linkcard h3 {
-  margin: 0;
-  font-size: 3rem;
-  font-weight: 600;
-}
-
-.linkcard p {
-  margin: 0.5rem 0 0;
-  font-size: 1.8rem;
-  color: #555555;
-}
-
- 
-[data-scheme=&#34;dark&#34;] .linkcard {
-  background-color: #303030;
-  color: #f0f0f0;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard:hover {
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard p {
-  color: #b1b1b1;
-}
-&lt;/style&gt;
-
-&lt;div class=&#34;linkcard-list&#34;&gt;
-  &lt;a class=&#34;linkcard&#34; href=&#34;https://www.pexels.com/zh-cn/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
-    &lt;h3&gt;Pexels&lt;/h3&gt;
-    &lt;p&gt;才华横溢的摄影作者在这里免费分享最精彩的素材图片和视频。&lt;/p&gt;
-  &lt;/a&gt;
+&lt;div class="linkcard-list"&gt;
+&lt;a class="linkcard" href="https://www.airpano.com/" target="_blank" rel="noopener noreferrer"&gt;
+&lt;h3&gt;AirPaon&lt;/h3&gt;
+&lt;p&gt;360°&lt;/p&gt;
+&lt;/a&gt;
 &lt;/div&gt;
-
-&lt;style&gt;
-.linkcard-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 2rem 1.5rem;
-  max-width: 100%;
-  padding: 1rem 0;
-}
-
-@media (min-width: 1080px) {
-  .linkcard-list {
-    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
-  }
-}
-
-.linkcard {
-  display: block;  
-  padding: 1.25rem;
-  border-radius: 0.75rem;
-  background-color: #fafafa;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  text-decoration: none;
-  color: #222222;
-  transition: all 0.25s ease;
-}
-
-.linkcard:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-.linkcard h3 {
-  margin: 0;
-  font-size: 3rem;
-  font-weight: 600;
-}
-
-.linkcard p {
-  margin: 0.5rem 0 0;
-  font-size: 1.8rem;
-  color: #555555;
-}
-
- 
-[data-scheme=&#34;dark&#34;] .linkcard {
-  background-color: #303030;
-  color: #f0f0f0;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard:hover {
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard p {
-  color: #b1b1b1;
-}
-&lt;/style&gt;
-
-&lt;div class=&#34;linkcard-list&#34;&gt;
-  &lt;a class=&#34;linkcard&#34; href=&#34;https://www.lifeofpix.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
-    &lt;h3&gt;Life of pix&lt;/h3&gt;
-    &lt;p&gt;免费高分辨率摄影&lt;/p&gt;
-  &lt;/a&gt;
-&lt;/div&gt;
-
-&lt;style&gt;
-.linkcard-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 2rem 1.5rem;
-  max-width: 100%;
-  padding: 1rem 0;
-}
-
-@media (min-width: 1080px) {
-  .linkcard-list {
-    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
-  }
-}
-
-.linkcard {
-  display: block;  
-  padding: 1.25rem;
-  border-radius: 0.75rem;
-  background-color: #fafafa;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  text-decoration: none;
-  color: #222222;
-  transition: all 0.25s ease;
-}
-
-.linkcard:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-.linkcard h3 {
-  margin: 0;
-  font-size: 3rem;
-  font-weight: 600;
-}
-
-.linkcard p {
-  margin: 0.5rem 0 0;
-  font-size: 1.8rem;
-  color: #555555;
-}
-
- 
-[data-scheme=&#34;dark&#34;] .linkcard {
-  background-color: #303030;
-  color: #f0f0f0;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard:hover {
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard p {
-  color: #b1b1b1;
-}
-&lt;/style&gt;
-
-&lt;div class=&#34;linkcard-list&#34;&gt;
-  &lt;a class=&#34;linkcard&#34; href=&#34;https://www.airpano.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
-    &lt;h3&gt;AirPaon&lt;/h3&gt;
-    &lt;p&gt;360°&lt;/p&gt;
-  &lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/div&gt;
-</description>
-        </item>
-        <item>
-        <title>Markdown指南</title>
-        <link>https://Leafly717.github.io/p/markdown%E6%8C%87%E5%8D%97/</link>
-        <pubDate>Thu, 30 Oct 2025 16:06:01 +0800</pubDate>
-        
-        <guid>https://Leafly717.github.io/p/markdown%E6%8C%87%E5%8D%97/</guid>
-        <description>&lt;p&gt;首先文章案例&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/div&gt;</description></item><item><title>Markdown指南</title><link>https://Leafly717.github.io/p/2025-10-30-1606/</link><pubDate>Thu, 30 Oct 2025 16:06:01 +0800</pubDate><guid>https://Leafly717.github.io/p/2025-10-30-1606/</guid><description>&lt;p&gt;首先文章案例&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt; 1
+&lt;/span&gt;&lt;span class="lnt"&gt; 2
+&lt;/span&gt;&lt;span class="lnt"&gt; 3
+&lt;/span&gt;&lt;span class="lnt"&gt; 4
+&lt;/span&gt;&lt;span class="lnt"&gt; 5
+&lt;/span&gt;&lt;span class="lnt"&gt; 6
+&lt;/span&gt;&lt;span class="lnt"&gt; 7
+&lt;/span&gt;&lt;span class="lnt"&gt; 8
+&lt;/span&gt;&lt;span class="lnt"&gt; 9
+&lt;/span&gt;&lt;span class="lnt"&gt;10
+&lt;/span&gt;&lt;span class="lnt"&gt;11
+&lt;/span&gt;&lt;span class="lnt"&gt;12
+&lt;/span&gt;&lt;span class="lnt"&gt;13
+&lt;/span&gt;&lt;span class="lnt"&gt;14
+&lt;/span&gt;&lt;span class="lnt"&gt;15
+&lt;/span&gt;&lt;span class="lnt"&gt;16
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;#
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;author = &amp;#34;Hugo Authors&amp;#34;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;title = &amp;#34;Markdown指南&amp;#34;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;date = &amp;#34;2025-10-30T21:06:01+08:00&amp;#34;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;description = &amp;#34;基本语法格式什么的&amp;#34;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;tags = [
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &amp;#34;markdown&amp;#34;,
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &amp;#34;css&amp;#34;,
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &amp;#34;html&amp;#34;,
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &amp;#34;themes&amp;#34;,
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;]
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;categories = [
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &amp;#34;Test&amp;#34;,
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;]
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;lastmod = &amp;#34;2025-10-30T18:06:01+08:00&amp;#34;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;image = &amp;#34;pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg&amp;#34;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;#
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;author = &amp;#34;Hugo Authors&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;title = &amp;#34;Markdown指南&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;date = &amp;#34;2025-10-30T21:06:01+08:00&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;description = &amp;#34;基本语法格式什么的&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;tags = [
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &amp;#34;markdown&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &amp;#34;css&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &amp;#34;html&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &amp;#34;themes&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;categories = [
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &amp;#34;Test&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;lastmod = &amp;#34;2025-10-30T18:06:01+08:00&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;image = &amp;#34;pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg&amp;#34;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;标题&#34;&gt;标题
+&lt;/div&gt;&lt;h2 id="标题"&gt;标题
 &lt;/h2&gt;&lt;p&gt;从 &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt;一直到&lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt;&lt;/p&gt;
-&lt;h1 id=&#34;h11&#34;&gt;H1，#1
-&lt;/h1&gt;&lt;h2 id=&#34;h22&#34;&gt;H2，##2
-&lt;/h2&gt;&lt;h3 id=&#34;h33&#34;&gt;H3，###3
-&lt;/h3&gt;&lt;h4 id=&#34;h44&#34;&gt;H4，####4
-&lt;/h4&gt;&lt;h5 id=&#34;h55&#34;&gt;H5，#####5
-&lt;/h5&gt;&lt;h6 id=&#34;h66&#34;&gt;H6，######6
-&lt;/h6&gt;&lt;h2 id=&#34;引用&#34;&gt;引用
+&lt;h1 id="h11"&gt;H1，#1
+&lt;/h1&gt;&lt;h2 id="h22"&gt;H2，##2
+&lt;/h2&gt;&lt;h3 id="h33"&gt;H3，###3
+&lt;/h3&gt;&lt;h4 id="h44"&gt;H4，####4
+&lt;/h4&gt;&lt;h5 id="h55"&gt;H5，#####5
+&lt;/h5&gt;&lt;h6 id="h66"&gt;H6，######6
+&lt;/h6&gt;&lt;h2 id="引用"&gt;引用
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;#&amp;gt;，正是如此&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h2 id=&#34;代码块&#34;&gt;代码块
-&lt;/h2&gt;&lt;h4 id=&#34;编译代码快&#34;&gt;编译代码快
-&lt;/h4&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;h2 id="代码块"&gt;代码块
+&lt;/h2&gt;&lt;h4 id="编译代码快"&gt;编译代码快
+&lt;/h4&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt; 1
+&lt;/span&gt;&lt;span class="lnt"&gt; 2
+&lt;/span&gt;&lt;span class="lnt"&gt; 3
+&lt;/span&gt;&lt;span class="lnt"&gt; 4
+&lt;/span&gt;&lt;span class="lnt"&gt; 5
+&lt;/span&gt;&lt;span class="lnt"&gt; 6
+&lt;/span&gt;&lt;span class="lnt"&gt; 7
+&lt;/span&gt;&lt;span class="lnt"&gt; 8
+&lt;/span&gt;&lt;span class="lnt"&gt; 9
+&lt;/span&gt;&lt;span class="lnt"&gt;10
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;html&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;lang&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;en&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;meta&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;charset&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;utf-8&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Example HTML5 Document&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Test&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;html&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-html" data-lang="html"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="cp"&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;html&lt;/span&gt; &lt;span class="na"&gt;lang&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;en&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;head&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;meta&lt;/span&gt; &lt;span class="na"&gt;charset&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;utf-8&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;title&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;Example HTML5 Document&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;title&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;head&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;body&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;Test&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;body&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;html&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h4 id=&#34;四个空格组成&#34;&gt;四个空格组成
+&lt;/div&gt;&lt;h4 id="四个空格组成"&gt;四个空格组成
 &lt;/h4&gt;&lt;pre&gt;&lt;code&gt;&amp;lt;!doctype html&amp;gt;
 &amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;
 &amp;lt;head&amp;gt;
-  &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;
-  &amp;lt;title&amp;gt;Example HTML5 Document&amp;lt;/title&amp;gt;
+&amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;
+&amp;lt;title&amp;gt;Example HTML5 Document&amp;lt;/title&amp;gt;
 &amp;lt;/head&amp;gt;
 &amp;lt;body&amp;gt;
-  &amp;lt;p&amp;gt;Test&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Test&amp;lt;/p&amp;gt;
 &amp;lt;/body&amp;gt;
 &amp;lt;/html&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h4 id=&#34;hugo用高亮&#34;&gt;Hugo用高亮
-&lt;/h4&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;h4 id="hugo用高亮"&gt;Hugo用高亮
+&lt;/h4&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt; 1
+&lt;/span&gt;&lt;span class="lnt"&gt; 2
+&lt;/span&gt;&lt;span class="lnt"&gt; 3
+&lt;/span&gt;&lt;span class="lnt"&gt; 4
+&lt;/span&gt;&lt;span class="lnt"&gt; 5
+&lt;/span&gt;&lt;span class="lnt"&gt; 6
+&lt;/span&gt;&lt;span class="lnt"&gt; 7
+&lt;/span&gt;&lt;span class="lnt"&gt; 8
+&lt;/span&gt;&lt;span class="lnt"&gt; 9
+&lt;/span&gt;&lt;span class="lnt"&gt;10
+&lt;/span&gt;&lt;span class="lnt"&gt;11
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;html&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;lang&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;en&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;meta&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;charset&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;utf-8&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Example HTML5 Document&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Test&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;html&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-html" data-lang="html"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="cp"&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;html&lt;/span&gt; &lt;span class="na"&gt;lang&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;en&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;head&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;meta&lt;/span&gt; &lt;span class="na"&gt;charset&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;utf-8&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;title&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;Example HTML5 Document&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;title&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;head&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;body&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;Test&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;body&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;html&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;h4 id=&#34;diff&#34;&gt;Diff
-&lt;/h4&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;h4 id="diff"&gt;Diff
+&lt;/h4&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;span class="lnt"&gt;5
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-diff&#34; data-lang=&#34;diff&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[dependencies.bevy]
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git = &amp;#34;https://github.com/bevyengine/bevy&amp;#34;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;rev = &amp;#34;11f52b8c72fc3a568e8bb4a4cd1f3eb025ac2e13&amp;#34;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gd&#34;&gt;- features = [&amp;#34;dynamic&amp;#34;]
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gi&#34;&gt;+ features = [&amp;#34;jpeg&amp;#34;, &amp;#34;dynamic&amp;#34;]
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-diff" data-lang="diff"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;[dependencies.bevy]
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git = &amp;#34;https://github.com/bevyengine/bevy&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;rev = &amp;#34;11f52b8c72fc3a568e8bb4a4cd1f3eb025ac2e13&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="gd"&gt;- features = [&amp;#34;dynamic&amp;#34;]
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="gd"&gt;&lt;/span&gt;&lt;span class="gi"&gt;+ features = [&amp;#34;jpeg&amp;#34;, &amp;#34;dynamic&amp;#34;]
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;列表类型&#34;&gt;列表类型
-&lt;/h2&gt;&lt;h4 id=&#34;有序列表&#34;&gt;有序列表
+&lt;/div&gt;&lt;h2 id="列表类型"&gt;列表类型
+&lt;/h2&gt;&lt;h4 id="有序列表"&gt;有序列表
 &lt;/h4&gt;&lt;ol&gt;
 &lt;li&gt;First item&lt;/li&gt;
 &lt;li&gt;Second item&lt;/li&gt;
 &lt;li&gt;Third item&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h4 id=&#34;无序列表&#34;&gt;无序列表
+&lt;h4 id="无序列表"&gt;无序列表
 &lt;/h4&gt;&lt;ul&gt;
 &lt;li&gt;List item&lt;/li&gt;
 &lt;li&gt;Another item&lt;/li&gt;
 &lt;li&gt;And another item&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;项目列表&#34;&gt;项目列表
+&lt;h4 id="项目列表"&gt;项目列表
 &lt;/h4&gt;&lt;ul&gt;
 &lt;li&gt;Fruit
 &lt;ul&gt;
@@ -3205,523 +1047,69 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;其他元素--abbr-sub-sup-kbd-mark&#34;&gt;其他元素 — abbr, sub, sup, kbd, mark
-&lt;/h2&gt;&lt;p&gt;&lt;abbr title=&#34;Graphics Interchange Format&#34;&gt;GIF&lt;/abbr&gt; ，下划线abbr&lt;/p&gt;
+&lt;h2 id="其他元素--abbr-sub-sup-kbd-mark"&gt;其他元素 — abbr, sub, sup, kbd, mark
+&lt;/h2&gt;&lt;p&gt;&lt;abbr title="Graphics Interchange Format"&gt;GIF&lt;/abbr&gt; ，下划线abbr&lt;/p&gt;
 &lt;p&gt;H&lt;sub&gt;2&lt;/sub&gt;O，右下sub&lt;/p&gt;
 &lt;p&gt;X&lt;sup&gt;n&lt;/sup&gt; + Y&lt;sup&gt;n&lt;/sup&gt; = Z&lt;sup&gt;n&lt;/sup&gt;，右上sup&lt;/p&gt;
 &lt;p&gt;请输入 &lt;kbd&gt;CTRL&lt;/kbd&gt; + &lt;kbd&gt;ALT&lt;/kbd&gt; + &lt;kbd&gt;Delete&lt;/kbd&gt; to 结束会话，按键kbd&lt;/p&gt;
 &lt;p&gt;&lt;mark&gt;高亮显示&lt;/mark&gt; mark&lt;/p&gt;
-&lt;h2 id=&#34;图片超链接&#34;&gt;图片超链接
-&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://space.bilibili.com/1459104794&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img src=&#34;https://img.moegirl.org.cn/common/e/ea/MyGO%21%21%21%21%21_10th_anniversary_kv_banner_v2.webp&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;MyGO_AveMujica&#34;
-	
-	
+&lt;h2 id="图片超链接"&gt;图片超链接
+&lt;/h2&gt;&lt;p&gt;&lt;a class="link" href="https://space.bilibili.com/1459104794" target="_blank" rel="noopener"
+&gt;&lt;img src="https://img.moegirl.org.cn/common/e/ea/MyGO%21%21%21%21%21_10th_anniversary_kv_banner_v2.webp"
+loading="lazy"
+alt="MyGO_AveMujica"
 &gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;hugo用短代码&#34;&gt;Hugo用短代码
-&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;短代码&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;聊天气泡&#34;&gt;聊天气泡
-&lt;/h2&gt;  
-&lt;div class=&#34;chat --other&#34;&gt;
-    &lt;div class=&#34;chat__inner&#34;&gt;
-        &lt;div class=&#34;chat__meta&#34;&gt;John Doe&amp;nbsp;&amp;nbsp;&amp;nbsp;2023-09-12 14:30&lt;/div&gt;
-        &lt;div class=&#34;chat__text&#34;&gt;
-            
+&lt;h2 id="hugo用短代码"&gt;Hugo用短代码
+&lt;/h2&gt;&lt;p&gt;&lt;a class="link" href="https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes" target="_blank" rel="noopener"
+&gt;短代码&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="聊天气泡"&gt;聊天气泡
+&lt;/h2&gt;
+&lt;div class="chat --other"&gt;
+&lt;div class="chat__inner"&gt;
+&lt;div class="chat__meta"&gt;John Doe&amp;nbsp;&amp;nbsp;&amp;nbsp;2023-09-12 14:30&lt;/div&gt;
+&lt;div class="chat__text"&gt;
 这是左边的消息内容。
-
-        &lt;/div&gt;
-    &lt;/div&gt;
 &lt;/div&gt;
-
-
-&lt;style&gt;
-    .chat {
-        margin: 10px;
-        padding: 10px;
-        position: relative;
-         
-        transition: transform 0.2s;
-         
-        max-width: 80%;
-        min-width: 15%;
-    }
-    
-    .chat:hover {
-        transform: scale(1.05);
-    }
-    
-    .chat.--self {
-        text-align: left;
-        background-color: #ecf5ff;
-        color: #000000;
-        border-radius: 15px;
-        width: fit-content;
-        margin-left: auto;
-    }
-     
-    
-    .chat.--self::before {
-        content: &#34;&#34;;
-        position: absolute;
-        right: -18px;
-         
-        bottom: 5px;
-        transform: translateY(-50%);
-        border-width: 15px 0 0 20px;
-        border-style: solid;
-        border-color: transparent transparent transparent #ecf5ff;
-         
-    }
-     
-    
-    .chat.--other {
-        text-align: left;
-        background-color: #ffecec;
-        color: #333;
-        border-radius: 15px;
-        position: relative;
-        width: fit-content;
-    }
-     
-    
-    .chat.--other::before {
-        content: &#34;&#34;;
-        position: absolute;
-        left: -18px;
-        bottom: 5px;
-        transform: translateY(-50%);
-        border-width: 15px 20px 0 0;
-        border-style: solid;
-        border-color: transparent #ffecec transparent transparent;
-    }
-     
-    
-    .chat__meta {
-        font-weight: bold;
-        font-size: 0.67em;
-        color: #707070;
-        margin-bottom: 5px;
-    }
-     
-    
-    .chat__text {
-        font-size: 0.9em;
-        margin-left: 10px;
-        word-break: break-all;
-    }
-    
-    [data-scheme=&#34;dark&#34;] {
-        .chat.--self {
-            color: #fefefe;
-            background-color: #253958;
-        }
-        .chat.--self::before {
-            border-color: transparent transparent transparent #253958;
-        }
-        .chat.--other {
-            color: #fefefe;
-            background-color: #1a1a1a;
-        }
-        .chat.--other::before {
-            border-color: transparent #1a1a1a transparent transparent;
-        }
-        .chat__meta {
-            color: #b1b1b1;
-        }
-    }
-&lt;/style&gt;
-
-  
-&lt;div class=&#34;chat --self&#34;&gt;
-    &lt;div class=&#34;chat__inner&#34;&gt;
-        &lt;div class=&#34;chat__meta&#34; style=&#34;text-align: right;&#34;&gt;2023-09-12 14:45&amp;nbsp;&amp;nbsp;&amp;nbsp;Alice&lt;/div&gt;
-        &lt;div class=&#34;chat__text&#34;&gt;
-             
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="chat --self"&gt;
+&lt;div class="chat__inner"&gt;
+&lt;div class="chat__meta" style="text-align: right;"&gt;2023-09-12 14:45&amp;nbsp;&amp;nbsp;&amp;nbsp;Alice&lt;/div&gt;
+&lt;div class="chat__text"&gt;
 这是右边的消息内容，测试长长长长长长长长长长长长长长长长长长长长长长长长度。
-
-        &lt;/div&gt;
-    &lt;/div&gt;
 &lt;/div&gt;
-
-
-&lt;style&gt;
-    .chat {
-        margin: 10px;
-        padding: 10px;
-        position: relative;
-         
-        transition: transform 0.2s;
-         
-        max-width: 80%;
-        min-width: 15%;
-    }
-    
-    .chat:hover {
-        transform: scale(1.05);
-    }
-    
-    .chat.--self {
-        text-align: left;
-        background-color: #ecf5ff;
-        color: #000000;
-        border-radius: 15px;
-        width: fit-content;
-        margin-left: auto;
-    }
-     
-    
-    .chat.--self::before {
-        content: &#34;&#34;;
-        position: absolute;
-        right: -18px;
-         
-        bottom: 5px;
-        transform: translateY(-50%);
-        border-width: 15px 0 0 20px;
-        border-style: solid;
-        border-color: transparent transparent transparent #ecf5ff;
-         
-    }
-     
-    
-    .chat.--other {
-        text-align: left;
-        background-color: #ffecec;
-        color: #333;
-        border-radius: 15px;
-        position: relative;
-        width: fit-content;
-    }
-     
-    
-    .chat.--other::before {
-        content: &#34;&#34;;
-        position: absolute;
-        left: -18px;
-        bottom: 5px;
-        transform: translateY(-50%);
-        border-width: 15px 20px 0 0;
-        border-style: solid;
-        border-color: transparent #ffecec transparent transparent;
-    }
-     
-    
-    .chat__meta {
-        font-weight: bold;
-        font-size: 0.67em;
-        color: #707070;
-        margin-bottom: 5px;
-    }
-     
-    
-    .chat__text {
-        font-size: 0.9em;
-        margin-left: 10px;
-        word-break: break-all;
-    }
-    
-    [data-scheme=&#34;dark&#34;] {
-        .chat.--self {
-            color: #fefefe;
-            background-color: #253958;
-        }
-        .chat.--self::before {
-            border-color: transparent transparent transparent #253958;
-        }
-        .chat.--other {
-            color: #fefefe;
-            background-color: #1a1a1a;
-        }
-        .chat.--other::before {
-            border-color: transparent #1a1a1a transparent transparent;
-        }
-        .chat__meta {
-            color: #b1b1b1;
-        }
-    }
-&lt;/style&gt;
-
-&lt;h2 id=&#34;链接卡片&#34;&gt;链接卡片
-&lt;/h2&gt;&lt;div class=&#34;linkcard-list&#34;&gt;
-&lt;style&gt;
-.linkcard-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 2rem 1.5rem;
-  max-width: 100%;
-  padding: 1rem 0;
-}
-
-@media (min-width: 1080px) {
-  .linkcard-list {
-    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
-  }
-}
-
-.linkcard {
-  display: block;  
-  padding: 1.25rem;
-  border-radius: 0.75rem;
-  background-color: #fafafa;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  text-decoration: none;
-  color: #222222;
-  transition: all 0.25s ease;
-}
-
-.linkcard:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-.linkcard h3 {
-  margin: 0;
-  font-size: 3rem;
-  font-weight: 600;
-}
-
-.linkcard p {
-  margin: 0.5rem 0 0;
-  font-size: 1.8rem;
-  color: #555555;
-}
-
- 
-[data-scheme=&#34;dark&#34;] .linkcard {
-  background-color: #303030;
-  color: #f0f0f0;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard:hover {
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard p {
-  color: #b1b1b1;
-}
-&lt;/style&gt;
-
-&lt;div class=&#34;linkcard-list&#34;&gt;
-  &lt;a class=&#34;linkcard&#34; href=&#34;https://artsexperiments.withgoogle.com/artpalette/colors/6cb999-8e6cb9-79b96b-6cb999-b96c98&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
-    &lt;h3&gt;Google Arts &amp;amp; Culture&lt;/h3&gt;
-    &lt;p&gt;谷歌的根据艺术品识取配色，或者根据配色找艺术品&lt;/p&gt;
-  &lt;/a&gt;
 &lt;/div&gt;
-
-&lt;style&gt;
-.linkcard-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 2rem 1.5rem;
-  max-width: 100%;
-  padding: 1rem 0;
-}
-
-@media (min-width: 1080px) {
-  .linkcard-list {
-    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
-  }
-}
-
-.linkcard {
-  display: block;  
-  padding: 1.25rem;
-  border-radius: 0.75rem;
-  background-color: #fafafa;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  text-decoration: none;
-  color: #222222;
-  transition: all 0.25s ease;
-}
-
-.linkcard:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-.linkcard h3 {
-  margin: 0;
-  font-size: 3rem;
-  font-weight: 600;
-}
-
-.linkcard p {
-  margin: 0.5rem 0 0;
-  font-size: 1.8rem;
-  color: #555555;
-}
-
- 
-[data-scheme=&#34;dark&#34;] .linkcard {
-  background-color: #303030;
-  color: #f0f0f0;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard:hover {
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard p {
-  color: #b1b1b1;
-}
-&lt;/style&gt;
-
-&lt;div class=&#34;linkcard-list&#34;&gt;
-  &lt;a class=&#34;linkcard&#34; href=&#34;https://color.adobe.com/zh/create&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
-    &lt;h3&gt;Adobe Color&lt;/h3&gt;
-    &lt;p&gt;色轮、调色盘邻近色对比色什么的&lt;/p&gt;
-  &lt;/a&gt;
 &lt;/div&gt;
-
-&lt;style&gt;
-.linkcard-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 2rem 1.5rem;
-  max-width: 100%;
-  padding: 1rem 0;
-}
-
-@media (min-width: 1080px) {
-  .linkcard-list {
-    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
-  }
-}
-
-.linkcard {
-  display: block;  
-  padding: 1.25rem;
-  border-radius: 0.75rem;
-  background-color: #fafafa;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  text-decoration: none;
-  color: #222222;
-  transition: all 0.25s ease;
-}
-
-.linkcard:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-.linkcard h3 {
-  margin: 0;
-  font-size: 3rem;
-  font-weight: 600;
-}
-
-.linkcard p {
-  margin: 0.5rem 0 0;
-  font-size: 1.8rem;
-  color: #555555;
-}
-
- 
-[data-scheme=&#34;dark&#34;] .linkcard {
-  background-color: #303030;
-  color: #f0f0f0;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard:hover {
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard p {
-  color: #b1b1b1;
-}
-&lt;/style&gt;
-
-&lt;div class=&#34;linkcard-list&#34;&gt;
-  &lt;a class=&#34;linkcard&#34; href=&#34;https://www.webdesignrankings.com/resources/lolcolors/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
-    &lt;h3&gt;LolColors&lt;/h3&gt;
-    &lt;p&gt;一些挺好看的色卡&lt;/p&gt;
-  &lt;/a&gt;
+&lt;h2 id="链接卡片"&gt;链接卡片
+&lt;/h2&gt;&lt;div class="linkcard-list"&gt;
+&lt;div class="linkcard-list"&gt;
+&lt;a class="linkcard" href="https://artsexperiments.withgoogle.com/artpalette/colors/6cb999-8e6cb9-79b96b-6cb999-b96c98" target="_blank" rel="noopener noreferrer"&gt;
+&lt;h3&gt;Google Arts &amp;amp; Culture&lt;/h3&gt;
+&lt;p&gt;谷歌的根据艺术品识取配色，或者根据配色找艺术品&lt;/p&gt;
+&lt;/a&gt;
 &lt;/div&gt;
-
-&lt;style&gt;
-.linkcard-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 2rem 1.5rem;
-  max-width: 100%;
-  padding: 1rem 0;
-}
-
-@media (min-width: 1080px) {
-  .linkcard-list {
-    grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
-  }
-}
-
-.linkcard {
-  display: block;  
-  padding: 1.25rem;
-  border-radius: 0.75rem;
-  background-color: #fafafa;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  text-decoration: none;
-  color: #222222;
-  transition: all 0.25s ease;
-}
-
-.linkcard:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-.linkcard h3 {
-  margin: 0;
-  font-size: 3rem;
-  font-weight: 600;
-}
-
-.linkcard p {
-  margin: 0.5rem 0 0;
-  font-size: 1.8rem;
-  color: #555555;
-}
-
- 
-[data-scheme=&#34;dark&#34;] .linkcard {
-  background-color: #303030;
-  color: #f0f0f0;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard:hover {
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
-
-[data-scheme=&#34;dark&#34;] .linkcard p {
-  color: #b1b1b1;
-}
-&lt;/style&gt;
-
-&lt;div class=&#34;linkcard-list&#34;&gt;
-  &lt;a class=&#34;linkcard&#34; href=&#34;https://www.learnui.design/tools/gradient-generator.html&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
-    &lt;h3&gt;Gradient Generator&lt;/h3&gt;
-    &lt;p&gt;渐变色，能搞CSS &amp;amp; SVG&lt;/p&gt;
-  &lt;/a&gt;
+&lt;div class="linkcard-list"&gt;
+&lt;a class="linkcard" href="https://color.adobe.com/zh/create" target="_blank" rel="noopener noreferrer"&gt;
+&lt;h3&gt;Adobe Color&lt;/h3&gt;
+&lt;p&gt;色轮、调色盘邻近色对比色什么的&lt;/p&gt;
+&lt;/a&gt;
 &lt;/div&gt;
-
+&lt;div class="linkcard-list"&gt;
+&lt;a class="linkcard" href="https://www.webdesignrankings.com/resources/lolcolors/" target="_blank" rel="noopener noreferrer"&gt;
+&lt;h3&gt;LolColors&lt;/h3&gt;
+&lt;p&gt;一些挺好看的色卡&lt;/p&gt;
+&lt;/a&gt;
 &lt;/div&gt;
-&lt;h2 id=&#34;todo&#34;&gt;TODO
+&lt;div class="linkcard-list"&gt;
+&lt;a class="linkcard" href="https://www.learnui.design/tools/gradient-generator.html" target="_blank" rel="noopener noreferrer"&gt;
+&lt;h3&gt;Gradient Generator&lt;/h3&gt;
+&lt;p&gt;渐变色，能搞CSS &amp;amp; SVG&lt;/p&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id="todo"&gt;TODO
 &lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 待办事项 1&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 已完成事项 2&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 待办事项 3&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        </item>
-        
-    </channel>
-</rss>
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; 待办事项 1&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; 已完成事项 2&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; 待办事项 3&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>
