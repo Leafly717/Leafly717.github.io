@@ -1,28 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blender on Leafly</title><link>https://Leafly717.github.io/tags/blender/</link><description>Recent content in Blender on Leafly</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Leafly</copyright><lastBuildDate>Thu, 20 Nov 2025 04:43:57 +0800</lastBuildDate><atom:link href="https://Leafly717.github.io/tags/blender/index.xml" rel="self" type="application/rss+xml"/><item><title>Overwatch DataTool</title><link>https://Leafly717.github.io/p/2025-11-20-0349/</link><pubDate>Thu, 20 Nov 2025 03:49:46 +0800</pubDate><guid>https://Leafly717.github.io/p/2025-11-20-0349/</guid><description>&lt;p&gt;懒得每次开txt了，写一个网页的&lt;/p&gt;
-&lt;p&gt;DataTool链接&lt;/p&gt;
-&lt;p&gt;&lt;a class="link" href="https://github.com/overtools/OWLib" target="_blank" rel="noopener"
-&gt;Github-overtools/OWLib&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class="link" href="https://discord.com/channels/346445737367699456/588240088513642526" target="_blank" rel="noopener"
-&gt;Discord-#tool-releases | DataWatch&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Wiki链接&lt;/p&gt;
-&lt;p&gt;&lt;a class="link" href="https://overwatch.fandom.com/wiki/Overwatch_Wiki" target="_blank" rel="noopener"
-&gt;Fandom-Overwatch Wiki&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id="可解锁物品"&gt;可解锁物品
-&lt;/h1&gt;&lt;p&gt;英雄皮肤&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blender on Leafly</title><link>https://Leafly717.github.io/tags/blender/</link><description>Recent content in Blender on Leafly</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Leafly</copyright><lastBuildDate>Wed, 25 Nov 2026 13:48:20 +0800</lastBuildDate><atom:link href="https://Leafly717.github.io/tags/blender/index.xml" rel="self" type="application/rss+xml"/><item><title>Overwatch DataTool 实操记录</title><link>https://Leafly717.github.io/p/2025-11-20-0349/</link><pubDate>Thu, 20 Nov 2025 03:49:46 +0800</pubDate><guid>https://Leafly717.github.io/p/2025-11-20-0349/</guid><description>&lt;img src="https://Leafly717.github.io/p/2025-11-20-0349/5.1.png" alt="Featured image of post Overwatch DataTool 实操记录" /&gt;&lt;p&gt;ow 的模型其实早期设计真不错，完全适配我这种用来拉娘磕 cp 的了，用来画画参考也很有效。但是解包的话就需要 DataTool 干这活，本意是想存个命令，懒得每次开 txt 看了，写一个网页的。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id="需求"&gt;需求
+&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Blender&lt;/strong&gt; 需要 4.2+ 版本，总之 &lt;code&gt;io_scene_owm&lt;/code&gt; 能装上的&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Overwatch&lt;/strong&gt; 国服就行但是有些皮肤国服没有（）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;DataTool - OWLib&lt;/strong&gt; &lt;a class="link" href="https://github.com/overtools/OWLib" target="_blank" rel="noopener"
+&gt;Github-overtools/OWLib&lt;/a&gt; 解包工具，要和游戏版本对应&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;io_scene_owm&lt;/strong&gt; &lt;a class="link" href="https://github.com/overtools/io_scene_owm" target="_blank" rel="noopener"
+&gt;Github-overtools/io_scene_owm&lt;/a&gt; Blender导入插件&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Wiki&lt;/strong&gt; &lt;a class="link" href="https://overwatch.fandom.com/wiki/Overwatch_Wiki" target="_blank" rel="noopener"
+&gt;Fandom-Overwatch Wiki&lt;/a&gt; 主要是英文名称可以用 wiki 查&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1 id="提取"&gt;提取
+&lt;/h1&gt;&lt;p&gt;将所有文件提取到一个文件夹中，不要放在 Overwatch 目录下。&lt;/p&gt;
+&lt;p&gt;大多数命令遵循 &lt;code&gt;DataTool.exe &amp;lt;游戏目录&amp;gt; &amp;lt;mode&amp;gt; [参数]&lt;/code&gt; 的结构
+语言用 &lt;code&gt;--language=zhCN&lt;/code&gt; 国服加 &lt;code&gt;--rcn &lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;过滤器格式是 &lt;code&gt;{英雄}|{类型}={条目}&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id="可解锁物品英雄相关"&gt;可解锁物品（英雄相关）
+&lt;/h2&gt;&lt;p&gt;&lt;code&gt;extract-unlocks&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;胜利女神&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
 &lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;DataTool.exe &amp;#34;E:\Battlenet\Overwatch&amp;#34; extract-unlocks &amp;#34;D:\ZWindosXT\Pictures\Blender\Overwatch\Models&amp;#34; &amp;#34;Mercy|skin=&amp;#34;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;DataTool.exe &amp;#34;:\Overwatch&amp;#34; extract-unlocks &amp;#34;:\Models&amp;#34; &amp;#34;Mercy|skin=Winged Victory&amp;#34;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;/div&gt;&lt;p&gt;女猎人&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
 &lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;DataTool.exe &amp;#34;E:\Battlenet\Overwatch&amp;#34; extract-unlocks &amp;#34;D:\ZWindosXT\Pictures\Blender\Overwatch\Models&amp;#34; &amp;#34;Widowmaker|skin=&amp;#34;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;DataTool.exe &amp;#34;:\Overwatch&amp;#34; extract-unlocks &amp;#34;:\Models&amp;#34; &amp;#34;Widowmaker|skin=Huntress&amp;#34;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;全部特写&lt;/p&gt;
@@ -31,7 +43,7 @@
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;DataTool.exe &amp;#34;E:\Battlenet\Overwatch&amp;#34; extract-unlocks &amp;#34;D:\ZWindosXT\Pictures\Blender\Overwatch\Models&amp;#34; &amp;#34;Mercy|highlightintro=*&amp;#34;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;DataTool.exe &amp;#34;:\Overwatch&amp;#34; extract-unlocks &amp;#34;:\Models&amp;#34; &amp;#34;Mercy|highlightintro=*&amp;#34;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;全部姿势&lt;/p&gt;
@@ -40,20 +52,20 @@
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;DataTool.exe &amp;#34;E:\Battlenet\Overwatch&amp;#34; extract-unlocks &amp;#34;D:\ZWindosXT\Pictures\Blender\Overwatch\Models&amp;#34; &amp;#34;Widowmaker|victorypose=*&amp;#34;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;DataTool.exe &amp;#34;:\Overwatch&amp;#34; extract-unlocks &amp;#34;:\Models&amp;#34; &amp;#34;Widowmaker|victorypose=*&amp;#34;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;武器（非普通）&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;武器（如神话武器，其他武器包含在皮肤中）&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
 &lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;DataTool.exe &amp;#34;E:\Battlenet\Overwatch&amp;#34; extract-unlocks &amp;#34;D:\ZWindosXT\Pictures\Blender\Overwatch\Models&amp;#34; &amp;#34;Reaper|weaponskin=Hard Light&amp;#34;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;DataTool.exe &amp;#34;:\Overwatch&amp;#34; extract-unlocks &amp;#34;:\Models&amp;#34; &amp;#34;Mercy|weaponskin=Hard Light&amp;#34;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h1 id="其他"&gt;其他
-&lt;/h1&gt;&lt;ul&gt;
+&lt;/div&gt;&lt;h2 id="其他"&gt;其他
+&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;语音 &lt;code&gt;extract-hero-voice&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;武器吊坠 &lt;code&gt;extract-charms&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;名片 &lt;code&gt;extract-name-cards&lt;/code&gt;&lt;/li&gt;
@@ -68,7 +80,7 @@
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;DataTool.exe &amp;#34;E:\Battlenet\Overwatch&amp;#34; extract-hero-voice &amp;#34;D:\ZWindosXT\Pictures\Blender\Overwatch\Models&amp;#34; &amp;#34;Mercy&amp;#34;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;DataTool.exe &amp;#34;:\Overwatch&amp;#34; extract-hero-voice &amp;#34;:\Models&amp;#34; &amp;#34;Mercy&amp;#34;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;地图&lt;/p&gt;
@@ -77,7 +89,7 @@
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;DataTool.exe &amp;#34;E:\Battlenet\Overwatch&amp;#34; extract-maps &amp;#34;D:\ZWindosXT\Pictures\Blender\Overwatch\Models&amp;#34; &amp;#34;Château Guillard&amp;#34;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;DataTool.exe &amp;#34;:\Overwatch&amp;#34; extract-maps &amp;#34;:\Models&amp;#34; &amp;#34;Château Guillard&amp;#34;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;特定喷漆&lt;/p&gt;
@@ -86,8 +98,18 @@
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;DataTool.exe &amp;#34;E:\Battlenet\Overwatch&amp;#34; extract-sprays &amp;#34;D:\ZWindosXT\Pictures\Blender\Overwatch\Models&amp;#34; &amp;#34;Beyond the Moon&amp;#34;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;DataTool.exe &amp;#34;:\Overwatch&amp;#34; extract-sprays &amp;#34;:\Models&amp;#34; &amp;#34;Beyond the Moon&amp;#34;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;hr&gt;
-&lt;p&gt;后续应该没什么要补充的了。&lt;/p&gt;</description></item></channel></rss>
+&lt;h1 id="导入"&gt;导入
+&lt;/h1&gt;&lt;p&gt;DataTool 导出的格式全是为 Blender 插件 &lt;code&gt;io_scene_owm&lt;/code&gt; 定制的私有格式：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;模型+骨骼+LOD &lt;code&gt;.owmdl&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;材质与贴图引用 &lt;code&gt;.owmat&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;动画 &lt;code&gt;.owanim&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;粒子/特效 &lt;code&gt;.oweffect&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;实体层级 &lt;code&gt;.owentity&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;地图与摆放物 &lt;code&gt;.owmap&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Blender，选择 &lt;code&gt;文件&lt;/code&gt; &amp;gt; &lt;code&gt;导入&lt;/code&gt; &amp;gt; &lt;code&gt;Overwatch&lt;/code&gt; 后任选一项即可导入至 Blender&lt;/p&gt;</description></item></channel></rss>

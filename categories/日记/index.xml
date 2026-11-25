@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>日记 on Leafly</title><link>https://Leafly717.github.io/categories/%E6%97%A5%E8%AE%B0/</link><description>Recent content in 日记 on Leafly</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Leafly</copyright><lastBuildDate>Wed, 25 Nov 2026 12:38:48 +0800</lastBuildDate><atom:link href="https://Leafly717.github.io/categories/%E6%97%A5%E8%AE%B0/index.xml" rel="self" type="application/rss+xml"/><item><title>终于完成？</title><link>https://Leafly717.github.io/p/2026-11-24-1320/</link><pubDate>Tue, 24 Nov 2026 13:20:54 +0800</pubDate><guid>https://Leafly717.github.io/p/2026-11-24-1320/</guid><description>&lt;p&gt;站点搭建部署也有一年了，但似乎一直没有认认真真去写过一篇文章，平时的作用也完全是用来写说说了，悔过。&lt;/p&gt;
+&lt;p&gt;在今天完全大修重构了站点主题和交互，也算是折腾了这么久，感觉差不多该真正写一点什么了。&lt;/p&gt;
+&lt;p&gt;翻了翻记录，去年十一月刚搭完站没几天，还发过一条“真的完全明白了能跑就别动，其实主要还是懒得折腾吧”。结果刚好满一年，这话还是作废了。本来只是想顺手修几个看着不顺眼的地方，改着改着发现老底子其实挺碍事，干脆直接把整个主页翻出来大修一遍。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="先把旧壳拆了"&gt;先把旧壳拆了
+&lt;/h2&gt;&lt;p&gt;以前用的 Stack 主题，前前后后魔改过不少次，改到后来写的样式早就把原主题盖得差不多了，但文件夹里还拖着一整套原主题的壳子，加上一些压根没用过的插件模板和侧栏小挂件，每次改点东西都要和旧样式打架。&lt;/p&gt;
+&lt;p&gt;干脆彻底脱壳。把 &lt;code&gt;themes&lt;/code&gt; 目录删掉，只留真正用得上的些骨架并进目录里，用不上的一并清走。顺手把 Hugo 升到了最新的 0.170.1，顺带给 Git 仓库瘦了次身。搞着搞着就莫名就有点上头，原本“差不多就行”的心态一下就没了。&lt;/p&gt;
+&lt;h2 id="换皮塞点私货"&gt;换皮塞点私货
+&lt;/h2&gt;&lt;p&gt;既然壳都拆了，视觉也就没必要再遵循传统博客那套卡片侧栏了。最后定下来的方向大概就把几种自己顺眼喜欢的揉在了一起，比如工业终端面板、全境封锁那种 HUD，交互和动效上也多多少少参考了各种游戏。&lt;/p&gt;
+&lt;p&gt;全站去掉圆角，统一改成了硬一点的切角和细线框。卡片都降低了不透明度，背后画了细网格和轨道线，只给顶栏、全屏菜单和灯箱这类留了磨砂。&lt;/p&gt;
+&lt;p&gt;首页也整个推倒重做了。首屏拆成两半，左边算是欢迎区和俩随机卡，左上角挂着角色档案小卡，右边做几块错落的按键块，可以说是抄抄 mrfz。往下滚一屏会直接吸附到第二屏的“角色档案”，把以前的关于页弄了过来，塞了属性卡、带毫秒时钟、年度进度条、当月日历，还有个放歌单的小模块。之前首页老老实实列文章，但是自己也没写几篇，不如做成自己打开看着就舒服的样子（）&lt;/p&gt;
+&lt;p&gt;其余几个页面也跟着一起翻新了：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;文章页&lt;/strong&gt;，算是首页独立出来的，单列改成了三列卡片，加了分类筛选，正文去掉外框、右侧目录和相关推荐，干干净净留出看字的地方，顺便把字号改合适了。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;说说页&lt;/strong&gt;，大概是过去一年里唯一在正经更新的地方吧（）。保留了瀑布流，补上了筛选、搜索、排序功能，还有个随机抽一条和一键复制。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;相册页&lt;/strong&gt;，同样瀑布流，重新做了看图灯箱，缩放和滑屏切图都顺手了。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;归档、分类、标签和搜索&lt;/strong&gt;，前三个统一成了纵向工业时间线，标签页加了即时过滤；搜索把文章和说说合到了一起。连 404 页面也顺便换成了同款面板。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="已上瘾"&gt;已上瘾。
+&lt;/h2&gt;&lt;p&gt;大框架立起来之后，剩下的时间就全耗在各种强迫症细节上。&lt;/p&gt;
+&lt;p&gt;背景用 Canvas 画了套会慢慢转的轨道环和星尘，切不同页面的时候，轨道的倾角、缩放和位置都会跟着换视角，配上过渡动画，点来点去连贯很多。光标还加了磁吸套框、点击 &lt;code&gt;[+]&lt;/code&gt; 波纹和卡片随鼠标的微倾斜。&lt;/p&gt;
+&lt;p&gt;移动端这次也好好改了，左下角留了个悬浮按钮展开全屏导航覆层，底部居中放了个点阵进度条，点一下直接回顶。手机上体验总算不是惨不忍睹了（。&lt;/p&gt;
+&lt;p&gt;字体是快收工的时候又临时起意换的，选的 &lt;code&gt;Chakra Petch&lt;/code&gt;、&lt;code&gt;JetBrains Mono&lt;/code&gt; 和 &lt;code&gt;Space Grotesk&lt;/code&gt;。好看。&lt;/p&gt;
+&lt;h2 id="顺手清了收藏"&gt;顺手清了收藏
+&lt;/h2&gt;&lt;p&gt;折腾到最后，还顺带解决了一件搁置很久的事。&lt;/p&gt;
+&lt;p&gt;以前文章列表里混了几篇“网址收藏”，大都是平时画画找参考、找配色、查工具或者逛设计站时攒下来的链接，按类别一篇篇发成 post。之前觉得凑合能看，但是写得麻烦，统计也很累，大修完再一眼望过去，就会觉得这堆链接夹在文章里实在太乱了。&lt;/p&gt;
+&lt;p&gt;因此单独拆出来做了一个导航页，用一份数据文件统一管着，加上分类筛选、搜索和随机定位，以后再存新网站直接加一行就行，方便了不少。&lt;/p&gt;
+&lt;p&gt;把七篇收藏文删掉之后，整个博客的文章列表瞬间空了，真的有点难绷（）。算上去年为了懒得开 txt 写的 ow DataTool 拆包备忘，再加上现在敲的这一篇，满打满算也就两篇。真·一年没写了。&lt;/p&gt;
+&lt;h2 id="所以终于完成了吗"&gt;所以终于完成了吗？
+&lt;/h2&gt;&lt;p&gt;折腾个人主页这种事大概永远没有真正“完成”的那一天。现在觉得顺眼了，过两天再打开可能又突然想加个什么用处不大但看着挺酷的小东西。&lt;/p&gt;
+&lt;p&gt;不过大骨架和整体风格总算定下来了，至少很长一段时间里应该不会再这么大动干戈（万一呢）。算是重新搭好了，文章列表也清干净了，接下来会不会少点懒癌犯了，挑一些东西稍微正经一点写下来？。&lt;/p&gt;
+&lt;p&gt;总之，就先这样吧！&lt;/p&gt;</description></item></channel></rss>
