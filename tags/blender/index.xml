@@ -14,8 +14,8 @@
 &lt;hr&gt;
 &lt;h1 id="提取"&gt;提取
 &lt;/h1&gt;&lt;p&gt;将所有文件提取到一个文件夹中，不要放在 Overwatch 目录下。&lt;/p&gt;
-&lt;p&gt;大多数命令遵循 &lt;code&gt;DataTool.exe &amp;lt;游戏目录&amp;gt; &amp;lt;mode&amp;gt; [参数]&lt;/code&gt; 的结构
-语言用 &lt;code&gt;--language=zhCN&lt;/code&gt; 国服加 &lt;code&gt;--rcn &lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;大多数命令遵循 &lt;code&gt;DataTool.exe &amp;lt;游戏目录&amp;gt; &amp;lt;mode&amp;gt; [参数]&lt;/code&gt; 的结构&lt;/p&gt;
+&lt;p&gt;语言用 &lt;code&gt;--language=zhCN&lt;/code&gt; 国服加 &lt;code&gt;--rcn &lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;过滤器格式是 &lt;code&gt;{英雄}|{类型}={条目}&lt;/code&gt;&lt;/p&gt;
 &lt;h2 id="可解锁物品英雄相关"&gt;可解锁物品（英雄相关）
 &lt;/h2&gt;&lt;p&gt;&lt;code&gt;extract-unlocks&lt;/code&gt;&lt;/p&gt;
